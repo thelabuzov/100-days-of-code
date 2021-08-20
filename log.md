@@ -7,3 +7,11 @@
 **Thoughts**: Because of long breaks, I forgot basics of layout and making up for lost time believe in myself.
 
 **Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/001/index.html)
+
+### Day 2: August 20, 2021
+
+**Today's Progress**: I learned how to make an animated hamburger-menu, repeated @keyframes.
+
+**Thoughts**: Today internet was cut off sharply, so there is not mush code.
+
+**Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/002/index.html)
