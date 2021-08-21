@@ -15,3 +15,11 @@
 **Thoughts**: Today internet was cut off sharply, so there is not mush code.
 
 **Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/002/index.html)
+
+### Day 3: August 21, 2021
+
+**Today's Progress**: Today I finished nav-menu layout and animated it for all devices, wrote a script.
+
+**Thoughts**: Didn't expect programming on weekends to be so difficult, especially when distracted.
+
+**Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/003/index.html)
