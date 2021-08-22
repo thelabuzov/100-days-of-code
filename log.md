@@ -23,3 +23,11 @@
 **Thoughts**: Didn't expect programming on weekends to be so difficult, especially when distracted.
 
 **Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/003/index.html)
+
+### Day 4: August 22, 2021
+
+**Today's Progress**: Create hero-section for mobile-first, but nav-menu stopped working because of this.
+
+**Thoughts**: On border of deadline, I managed to do what I wanted. Next time I will prioritize correctly.
+
+**Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/004/index.html)
