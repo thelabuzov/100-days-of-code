@@ -31,3 +31,11 @@
 **Thoughts**: On border of deadline, I managed to do what I wanted. Next time I will prioritize correctly.
 
 **Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/004/index.html)
+
+### Day 5: August 23, 2021
+
+**Today's Progress**: Create hero-section for desktop-devices, I will fix a bug with nav-menu tomorrow.
+
+**Thoughts**: These notes remind me of a Rorschach diary, I am full of energy and it’s not so hard for me anymore.
+
+**Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/005/index.html)
