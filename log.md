@@ -39,3 +39,11 @@
 **Thoughts**: These notes remind me of a Rorschach diary, I am full of energy and it’s not so hard for me anymore.
 
 **Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/005/index.html)
+
+### Day 6: August 24, 2021
+
+**Today's Progress**: Create adaptive features section and fixed all bugs, studied @include with media requests.
+
+**Thoughts**: These notes remind me of a Rorschach diary, it makes learning to program even more fun.
+
+**Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/006/index.html)
