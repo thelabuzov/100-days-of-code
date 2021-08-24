@@ -227,6 +227,7 @@ button:hover, .button:hover {
   left: 0px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#2d314d), to(transparent));
   background-image: linear-gradient(#2d314d, transparent);
+  z-index: 1;
 }
 
 .header nav {
@@ -234,6 +235,7 @@ button:hover, .button:hover {
   background-color: white;
   padding-top: 1.0625rem;
   padding-bottom: 1.0625rem;
+  z-index: 2;
 }
 
 .header__logo img {
@@ -266,6 +268,7 @@ button:hover, .button:hover {
   margin-top: 1.5rem;
   padding: 1.625rem;
   border-radius: 5px;
+  z-index: 1;
 }
 
 .header__menu a {
@@ -327,7 +330,7 @@ button:hover, .button:hover {
 
 .hero__image {
   position: relative;
-  background-image: url("/images/bg-intro-mobile.svg");
+  background-image: url("../images/bg-intro-mobile.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -359,7 +362,7 @@ button:hover, .button:hover {
     content: "";
     position: absolute;
     height: 100%;
-    background-image: url("/images/bg-intro-desktop.svg");
+    background-image: url("../images/bg-intro-desktop.svg");
     background-repeat: no-repeat;
     background-position: center bottom;
     width: 150%;
@@ -373,7 +376,7 @@ button:hover, .button:hover {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url("/images/image-mockups.png");
+  background-image: url("../images/image-mockups.png");
   background-size: 93%;
   background-repeat: no-repeat;
   background-position: center bottom;
