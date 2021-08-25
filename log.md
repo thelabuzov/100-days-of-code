@@ -47,3 +47,11 @@
 **Thoughts**: These notes remind me of a Rorschach diary, it makes learning to program even more fun.
 
 **Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/006/index.html)
+
+### Day 7: August 25, 2021
+
+**Today's Progress**: Create articles section, but until I finished it. Little time was spent on code.
+
+**Thoughts**: I have deveoped my daily work schedule and hope after that I will be more productive.
+
+**Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/007/index.html)
