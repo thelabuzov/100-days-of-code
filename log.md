@@ -74,7 +74,7 @@
 
 ### Day 10: August 28, 2021
 
-**Today's Progress**: Studied new Sass rules and developed a header for new website using: hsl(), var(), @include, etc.
+**Today's Progress**: Studied new Sass rules and developed a header for new website using: hsl(), var(), rem(), etc.
 
 **Thoughts**: After learning about Yeoman, I started using started files from Jessica Chan. Getting used to new things.
 
