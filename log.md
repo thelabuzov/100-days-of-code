@@ -63,3 +63,11 @@
 **Thoughts**: My previous record was a week and now I am moving forward with renewed vigor.
 
 **Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/008/index.html)
+
+### Day 9: August 27, 2021
+
+**Today's Progress**: Finally finished building the site, created a page footer and optimized the code.
+
+**Thoughts**: Now I realized that I need to code every day so as not to give up and not forget anything.
+
+**Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/009/index.html)
