@@ -1,0 +1,22 @@
+@use '../util' as *;
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: rem(25);
+
+    @include breakpoint(medium) {
+        justify-content: space-between;
+        align-items: center;
+        padding-top: rem(50);
+    }
+
+    &__menu a {
+        font-size: rem(18);
+        font-weight: 500;
+
+        &:not(:last-child) {
+            margin-right: rem(62);
+        }
+    }
+}

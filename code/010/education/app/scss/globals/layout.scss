@@ -1,0 +1,36 @@
+@use '../util' as *;
+
+.container {
+	padding: 0 rem(26);
+	max-width: rem(1174);
+	margin: 0 auto;
+
+	@include breakpoint(large) {
+		padding: 0;
+		transform: translate(0, 0);
+	}
+}
+
+.promo {
+	background-image: url("/images/background.png");
+	background-color: var(--promo);
+	background-repeat: no-repeat;
+	background-position: 50% -75%;
+	background-size: 150vh;
+	height: 100vh;
+
+	@include breakpoint(medium) {
+		background-position: 50% 100%;
+		background-size: 250vh;
+	}
+}
+
+.button {
+	background-color: var(--button);
+	box-shadow: 0 1px 0 var(--button-shadow);
+	border-radius: 22.5px;
+	padding-top: rem(9);
+	padding-right: rem(32);
+	padding-bottom: rem(12);
+	padding-left: rem(32);
+}
