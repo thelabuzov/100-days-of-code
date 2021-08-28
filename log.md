@@ -71,3 +71,11 @@
 **Thoughts**: Now I realized that I need to code every day so as not to give up and not forget anything.
 
 **Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/009/index.html)
+
+### Day 10: August 28, 2021
+
+**Today's Progress**: Studied new Sass rules and developed a header for new website using: hsl(), var(), @include, etc.
+
+**Thoughts**: After learning about Yeoman, I started using started files from Jessica Chan. Getting used to new things.
+
+**Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/010/education)
