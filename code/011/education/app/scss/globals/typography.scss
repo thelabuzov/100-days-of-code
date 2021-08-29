@@ -9,9 +9,12 @@ h3 {
 
 h1 {
 	font-size: rem(50);
+	font-weight: 500;
+	font-family: var(--font-open-sans);
 	margin-bottom: rem(18);
+
 	@include breakpoint(large) {
-		font-size: rem(70);
+		font-size: rem(65);
 	}
 }
 

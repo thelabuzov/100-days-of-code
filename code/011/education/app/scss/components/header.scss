@@ -4,11 +4,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: rem(25);
+    padding-top: rem(50);
     padding-bottom: rem(25);
 
-    @include breakpoint(medium) {
-        padding-top: rem(50);
+    @include breakpoint-down(medium) {
+        padding-top: rem(25);
     }
 
     // === Hamburger ===
@@ -54,6 +54,9 @@
 
     // === Hamburger Menu ===
     &__menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         position: absolute;
         width: calc(100% - 3rem);
         left: 50%;
@@ -62,11 +65,17 @@
         margin-top: rem(1.5);
         padding: rem(26);
         border-radius: rem(22.5);
+        z-index: 1;
 
         a {
             display: block;
             padding: rem(10);
             color: var(--dark-text);
+        }
+
+        button {
+            display: block;
+            margin: rem(10);
             text-align: center;
         }
     }
