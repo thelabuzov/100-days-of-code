@@ -66,7 +66,7 @@
 
 ### Day 9: August 27, 2021
 
-**Today's Progress**: Finally finished building the site, created a page footer and optimized the code.
+**Today's Progress**: Finally finished building website, created a page footer and optimized the code.
 
 **Thoughts**: Now I realized that I need to code every day so as not to give up and not forget anything.
 
@@ -78,4 +78,4 @@
 
 **Thoughts**: After learning about Yeoman, I started using started files from Jessica Chan. Getting used to new things.
 
-**Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/010/education)
+**Link(s) to work**: [Education](https://codlipa.github.io/100-days-of-code/code/010/education)
