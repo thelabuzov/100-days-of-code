@@ -78,4 +78,4 @@
 
 **Thoughts**: After learning about Yeoman, I started using started files from Jessica Chan. Getting used to new things.
 
-**Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/010/education)
+**Link(s) to work**: [Education](https://codlipa.github.io/100-days-of-code/code/010/education)
