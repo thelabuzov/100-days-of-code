@@ -13,15 +13,15 @@
 	@include breakpoint-down(medium) {
         background-position: 50% -150%;
         background-size: 150vh;
-        height: rem(850);
+        height: rem(860);
 	}
 }
 
 button, .button {
-	background-color: var(--button);
-	box-shadow: 0 rem(1) 0 var(--button-shadow);
     color: var(--white);
-	border-radius: rem(22.5);
+	background-color: var(--tomato);
+    border-bottom: rem(1) solid var(--border);
+	border-radius: rem(22);
     padding: rem(9) rem(32) rem(12);
 }
 
