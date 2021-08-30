@@ -87,3 +87,11 @@
 **Thoughts**: I was writing code all day, it was great, apparently programming is really my life's work. I managed to do and study a lot.
 
 **Link(s) to work**: [Education](https://codlipa.github.io/100-days-of-code/code/011/education)
+
+### Day 12: August 30, 2021
+
+**Today's Progress**: I tried add admission section, but there were even more bugs. I reduced amount of code and change GitHub ReadMe.
+
+**Thoughts** Hard times have come, studies in college are ahead and I have a lot of bugs! I will not give up, never in my life.
+
+**Link(s) to work**: [Education](https://codlipa.github.io/100-days-of-code/code/012/education)
