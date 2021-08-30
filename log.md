@@ -79,3 +79,11 @@
 **Thoughts**: After learning about Yeoman, I started using started files from Jessica Chan. Getting used to new things.
 
 **Link(s) to work**: [Education](https://codlipa.github.io/100-days-of-code/code/010/education)
+
+### Day 11: August 29, 2021
+
+**Today's Progress**: Created hero sestion and optimized website code, there was an error with promo background and fix path of images.
+
+**Thoughts**: I was writing code all day, it was great, apparently programming is really my life's work. I managed to do and study a lot.
+
+**Link(s) to work**: [Education](https://codlipa.github.io/100-days-of-code/code/011/education)
