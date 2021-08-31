@@ -2,23 +2,24 @@
 
 .hero {
     display: flex;
+    flex-direction: column-reverse;
     align-items: center;
-    text-align: left;
-    margin-top: rem(60);
+    text-align: center;
+    margin-top: 0;
 
-    @include breakpoint-down(medium) {
-        flex-direction: column-reverse;
-        text-align: center;
-        margin-top: 0;
+    @include breakpoint(large) {
+        flex-direction: row;
+        text-align: left;
+        margin-top: rem(60);
     }
 
     &__text {
         min-width: 50%;
-        padding-right: rem(20);
+        margin-right: 0;
 	    font-family: var(--font-open-sans);
 
-        @include breakpoint-down(medium) {
-            padding-right: 0;
+        @include breakpoint(large) {
+            margin-right: rem(40);
         }
     }
 
@@ -30,10 +31,10 @@
 
     &__image {
         width: 50%;
-        margin: rem(100) 0;
+        margin-left: 0;
 
-        @include breakpoint-down(medium) {
-            margin-left: 0;
+        @include breakpoint(large) {
+            margin: rem(100) 0;
         }
     }
 }

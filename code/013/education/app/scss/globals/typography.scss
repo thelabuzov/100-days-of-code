@@ -24,8 +24,23 @@ h2 {
 }
 
 h3 {
+	text-align: left;
+	position: relative;
 	font-size: rem(30);
+	font-weight: 400;
+	padding-right: rem(50);
+	padding-bottom: rem(10);
 	margin-bottom: rem(25);
+
+	&::after {
+		content: "";
+		position: absolute;
+		bottom: 0;
+		left: rem(135);
+		width: rem(76);
+		height: rem(1);
+		background-color: var(--white);
+	}
 }
 
 h4 {
@@ -42,21 +57,8 @@ a:active {
 }
 
 input {
-	border: 0;
-	position: relative;
-	left: rem(80);
-	padding: rem(22) rem(94) rem(22) rem(30);
+	padding: rem(18) rem(65) rem(18) rem(30);
 	border-radius: rem(45);
-	margin-bottom: rem(50);
+	border: 0;
 	outline: none;
-
-	@include breakpoint-down(medium) {
-		left: rem(60);
-		padding: rem(12) rem(34) rem(12) rem(15);
-	}
-
-	@include breakpoint-down(small) {
-		left: rem(20);
-		padding: rem(8) rem(16) rem(8) rem(10);
-	}
 }

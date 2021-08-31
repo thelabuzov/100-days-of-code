@@ -2,12 +2,20 @@ const hamburger = document.querySelector('#hamburger');
 const body = document.querySelector('body');
 const header = document.querySelector('.header');
 const fadeElems = document.querySelectorAll('.has-fade');
+const swiper = new Swiper(".mySwiper", {
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    autoplay: {
+        delay: 3000,
+    }
+});
 
-// Hamburger
 hamburger.addEventListener('click', function(){
     console.log('click hamburger');
 
-    if(header.classList.contains('open')){ // Close Hamburger Menu
+    if(header.classList.contains('open')){
         body.classList.remove('noscroll');
         header.classList.remove('open');
         fadeElems.forEach(function(element){
@@ -15,7 +23,7 @@ hamburger.addEventListener('click', function(){
             element.classList.add('fade-out');
         });
     }
-    else { // Open Hamburger Menu
+    else {
         body.classList.add('noscroll');
         header.classList.add('open');
         fadeElems.forEach(function(element){
@@ -24,14 +32,3 @@ hamburger.addEventListener('click', function(){
         });
     }
 });
-
-// Swiper
-const swiper = new Swiper(".mySwiper", {
-    autoplay: {
-        delay: 3000,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });

@@ -4,11 +4,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: rem(50);
+    padding-top: rem(25);
     padding-bottom: rem(25);
 
-    @include breakpoint-down(medium) {
-        padding-top: rem(25);
+    @include breakpoint(large) {
+        padding-top: rem(50);
     }
 
     // === Hamburger ===
@@ -83,9 +83,10 @@
 
     // === Header Menu ===
     &__links {
+        display: none;
 
-        @include breakpoint-down(medium) {
-            display: none;
+        @include breakpoint(large) {
+            display: block;
         }
 
         a {
