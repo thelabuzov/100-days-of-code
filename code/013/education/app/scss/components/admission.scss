@@ -1,0 +1,111 @@
+@use '../util' as *;
+
+.admission {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include breakpoint-down(medium) {
+        flex-direction: column;
+    }
+
+    &__subscribe {
+        display: inline-block;
+        position: relative;
+        top: rem(-84);
+        background-color: var(--tomato);
+        box-shadow: 0 rem(-10) 0 var(--blue);
+        font-family: var(--font-poppins);
+        border-radius: rem(10);
+        width: rem(450);
+
+        @include breakpoint-down(medium) {
+            top: 0;
+            margin: rem(50) 0 rem(30);
+            width: rem(350);
+        }
+
+        @include breakpoint-down(small) {
+            width: rem(250);
+        }
+    }
+
+    &__title {
+        position: relative;
+        font-weight: 400;
+        padding: rem(53) 0 rem(10);
+        margin-bottom: rem(25);
+        margin-left: rem(45);
+
+        @include breakpoint-down(medium) {
+            font-size: rem(20);
+        }
+
+        @include breakpoint-down(small) {
+            font-size: rem(15);
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: rem(135);
+            width: rem(76);
+            height: rem(1);
+            background-color: var(--white);
+
+            @include breakpoint-down(medium) {
+                left: rem(88);
+                width: rem(52);
+            }
+
+            @include breakpoint-down(small) {
+                left: rem(64);
+                width: rem(46);
+            }
+        }
+    }
+
+    &__subtitle {
+        text-align: center;
+        font-size: rem(20);
+        opacity: .5;
+
+        @include breakpoint-down(medium) {
+            font-size: rem(14);
+        }
+
+        @include breakpoint-down(small) {
+            font-size: rem(12);
+        }
+    }
+
+    &__comment {
+        max-width: rem(472);
+        text-align: center;
+    }
+
+            
+    &__text {
+        color: var(--comment);
+        line-height: rem(30);
+    }
+
+    &__client {
+        color: var(--client);
+        margin-bottom: rem(30);
+    }
+
+    &__dots span {
+        display: inline-block;
+        margin: 0 rem(5);
+        width: rem(11);
+        height: rem(11);
+        border-radius: 50%;
+        background-color: var(--client);
+
+        &:not(:nth-child(3)) {
+            opacity: .3;
+        }
+    }
+}
