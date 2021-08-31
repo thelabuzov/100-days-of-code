@@ -3,6 +3,7 @@ const body = document.querySelector('body');
 const header = document.querySelector('.header');
 const fadeElems = document.querySelectorAll('.has-fade');
 
+// Hamburger
 hamburger.addEventListener('click', function(){
     console.log('click hamburger');
 
@@ -23,3 +24,14 @@ hamburger.addEventListener('click', function(){
         });
     }
 });
+
+// Swiper
+const swiper = new Swiper(".mySwiper", {
+    autoplay: {
+        delay: 3000,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });

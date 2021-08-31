@@ -15,7 +15,9 @@
 
 		<!-- Imports -->
 		<link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 		<link rel="stylesheet" href="./dist/style.css">
+		<script defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 		<script defer src="./dist/script.js"></script>
 	</head>
 
@@ -83,23 +85,51 @@
 				<h3 class="admission__title">Apply for admission</h3>
 				<p class="admission__subtitle">Make it more simple!</p>
 				<input type="text" placeholder="Enter your email ....">
-				<a class="button__input" href="#">💨</a>
+				<a class="button__input" href="#">✨</a>
 			</div>
 
-			<div class="admission__comment">
-				<p class="admission__text">
-					"Before Coursecity, I was working two minimum wage jobs. Now, & new life!"I learned most of my programming skills and <br> hrough self-study and the material available.
-				</p>
-				<p class="admission__client">Stephanie Magion</p>
-				<!-- ! Create Slider -->
-				<div class="admission__dots">
-					<span></span>
-					<span></span>
-					<span></span>
-					<span></span>
-					<span></span>
+				<!-- Swiper -->
+				<div class="swiper mySwiper">
+					<div class="swiper-wrapper">
+
+						<div class="swiper-slide">
+							<p class="admission__text">
+								"Before Coursecity, I was working two minimum wage jobs. Now, & new life!"I learned most of my programming skills and <br> hrough self-study and the material available.
+							</p>
+							<p class="admission__client">Stephanie Magion</p>
+						</div>
+
+						<div class="swiper-slide">
+							<p class="admission__text">
+								"Before Coursecity, I was working two minimum wage jobs. Now, & new life!"I learned most of my programming skills and <br> hrough self-study and the material available.
+							</p>
+							<p class="admission__client">Stephanie Magion</p>
+						</div>
+
+						<div class="swiper-slide">
+							<p class="admission__text">
+								"Before Coursecity, I was working two minimum wage jobs. Now, & new life!"I learned most of my programming skills and <br> hrough self-study and the material available.
+							</p>
+							<p class="admission__client">Stephanie Magion</p>
+						</div>
+
+						<div class="swiper-slide">
+							<p class="admission__text">
+								"Before Coursecity, I was working two minimum wage jobs. Now, & new life!"I learned most of my programming skills and <br> hrough self-study and the material available.
+							</p>
+							<p class="admission__client">Stephanie Magion</p>
+						</div>
+
+						<div class="swiper-slide">
+							<p class="admission__text">
+								"Before Coursecity, I was working two minimum wage jobs. Now, & new life!"I learned most of my programming skills and <br> hrough self-study and the material available.
+							</p>
+							<p class="admission__client">Stephanie Magion</p>
+						</div>
+
+					</div>
+					<div class="swiper-pagination"></div>
 				</div>
-				<!-- ! / Create Slider -->
 			</div>
 		</section>
 		<!-- / Admission -->

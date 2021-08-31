@@ -17,6 +17,22 @@
 	}
 }
 
+.swiper {
+    cursor: grab;
+    padding-bottom: rem(15);
+
+    &-wrapper {
+        max-width: rem(472);
+        text-align: center;
+    }
+
+    &-pagination-bullet {
+        width: rem(11);
+        height: rem(11);
+        background-color: var(--client);
+    }
+}
+
 button, .button {
     color: var(--white);
 	background-color: var(--tomato);
