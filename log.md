@@ -106,8 +106,8 @@
 
 ### Day 14: September 1, 2021
 
-**Today's Progress**:
+**Today's Progress**: Adapted admission section and fonts by resiziong the parent's root element.
 
-**Thoughts**:
+**Thoughts**: I was little time left, so there was so little code. I used a relative font for the purpose.
 
 **Link(s) to work**: [Education](https://codlipa.github.io/100-days-of-code/code/014/education)
