@@ -92,6 +92,22 @@
 
 **Today's Progress**: I tried add admission section, but there were even more bugs. I reduced amount of code and change GitHub ReadMe.
 
-**Thoughts** Hard times have come, studies in college are ahead and I have a lot of bugs! I will not give up, never in my life.
+**Thoughts**: Hard times have come, studies in college are ahead and I have a lot of bugs! I will not give up, never in my life.
 
 **Link(s) to work**: [Education](https://codlipa.github.io/100-days-of-code/code/012/education)
+
+### Day 13: August 31, 2021
+
+**Today's Progress**: Added slider library to website, optimized code and fixed old bugs. Made code more readable.
+
+**Thoughts**: I didn't expect to add a slider so soon, but I did it in 20-30 minutes. Many bugs have appeared.
+
+**Link(s) to work**: [Education](https://codlipa.github.io/100-days-of-code/code/013/education)
+
+### Day 14: September 1, 2021
+
+**Today's Progress**:
+
+**Thoughts**:
+
+**Link(s) to work**: [Education](https://codlipa.github.io/100-days-of-code/code/014/education)
