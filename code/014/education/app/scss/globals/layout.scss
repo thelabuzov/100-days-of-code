@@ -61,11 +61,7 @@ button, .button {
         border-radius: 0;
         background-color: var(--blue);
         padding-top: 20%;
-        padding-right: 20%;
-
-        @include breakpoint(large) {
-            padding-right: 10%;
-        }
+        padding-right: 10%;
     }
 }
 
