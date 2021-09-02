@@ -1,0 +1,28 @@
+@use '../util' as *;
+
+html {
+	font-size: 100%;
+	box-sizing: border-box;
+	font-size: rem(10);
+
+	@include breakpoint(large) {
+		font-size: rem(16);
+	}
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	outline: none;
+}
+
+body {
+	margin: 0;
+	color: var(--white);
+	font-family: var(--font-open-sans);
+
+	&.noscroll {
+        overflow: hidden;
+    }
+}
