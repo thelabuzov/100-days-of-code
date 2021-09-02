@@ -111,3 +111,11 @@
 **Thoughts**: I was little time left, so there was so little code. I used a relative font for the purpose.
 
 **Link(s) to work**: [Education](https://codlipa.github.io/100-days-of-code/code/014/education)
+
+### Day 15: September 2, 2021
+
+**Today's Progress**: Create & adapted latest section. Optimize code and fixed bugs for website.
+
+**Thoughts**: It's very hard go to college and programming websites simultaneously, but I'll never give up.
+
+**Link(s) to work**: [Education](https://codlipa.github.io/100-days-of-code/code/015/education)
