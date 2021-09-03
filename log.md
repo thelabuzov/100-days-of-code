@@ -119,3 +119,11 @@
 **Thoughts**: It's very hard go to college and programming websites simultaneously, but I'll never give up.
 
 **Link(s) to work**: [Education](https://codlipa.github.io/100-days-of-code/code/015/education)
+
+### Day 16: September 3, 2021
+
+**Today's Progress**: Create & adapted latest section & footer. Fixed bugs for website, fix bug in Git Bash.
+
+**Thoughts**: I didn't expect that would make website so quickly. I'm very pleased with the result.
+
+**Link(s) to work**: [Education](https://codlipa.github.io/100-days-of-code/code/016/education)
