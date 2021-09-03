@@ -1,0 +1,80 @@
+@use '../util' as *;
+
+.middle {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    @include breakpoint(large) {
+        flex-direction: row;
+    }
+
+    &__content {
+        max-width: rem(340);
+        margin-bottom: rem(80);
+
+        .middle__image {
+            position: relative;
+            width: rem(135);
+            height: rem(135);
+            margin: 0 auto;
+            margin-bottom: rem(43);
+            border-radius: 50%;
+
+            &::after {
+                content: "";
+                display: block;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: rem(72);
+                height: rem(72);
+            }
+        }
+    }
+
+    &__content:nth-child(1) {
+
+        .middle__image {
+            box-shadow: 0 0 rem(20) var(--citizen);
+            background-color: var(--citizen);
+    
+            &::after {
+                background: url("../images/global-citizen.svg") no-repeat 50% 50% / contain;
+            }
+        }
+    }
+
+    &__content:nth-child(2) {
+
+        .middle__image {
+            box-shadow: 0 0 rem(40) var(--brainstorm);
+            background-color: var(--brainstorm);
+    
+            &::after {
+                background: url("../images/brainstorm-skill.svg") no-repeat 50% 50% / contain;
+            }
+        }
+    }
+
+    &__content:nth-child(3) {
+
+        .middle__image {
+            box-shadow: 0 0 rem(40) var(--graduation);
+            background-color: var(--graduation);
+    
+            &::after {
+                background: url("../images/graduation-cap.svg") no-repeat 50% 50% / contain;
+            }
+        }
+    }
+
+    &__subtitle {
+        margin-top: rem(17);
+        line-height: rem(27);
+        color: var(--light-text);
+    }
+}

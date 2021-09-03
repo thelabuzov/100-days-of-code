@@ -1,0 +1,57 @@
+@use '../util' as *;
+
+.admission {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: rem(150);
+
+    @include breakpoint(large) {
+        flex-direction: row;
+    }
+
+    &__subscribe {
+        position: relative;
+        top: rem(60);
+        margin-bottom: rem(90);
+        background-color: var(--tomato);
+        box-shadow: 0 rem(-10) 0 var(--blue);
+        font-family: var(--font-poppins);
+        padding: rem(52.5) rem(45);
+        border-radius: rem(10);
+        width: rem(450);
+        text-align: center;
+
+        @include breakpoint(large) {
+            top: rem(-90);
+            margin-bottom: 0;
+        }
+    }
+
+    &__subtitle {
+        font-size: rem(20);
+        margin-bottom: rem(15);
+        opacity: .5;
+    }
+
+    &__form {
+        position: relative;
+        max-width: rem(240);
+	    border-radius: rem(45);
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    &__text {
+        color: var(--comment);
+        line-height: rem(30);
+        margin-bottom: rem(20);
+    }
+
+    &__client {
+        color: var(--client);
+        margin-bottom: rem(41);
+    }
+}

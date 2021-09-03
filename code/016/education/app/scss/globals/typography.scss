@@ -1,0 +1,75 @@
+@use '../util' as *;
+
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0;
+	line-height: 1.1;
+}
+
+h2,
+h4 {
+	color: var(--dark-text);
+}
+
+h1 {
+	font-size: rem(50);
+	font-weight: 500;
+	margin-bottom: rem(18);
+
+	@include breakpoint(large) {
+		font-size: rem(65);
+	}
+}
+
+h2 {
+	font-size: rem(36);
+	font-weight: 400;
+	margin-bottom: rem(32);
+}
+
+h3 {
+	text-align: left;
+	position: relative;
+	font-size: rem(30);
+	font-weight: 400;
+	padding-right: rem(50);
+	padding-bottom: rem(10);
+	margin-bottom: rem(25);
+
+	&::after {
+		content: "";
+		position: absolute;
+		bottom: 0;
+		left: rem(135);
+		width: rem(76);
+		height: rem(1);
+		background-color: var(--white);
+	}
+}
+
+h4 {
+	font-size: rem(25);
+	font-weight: 400;
+	margin-bottom: rem(16);
+}
+
+a,
+a:visited,
+a:active {
+	text-decoration: none;
+	color: var(--white);
+	font-size: rem(18);
+}
+
+p {
+	margin: 0;
+}
+
+input {
+	padding: rem(18) rem(65) rem(18) rem(30);
+	border-radius: rem(45);
+	font-size: rem(16);
+	border: 0;
+}

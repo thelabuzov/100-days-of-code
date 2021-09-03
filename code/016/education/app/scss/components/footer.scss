@@ -1,0 +1,9 @@
+@use '../util' as *;
+
+.footer {
+    color: var(--copyright);
+
+    &__copyright {
+
+    }
+}

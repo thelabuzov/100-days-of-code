@@ -1,0 +1,40 @@
+@use '../util' as *;
+
+.hero {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    margin-top: 0;
+
+    @include breakpoint(large) {
+        flex-direction: row;
+        text-align: left;
+        margin-top: rem(60);
+    }
+
+    &__text {
+        margin-right: 0;
+	    font-family: var(--font-open-sans);
+
+        @include breakpoint(large) {
+            margin-right: rem(40);
+        }
+    }
+
+    &__subtitle {
+        font-size: rem(17);
+        line-height: rem(30);
+        margin-bottom: rem(50);
+    }
+
+    img {
+        width: 50%;
+        margin-left: 0;
+        margin: rem(50) 0 rem(100);
+
+        @include breakpoint(large) {
+            margin: 0;
+        }
+    }
+}
