@@ -1,9 +1,44 @@
 @use '../util' as *;
 
 .footer {
-    color: var(--copyright);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: rem(100);
+    font-family: var(--font-poppins);
+
+    @include breakpoint(large) {
+        flex-direction: row;
+    }
+
+    &, a {
+        color: var(--copyright);
+        font-size: rem(14);
+    }
 
     &__copyright {
+        margin-bottom: rem(40);
 
+        @include breakpoint(large) {
+            margin: 0;
+        }
+    }
+
+    &__menu a {
+        display: block;
+        text-align: center;
+        margin-bottom: rem(10);
+
+        @include breakpoint(large) {
+            display: inline-block;
+        }
+
+        &:not(:last-child) {
+
+            @include breakpoint(large) {
+                margin-right: rem(40);
+            }
+        }
     }
 }
