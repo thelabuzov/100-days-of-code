@@ -1,0 +1,168 @@
+@use '../util' as *;
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+
+    &__content {
+
+
+        // Text
+        .hero__text {
+            max-width: rem(351);
+            margin-bottom: rem(48);
+
+            .hero__suptitle {
+                font-size: rem(20);
+            }
+
+            .hero__title {
+                font-size: rem(38);
+                font-weight: 400;
+            }
+        }
+
+        // Form
+        .hero__form {
+            max-width: rem(458);
+
+            // Inputs
+            .hero__inputs {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: rem(20);
+        
+                .hero__input {
+                    position: relative;
+                    width: rem(167);
+                    height: rem(38);
+            
+                    input {
+                        width: 100%;
+                        background-color: transparent;
+                        padding-left: rem(34);
+                        border-width: 0;
+                    }
+            
+                    &::before {
+                        content: '';
+                        display: block;
+                        position: absolute;
+                        left: rem(2);
+                        width: rem(21);
+                        height: rem(21);
+                    }
+            
+                    &::after {
+                        content: '';
+                        display: block;
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        width: 100%;
+                        height: rem(4);
+                        border-radius: rem(2);
+                    }
+            
+                    &:nth-child(1) {
+            
+                        ::placeholder {
+                            color: var(--red);
+                        }
+            
+                        &::before {
+                            background: url('../images/user.svg') no-repeat 0% 80%;
+                        }
+            
+                        &::after {
+                            background-color: var(--red);
+                        }
+                    }
+            
+                    &:nth-child(3) {
+            
+                        ::placeholder {
+                            color: var(--blue);
+                        }
+            
+                        &::before {
+                            background: url('../images/email.svg') no-repeat 0% 80%;
+                        }
+            
+                        &::after {
+                            background-color: var(--blue);
+                        }
+                    }
+                }
+            }
+
+            // Textarea
+            .hero__textarea {
+                width: rem(458);
+                height: rem(134);
+                background: url('../images/comment.svg') no-repeat 46% 44%;
+                margin-bottom: rem(43);
+        
+                textarea {
+                    position: relative;
+                    bottom: rem(-8.5);
+                    width: rem(418);
+                    height: rem(76);
+                    border-width: 0;
+                    color: var(--text);
+                    line-height: 1.6;
+                    font-size: rem(14);
+                    background-color: transparent;
+                    margin: rem(24.5) rem(20);
+                    overflow: hidden;
+                    resize: none;
+                }
+        
+                ::placeholder {
+                    color: var(--text);
+                }
+            }
+
+            // Buttons
+            button {
+                background: linear-gradient(0deg, rgba(235,82,56,1) 0%, rgba(235,111,56,1) 100%);
+                padding: rem(14) rem(56) rem(14) rem(24);
+                border-width: 0;
+                border-radius: rem(20);
+                margin-right: rem(30);
+                margin-bottom: rem(50);
+            }
+        
+            a {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &__warning {
+
+        p {
+            position: relative;
+            padding-left: rem(52);
+            max-width: rem(454);
+
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                top: rem(8);
+                left: 0;
+                width: rem(34);
+                height: rem(37);
+                background-image: url('../images/shield.svg');
+            }
+        }
+    }
+
+    img {
+        position: relative;
+        top: rem(-195);
+        left: rem(155);
+    }
+}

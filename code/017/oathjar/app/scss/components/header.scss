@@ -1,0 +1,32 @@
+@use '../util' as *;
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: rem(84);
+
+    &__logo {
+
+        &::before {
+            content: 'Where promises are kept';
+            position: relative;
+            left: rem(-48);
+            display: block;
+            height: rem(57);
+            width: rem(283);
+            text-align: center;
+            color: var(--text);
+            line-height: rem(52);
+            background-image: url('../images/tagline.svg');
+            margin-bottom: rem(19);
+        }
+    }
+
+    &__promise {
+        
+        img {
+            margin-bottom: rem(4.7);
+        }
+    }
+}
