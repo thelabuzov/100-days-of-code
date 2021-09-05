@@ -127,3 +127,11 @@
 **Thoughts**: I didn't expect that would make website so quickly. I'm very pleased with the result.
 
 **Link(s) to work**: [Education](https://codlipa.github.io/100-days-of-code/code/016/education)
+
+### Day 17: September 4, 2021
+
+**Today's Progress**: Started creating a new website, bugs appeared. Created a header & hero sections, but no adapt their.
+
+**Thoughts**: Today I have been programming for 6 hours without interruption. Managed to do a lot, but I was very tired.
+
+**Link(s) to work**: [OathJar](https://codlipa.github.io/100-days-of-code/code/017/oathjar)
