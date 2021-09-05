@@ -135,3 +135,11 @@
 **Thoughts**: Today I have been programming for 6 hours without interruption. Managed to do a lot, but I was very tired.
 
 **Link(s) to work**: [OathJar](https://codlipa.github.io/100-days-of-code/code/017/oathjar)
+
+### Day 18: September 5, 2021
+
+**Today's Progress**: Today is a weekend, so I only managed to adapt header & hero sections and optimize code.
+
+**Thoughts**: Feel that soon I will be able to create any website, main thing is constant practice and practice again!
+
+**Link(s) to work**: [OathJar](https://codlipa.github.io/100-days-of-code/code/018/oathjar)
