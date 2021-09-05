@@ -1,3 +1,5 @@
+@use '../util' as *;
+
 html {
 	font-size: 100%;
 	box-sizing: border-box;
@@ -12,8 +14,11 @@ html {
 
 body {
 	margin: 0;
-	padding: 0;
 	color: var(--text);
 	font-family: var(--font-poppins);
-	overflow-x: hidden;
+	text-align: center;
+
+	@include breakpoint(large) {
+		text-align: left;
+	}
 }
