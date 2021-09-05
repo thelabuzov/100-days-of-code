@@ -2,52 +2,31 @@
 
 .header {
     display: flex;
-    flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: rem(84);
 
-    @include breakpoint(large) {
-        flex-direction: row;
-        margin-bottom: rem(84);
-    }
+    &__logo {
 
-    &__logo::before {
-        content: 'Where promises are kept';
-        position: relative;
-        display: block;
-        height: rem(57);
-        width: rem(283);
-        text-align: center;
-        color: var(--text);
-        line-height: rem(52);
-        margin-bottom: rem(20);
-        background-image: url('../images/tagline.svg');
-
-        @include breakpoint(large) {
-            left: rem(-60);
+        &::before {
+            content: 'Where promises are kept';
+            position: relative;
+            left: rem(-48);
+            display: block;
+            height: rem(57);
+            width: rem(283);
+            text-align: center;
+            color: var(--text);
+            line-height: rem(52);
+            background-image: url('../images/tagline.svg');
+            margin-bottom: rem(19);
         }
     }
 
     &__promise {
-        margin-bottom: rem(20);
-
-        @include breakpoint(large) {
-            margin: 0;
-        }
-    }
-
-    img {
-
-        @include breakpoint(large) {
-            margin: 0;
-        }
-
-        &:first-child {
-            margin-bottom: rem(5);
-        }
-    
-        &:last-child {
-            margin-bottom: rem(20);
+        
+        img {
+            margin-bottom: rem(4.7);
         }
     }
 }

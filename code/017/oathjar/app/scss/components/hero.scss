@@ -3,196 +3,166 @@
 .hero {
     display: flex;
     justify-content: space-between;
-    flex-direction: column-reverse;
 
-    @include breakpoint(large) {
-        flex-direction: row;
-    }
+    &__content {
 
-    &__inputs {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: rem(48);
 
-        @include breakpoint(large) {
-            flex-direction: row;
-            margin: 0;
-        }
+        // Text
+        .hero__text {
+            max-width: rem(351);
+            margin-bottom: rem(48);
 
-        > *:not(:last-child) {
-            margin-bottom: rem(20);
-        }
-    }
-
-    // Text
-    &__text {
-        margin-bottom: rem(48);
-    }
-
-    &__suptitle {
-        font-size: rem(20);
-    }
-
-    &__title {
-        font-size: rem(38);
-        font-weight: 400;
-    }
-
-    // Input
-    &__input {
-        position: relative;
-        width: rem(167);
-        height: rem(38);
-
-        input {
-            width: 100%;
-            padding-left: rem(34);
-            background-color: transparent;
-            border-width: 0;
-        }
-
-        &::before {
-            content: '';
-            display: block;
-            position: absolute;
-            width: rem(21);
-            height: rem(21);
-            background-repeat: no-repeat;
-            background-position: 0 80%;
-        }
-
-        &::after {
-            content: '';
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            height: rem(4);
-            border-radius: rem(2);
-        }
-
-        &:first-child {
-
-            ::placeholder {
-                color: var(--red);
+            .hero__suptitle {
+                font-size: rem(20);
             }
 
-            &::before {
-                background-image: url('../images/user.svg');
-            }
-
-            &::after {
-                background-color: var(--red);
+            .hero__title {
+                font-size: rem(38);
+                font-weight: 400;
             }
         }
 
-        &:last-child {
+        // Form
+        .hero__form {
+            max-width: rem(458);
 
-            ::placeholder {
-                color: var(--blue);
+            // Inputs
+            .hero__inputs {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: rem(20);
+        
+                .hero__input {
+                    position: relative;
+                    width: rem(167);
+                    height: rem(38);
+            
+                    input {
+                        width: 100%;
+                        background-color: transparent;
+                        padding-left: rem(34);
+                        border-width: 0;
+                    }
+            
+                    &::before {
+                        content: '';
+                        display: block;
+                        position: absolute;
+                        left: rem(2);
+                        width: rem(21);
+                        height: rem(21);
+                    }
+            
+                    &::after {
+                        content: '';
+                        display: block;
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        width: 100%;
+                        height: rem(4);
+                        border-radius: rem(2);
+                    }
+            
+                    &:nth-child(1) {
+            
+                        ::placeholder {
+                            color: var(--red);
+                        }
+            
+                        &::before {
+                            background: url('../images/user.svg') no-repeat 0% 80%;
+                        }
+            
+                        &::after {
+                            background-color: var(--red);
+                        }
+                    }
+            
+                    &:nth-child(3) {
+            
+                        ::placeholder {
+                            color: var(--blue);
+                        }
+            
+                        &::before {
+                            background: url('../images/email.svg') no-repeat 0% 80%;
+                        }
+            
+                        &::after {
+                            background-color: var(--blue);
+                        }
+                    }
+                }
             }
 
-            &::before {
-                background-image: url('../images/email.svg');
+            // Textarea
+            .hero__textarea {
+                width: rem(458);
+                height: rem(134);
+                background: url('../images/comment.svg') no-repeat 46% 44%;
+                margin-bottom: rem(43);
+        
+                textarea {
+                    position: relative;
+                    bottom: rem(-8.5);
+                    width: rem(418);
+                    height: rem(76);
+                    border-width: 0;
+                    color: var(--text);
+                    line-height: 1.6;
+                    font-size: rem(14);
+                    background-color: transparent;
+                    margin: rem(24.5) rem(20);
+                    overflow: hidden;
+                    resize: none;
+                }
+        
+                ::placeholder {
+                    color: var(--text);
+                }
             }
 
-            &::after {
-                background-color: var(--blue);
+            // Buttons
+            button {
+                background: linear-gradient(0deg, rgba(235,82,56,1) 0%, rgba(235,111,56,1) 100%);
+                padding: rem(14) rem(56) rem(14) rem(24);
+                border-width: 0;
+                border-radius: rem(20);
+                margin-right: rem(30);
+                margin-bottom: rem(50);
+            }
+        
+            a {
+                text-decoration: underline;
             }
         }
     }
 
-    // Textarea
-    &__textarea {
-        width: rem(458);
-        height: rem(134);
-        background: url('../images/comment.svg') no-repeat 46% 44%;
-        margin-bottom: rem(48);
-        display: none;
-
-        @include breakpoint(large) {
-            display: block;
-        }
-
-        textarea {
-            position: relative;
-            bottom: rem(-8);
-            width: rem(418);
-            height: rem(90);
-            border-width: 0;
-            color: var(--text);
-            line-height: 1.6;
-            font-size: rem(14);
-            margin: rem(18) rem(20);
-            resize: none;
-        }
-
-        ::placeholder {
-            color: var(--text);
-        }
-    }
-
-    // Warining
     &__warning {
-        margin-top: rem(50);
 
         p {
             position: relative;
-            padding: rem(64) 0 0;
-
-            @include breakpoint(large) {
-                    padding: 0 0 0 rem(52);
-            }
+            padding-left: rem(52);
+            max-width: rem(454);
 
             &::before {
                 content: '';
+                display: block;
                 position: absolute;
                 top: rem(8);
-                left: 50%;
-                transform: translate(-50%, 0);
+                left: 0;
                 width: rem(34);
                 height: rem(37);
                 background-image: url('../images/shield.svg');
-
-                @include breakpoint(large) {
-                    left: 0;
-                }
             }
         }
     }
 
-    button {
-        background: linear-gradient(0deg, rgba(235,82,56,1) 0%, rgba(235,111,56,1) 100%);
-        padding: rem(14) rem(56) rem(14) rem(24);
-        display: block;
-        margin: 0 auto rem(20);
-        border-width: 0;
-        border-radius: rem(20);
-        cursor: pointer;
-
-        @include breakpoint(large) {
-            margin-bottom: 0;
-            margin-right: rem(30);
-            display: inline-block;
-        }
-    }
-
-    a {
-        text-decoration: underline;
-    }
-
     img {
-        margin: 0 auto;
-        max-width: 50%;
-        margin-bottom: rem(48);
-
-        @include breakpoint(large) {
-            position: relative;
-            top: rem(-195);
-            left: rem(155);
-            max-width: 100%;
-        }
+        position: relative;
+        top: rem(-195);
+        left: rem(155);
     }
 }
