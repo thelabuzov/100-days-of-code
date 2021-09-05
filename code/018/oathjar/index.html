@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>OathJar</title>
+
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+
+		<!-- Imports -->
+		<link rel="shortcut icon" href="./images/favicon-32x32.svg" type="image/x-icon">
+		<link rel="stylesheet" href="./dist/style.css">
+		<script defer src="./dist/script.js"></script>
+	</head>
+	<body>
+		<div class="overlay"></div>
+
+		<div class="promo">
+			<!-- Header -->
+			<header class="header container">
+				<a class="header__logo" href="/">
+					<img src="./images/logo.svg" alt="logo">
+				</a>
+				<div class="header__promise">
+					<img src="./images/promise.svg" alt="promise">
+					<p>31,122 + <br> promises</p>
+				</div>
+			</header>
+
+			<!-- Hero -->
+			<section class="hero container">
+
+				<div class="hero__content">
+					<!-- Text -->
+					<div class="hero__text">
+						<p class="hero__suptitle">In a relationship?</p>
+						<h1 class="hero__title">Start Keeping Your Promises</h1>
+					</div>
+
+					<!-- Form -->
+					<form class="hero__form" method="get">
+						<!-- Inputs -->
+						<div class="hero__inputs">
+							<div class="hero__input">
+								<input type="text" name="name" placeholder="Your name" required>
+							</div>
+							<span>to</span>
+							<div class="hero__input">
+								<input type="email" name="email" placeholder="Partner email" required>
+							</div>
+						</div>
+						<!-- Textarea -->
+						<div class="hero__textarea">
+							<textarea name="comment" placeholder="Any comments to your significant other?&#10;No pressure! This is optional"></textarea>
+						</div>
+
+						<!-- Buttons -->
+						<button type="submit">Launch Your Invitation</button>
+						<a href="#">Preview invitation?</a>
+					</form>
+
+					<div class="hero__warning">
+						<p>Psst.. We value your privacy, so only you and your partner can view your information or promises</p>
+					</div>
+				</div>
+
+				<!-- Hero Image -->
+				<img src="./images/hero.svg" alt="hero">
+
+			</section>
+		</div>
+	</body>
+</html>
