@@ -143,3 +143,11 @@
 **Thoughts**: Feel that soon I will be able to create any website, main thing is constant practice and practice again!
 
 **Link(s) to work**: [OathJar](https://codlipa.github.io/100-days-of-code/code/018/oathjar)
+
+### Day 19: September 6, 2021
+
+**Today's Progress**: Create about section and optimize other sections, add containers for html-elements.
+
+**Thoughts**: Today I felt tired, so code is not enough. I'm doing well, even surprised that there are no errors yet.
+
+**Link(s) to work**: [OathJar](https://codlipa.github.io/100-days-of-code/code/019/oathjar)
