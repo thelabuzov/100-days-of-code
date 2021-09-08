@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="563" height="239" viewBox="0 0 563 239">
+  <defs>
+    <filter id="Rounded_Rectangle_1" x="0" y="0" width="563" height="239" filterUnits="userSpaceOnUse">
+      <feOffset dx="4.239" dy="6.784" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="17.5" result="blur"/>
+      <feFlood flood-color="#192842" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rounded_Rectangle_1)">
+    <path id="Rounded_Rectangle_1-2" data-name="Rounded Rectangle 1" d="M249.366,491h53.64c1.9,0,5.81-9,5.81-9l6.778,9h353.04c10.7,0,19.366,8.954,19.366,20v85c0,11.046-8.67,20-19.366,20H249.366C238.67,616,230,607.046,230,596V511C230,499.954,238.67,491,249.366,491Z" transform="translate(-181.74 -436.28)" fill="#fffef9"/>
+  </g>
+</svg>
