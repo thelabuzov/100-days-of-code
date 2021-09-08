@@ -151,3 +151,11 @@
 **Thoughts**: Today I felt tired, so code is not enough. I'm doing well, even surprised that there are no errors yet.
 
 **Link(s) to work**: [OathJar](https://codlipa.github.io/100-days-of-code/code/019/oathjar)
+
+### Day 20: September 7, 2021
+
+**Today's Progress**: Added more bugs for about section in card. Remember how to change fill in svg icons.
+
+**Thoughts**: Most of day I setup AtlasVPN, so there were little time for coding oathjar website.
+
+**Link(s) to work**: [OathJar](https://codlipa.github.io/100-days-of-code/code/020/oathjar)
