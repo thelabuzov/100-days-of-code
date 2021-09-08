@@ -159,3 +159,11 @@
 **Thoughts**: Most of day I setup AtlasVPN, so there were little time for coding oathjar website.
 
 **Link(s) to work**: [OathJar](https://codlipa.github.io/100-days-of-code/code/020/oathjar)
+
+### Day 21: September 8, 2021
+
+**Today's Progress**: Create hardest cards on website. Finish and adapt & optimize code on about section.
+
+**Thoughts**: I made up for yesterday's lost time with today's work. Now I have learned to prioritize.
+
+**Link(s) to work**: [OathJar](https://codlipa.github.io/100-days-of-code/code/021/oathjar)
