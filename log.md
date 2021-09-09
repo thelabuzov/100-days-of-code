@@ -167,3 +167,11 @@
 **Thoughts**: I made up for yesterday's lost time with today's work. Now I have learned to prioritize.
 
 **Link(s) to work**: [OathJar](https://codlipa.github.io/100-days-of-code/code/021/oathjar)
+
+### Day 22: September 9, 2021
+
+**Today's Progress**: Finished website & adapt, but no opimize code. Reduced amount of code, will improve result.
+
+**Thoughts**: I wrote code until late and as expected the site is complete, only the optimization of code remains.
+
+**Link(s) to work**: [OathJar](https://codlipa.github.io/100-days-of-code/code/022/oathjar)
