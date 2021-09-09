@@ -20,9 +20,8 @@
         }
 
         img {
-            margin: 0 auto;
+            margin: 0 auto rem(32);
             max-width: rem(120);
-            margin-bottom: rem(32);
             
             @include breakpoint(large) {
                 margin-right: rem(80);
