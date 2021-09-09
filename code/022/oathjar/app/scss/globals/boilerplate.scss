@@ -1,0 +1,24 @@
+@use '../util' as *;
+
+html {
+	font-size: 100%;
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	outline: none;
+}
+
+body {
+	margin: 0;
+	color: var(--text);
+	font-family: var(--font-poppins);
+	text-align: center;
+
+	@include breakpoint(large) {
+		text-align: left;
+	}
+}

@@ -1,0 +1,47 @@
+@use '../util' as *;
+
+h1,
+h2,
+h3 {
+	margin: 0;
+	line-height: 1.2;
+	font-weight: 400;
+}
+
+p {
+	margin: 0;
+}
+
+input {
+	color: var(--text);
+	background-color: transparent;
+	padding-left: rem(30);
+	border-width: 0;
+}
+
+a,
+a:visited,
+a:active {
+	text-decoration: none;
+	color: var(--text);
+}
+
+button,
+.button {
+	cursor: pointer;
+	border-width: 0;
+	color: var(--white);
+	border-radius: rem(20);
+	padding: rem(14) rem(48);
+	background: linear-gradient(0deg, rgba(235,82,56,1) 0%, rgba(235,111,56,1) 100%);
+}
+
+.title {
+	font-size: rem(20);
+	margin-bottom: rem(32);
+}
+
+.text {
+	font-size: rem(14);
+    margin-bottom: rem(17);
+}

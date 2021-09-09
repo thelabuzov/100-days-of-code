@@ -1,0 +1,199 @@
+@use '../util' as *;
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+
+    @include breakpoint(large) {
+        flex-direction: row;
+    }
+
+    &__inputs {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: rem(48);
+
+        *:not(:last-child) {
+            margin-bottom: rem(20);
+        }
+
+        @include breakpoint(large) {
+            flex-direction: row;
+            
+            *:not(:last-child) {
+                margin: 0;
+            }
+        }
+    }
+
+    // Text
+    &__text {
+        margin-bottom: rem(48);
+    }
+
+    &__suptitle {
+        font-size: rem(20);
+    }
+
+    &__title {
+        font-size: rem(38);
+    }
+
+    // Input
+    &__input {
+        position: relative;
+        width: rem(167);
+        height: rem(38);
+
+        input {
+	        width: 100%;
+        }
+
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: rem(21);
+            height: rem(21);
+            background-repeat: no-repeat;
+            background-position: 0 80%;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: rem(4);
+            border-radius: rem(2);
+        }
+
+        &:first-child {
+
+            ::placeholder {
+                color: var(--red);
+            }
+
+            &::before {
+                background-image: url('../images/user.svg');
+            }
+
+            &::after {
+                background-color: var(--red);
+            }
+        }
+
+        &:last-child {
+
+            ::placeholder {
+                color: var(--blue);
+            }
+
+            &::before {
+                background-image: url('../images/email.svg');
+            }
+
+            &::after {
+                background-color: var(--blue);
+            }
+        }
+    }
+
+    // Textarea
+    &__textarea {
+        width: rem(458);
+        height: rem(134);
+        background: url('../images/comment.svg') no-repeat 46% 44%;
+        margin-bottom: rem(48);
+        display: none;
+
+        @include breakpoint(large) {
+            display: block;
+        }
+
+        textarea {
+            position: relative;
+            bottom: rem(-8);
+            width: rem(418);
+            height: rem(90);
+            border-width: 0;
+            color: var(--text);
+            line-height: 1.6;
+            font-size: rem(14);
+            margin: rem(18) rem(20);
+            resize: none;
+        }
+
+        ::placeholder {
+            color: var(--text);
+        }
+    }
+
+    // Warining
+    &__warning {
+        max-width: rem(448);
+        margin: 0 auto;
+
+        p {
+            position: relative;
+            padding: rem(64) 0 0;
+
+            @include breakpoint(large) {
+                    padding: 0 0 0 rem(52);
+            }
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: rem(8);
+                left: 50%;
+                transform: translate(-50%, 0);
+                width: rem(34);
+                height: rem(37);
+                background-image: url('../images/shield.svg');
+
+                @include breakpoint(large) {
+                    left: 0;
+                }
+            }
+        }
+    }
+
+    &__buttons {
+        margin-bottom: rem(50);
+
+        .button {
+            display: block;
+            padding-right: rem(56);
+            padding-left: rem(24);
+            margin: 0 auto rem(20);
+    
+            @include breakpoint(large) {
+                margin-bottom: 0;
+                margin-right: rem(30);
+                display: inline-block;
+            }
+        }
+    
+        a {
+            text-decoration: underline;
+        }
+    }
+
+    img {
+        margin: 0 auto;
+        max-width: 50%;
+        margin-bottom: rem(48);
+
+        @include breakpoint(large) {
+            position: relative;
+            top: rem(-195);
+            left: rem(155);
+            max-width: 100%;
+        }
+    }
+}
