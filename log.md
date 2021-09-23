@@ -183,3 +183,11 @@
 **Thoughts**: Don't be surprised by date, I had an unexpected break and now I'm ready to improve every day.
 
 **Link(s) to work**: [Hugo](https://codlipa.github.io/100-days-of-code/code/023/hugo)
+
+### Day 24: September 23, 2021
+
+**Today's Progress**: Created a header section and downloaded a set of icons with Font Awesome, optimize code.
+
+**Thoughts**: I've already gotten used to writing similar code, the next site will definitely be unique.
+
+**Link(s) to work**: [Hugo](https://codlipa.github.io/100-days-of-code/code/024/hugo)
