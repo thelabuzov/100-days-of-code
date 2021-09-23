@@ -1,0 +1,25 @@
+@use '../util' as *;
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: rem(80);
+
+    &__section {
+        min-width: rem(120);
+
+        &:last-child {
+            text-align: right;
+        }
+    }
+
+    &__link {
+        text-decoration: none;
+        color: var(--black);
+
+        &:not(:last-child) {
+            margin-right: rem(30);
+        }
+    }
+}
