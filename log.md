@@ -175,3 +175,11 @@
 **Thoughts**: I wrote code until late and as expected the site is complete, only the optimization of code remains.
 
 **Link(s) to work**: [OathJar](https://codlipa.github.io/100-days-of-code/code/022/oathjar)
+
+### Day 23: September 22, 2021
+
+**Today's Progress**: Remembered basics of development and unloaded colors, icons & fonts, that's all I managed to do.
+
+**Thoughts**: Don't be surprised by date, I had an unexpected break and now I'm ready to improve every day.
+
+**Link(s) to work**: [Hugo](https://codlipa.github.io/100-days-of-code/code/023/hugo)
