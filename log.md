@@ -191,3 +191,11 @@
 **Thoughts**: I've already gotten used to writing similar code, the next site will definitely be unique.
 
 **Link(s) to work**: [Hugo](https://codlipa.github.io/100-days-of-code/code/024/hugo)
+
+### Day 25: September 24, 2021
+
+**Today's Progress**: Hero section and pseudo-elements have been created. All components have been adapted.
+
+**Thoughts**: It's nice to work when everything works out, but time is short. I work on this as there are other things.
+
+**Link(s) to work**: [Hugo](https://codlipa.github.io/100-days-of-code/code/025/hugo)
