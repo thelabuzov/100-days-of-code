@@ -1,0 +1,87 @@
+@use '../util' as *;
+
+.album {
+    display: flex;
+
+    &__section {
+        min-width: 50%;
+    }
+
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: rem(480);
+
+        &:first-child {
+
+            .album__text {
+                margin-bottom: rem(32);
+                max-width: rem(385);
+            }
+        }
+
+        &:last-child {
+
+            .album__text {
+                max-width: rem(370);
+            }
+        }
+    }
+
+    &__title {
+        font-size: rem(48);
+        color: var(--black);
+    }
+
+    &__subtitle {
+        font-size: rem(14);
+
+        a {
+            color: var(--gray);
+            text-decoration: none;
+            margin: 0 rem(4);
+        }
+    }
+
+    &__link:not(:last-child) {
+        margin-right: rem(10);
+    }
+
+    &__image {
+        background: no-repeat 50% / cover;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:first-child {
+            background-image: url('../images/album-2.jpg');
+
+            &::after {
+                content: '';
+                min-width: 100%;
+                min-height: 100%;
+                background-color: rgba(0, 0, 0, .3);
+                position: absolute;
+            }
+        }
+
+        &:last-child {
+            background-image: url('../images/album-1.jpg');
+
+            &::after {
+                content: '';
+                min-width: 100%;
+                min-height: 100%;
+                background-color: rgba(25, 49, 75, .9);
+                position: absolute;
+            }
+        }
+
+        img {
+            position: relative;
+            z-index: 1;
+        }
+    }
+}

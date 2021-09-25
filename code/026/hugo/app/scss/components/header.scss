@@ -1,0 +1,40 @@
+@use '../util' as *;
+
+.header {
+    background-color: var(--white);
+    position: relative;
+    z-index: 1;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: rem(80);
+    }
+
+    &__section {
+        min-width: rem(120);
+
+        &:first-child {
+            display: none;
+
+            @include breakpoint(large) {
+                display: block;
+            }
+        }
+
+        &:last-child {
+            text-align: right;
+        }
+    }
+
+    &__link,
+    &__link:hover {
+        text-decoration: none;
+        color: var(--black);
+
+        &:not(:last-child) {
+            margin-right: rem(30);
+        }
+    }
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100.03" height="60" viewBox="0 0 100.03 60">
+  <g id="play-button" transform="translate(-310 -1590)">
+    <path id="button" d="M317.925,1590H402.1a7.9,7.9,0,0,1,7.926,7.875v44.25A7.9,7.9,0,0,1,402.1,1650H317.925a7.9,7.9,0,0,1-7.925-7.875v-44.25A7.9,7.9,0,0,1,317.925,1590Z" fill="#111a19" opacity="0.8"/>
+    <path id="play" d="M348.993,1605,376,1619.9l-27.009,15.086Z" fill="#fff"/>
+  </g>
+</svg>
