@@ -199,3 +199,11 @@
 **Thoughts**: It's nice to work when everything works out, but time is short. I work on this as there are other things.
 
 **Link(s) to work**: [Hugo](https://codlipa.github.io/100-days-of-code/code/025/hugo)
+
+### Day 26: September 25, 2021
+
+**Today's Progress**: Album section developed and anchor link added, new images and icons added on website.
+
+**Thoughts**: Since there was a lot of time today, I was able to develop in more than two days together.
+
+**Link(s) to work**: [Hugo](https://codlipa.github.io/100-days-of-code/code/026/hugo)
