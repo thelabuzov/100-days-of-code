@@ -32,9 +32,14 @@
     &__link:hover {
         text-decoration: none;
         color: var(--black);
+        float: left;
 
         &:not(:last-child) {
             margin-right: rem(30);
         }
+    }
+
+    &__logo {
+        font-size: 0;
     }
 }
