@@ -1,0 +1,110 @@
+@use '../util' as *;
+
+.album {
+    display: flex;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: rem(480);
+        margin: 0 auto;
+
+        &:first-child {
+
+            .album__text {
+                max-width: rem(385);
+                margin-bottom: rem(32);
+            }
+        }
+
+        &:last-child {
+
+            .album__text {
+                max-width: rem(370);
+            }
+        }
+    }
+
+    &__image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: 50% / cover;
+        position: relative;
+        min-width: 50%;
+
+        &:last-child {
+            background-image: url('../images/album-1.jpg');
+
+            &::after {
+                content: '';
+                min-width: 100%;
+                min-height: 100%;
+                position: absolute;
+                background-color: rgba(25, 49, 75, .9);
+            }
+        }
+
+        &:first-child {
+            background-image: url('../images/album-2.jpg');
+
+            &::after {
+                content: '';
+                min-width: 100%;
+                min-height: 100%;
+                position: absolute;
+                background-color: rgba(0, 0, 0, .3);
+            }
+
+            &:hover {
+                text-decoration: none;
+
+                .fas { 
+                    background-color: rgb(255, 0, 0, .8);
+                }
+            }
+
+            .fas {
+                font-size: rem(40);
+                border-radius: rem(20);
+                padding: rem(20) rem(60);
+                color: var(--white);
+                background-color: rgb(37, 37, 37, .8);
+            }
+        }
+
+        .album__item {
+            position: relative;
+            z-index: 1;
+        }
+    }
+
+    &__subtitle {
+        font-size: rem(14);
+        font-weight: 400;
+
+        a {
+            color: var(--gray);
+            margin: 0 rem(4);
+        }
+    }
+
+    &__text {
+
+        .album__subtitle {
+            font-weight: 700;
+        }
+    }
+
+    &__link {
+
+        &:not(:last-child) {
+            margin-right: rem(10);
+        }
+        
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}

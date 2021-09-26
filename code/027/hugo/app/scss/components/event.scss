@@ -1,0 +1,12 @@
+@use '../util' as *;
+
+.event {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: rem(320);
+
+    &__item {
+        text-align: center;
+    }
+}
