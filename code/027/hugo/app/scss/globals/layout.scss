@@ -11,7 +11,7 @@
     position: relative;
     min-height: 100vh;
 
-    &::after {
+    &::before {
         content: '';
         min-width: 100%;
         min-height: 100vh;
@@ -20,16 +20,10 @@
 		top: 0;
     }
 
-    &::before {
-        content: '';
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        z-index: 1;
-        min-width: 90%;
+    &.image::after {
+        min-width: 80%;
         min-height: rem(300);
-        transform: translate(-50%, -50%);
-        background: url('../images/slogan.png') no-repeat 50% / contain;
+        background-image: url('../images/slogan.png');
     }
 
     .arrow-down {
@@ -45,4 +39,14 @@
             color: var(--gray);
         }
     }
+}
+
+.image::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    background: no-repeat 50% / contain;
 }

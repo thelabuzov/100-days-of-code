@@ -26,7 +26,7 @@
         }
     }
 
-    &__image {
+    .image {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -37,19 +37,25 @@
         &:last-child {
             background-image: url('../images/album-1.jpg');
 
-            &::after {
+            &::before {
                 content: '';
                 min-width: 100%;
                 min-height: 100%;
                 position: absolute;
                 background-color: rgba(25, 49, 75, .9);
             }
+
+            &::after {
+                min-width: 100%;
+                min-height: rem(270);
+                background-image: url('../images/disk.png');
+            }
         }
 
         &:first-child {
             background-image: url('../images/album-2.jpg');
 
-            &::after {
+            &::before {
                 content: '';
                 min-width: 100%;
                 min-height: 100%;
@@ -72,11 +78,6 @@
                 color: var(--white);
                 background-color: rgb(37, 37, 37, .8);
             }
-        }
-
-        .album__item {
-            position: relative;
-            z-index: 1;
         }
     }
 
