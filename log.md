@@ -207,3 +207,11 @@
 **Thoughts**: Since there was a lot of time today, I was able to develop in more than two days together.
 
 **Link(s) to work**: [Hugo](https://codlipa.github.io/100-days-of-code/code/026/hugo)
+
+### Day 27: September 26, 2021
+
+**Today's Progress**: Create event section, change icons & fonts. Remove spaces from links and change change album section & optimize code.
+
+**Thoughts**: High-quality work was done on the cleanliness of the code and website, I remembered how to remove spaces from links.
+
+**Link(s) to work**: [Hugo](https://codlipa.github.io/100-days-of-code/code/027/hugo)
