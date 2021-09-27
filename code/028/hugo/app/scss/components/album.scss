@@ -1,0 +1,75 @@
+@use '../util' as *;
+
+.album {
+    display: flex;
+
+    &__content {
+        padding: rem(110) 0;
+        margin: 0 auto;
+
+        &:first-child .text {
+            max-width: rem(385);
+            margin-bottom: rem(32);
+        }
+
+        &:last-child .text {
+            max-width: rem(370);
+        }
+    }
+
+    .image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: 50% / cover;
+        position: relative;
+        min-width: 50%;
+
+        &:last-child {
+            background-image: url('../images/album-1.jpg');
+
+            &::before {
+                content: '';
+                min-width: 100%;
+                min-height: 100%;
+                position: absolute;
+                background-color: rgba(25, 49, 75, .9);
+            }
+
+            &::after {
+                min-width: 100%;
+                min-height: rem(270);
+                background-image: url('../images/disk.png');
+            }
+        }
+
+        &:first-child {
+            background-image: url('../images/album-2.jpg');
+
+            &::before {
+                content: '';
+                min-width: 100%;
+                min-height: 100%;
+                position: absolute;
+                background-color: rgba(0, 0, 0, .3);
+            }
+
+            &:hover {
+                text-decoration: none;
+
+                .fas { 
+                    background-color: rgb(255, 0, 0, .8);
+                }
+            }
+
+            .fas {
+                position: relative;
+                font-size: rem(40);
+                border-radius: rem(20);
+                padding: rem(20) rem(60);
+                background-color: rgb(37, 37, 37, .8);
+                color: var(--white);
+            }
+        }
+    }
+}
