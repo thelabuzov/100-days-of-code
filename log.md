@@ -220,6 +220,6 @@
 
 **Today's Progress**: Optimized scss styles and html markup, created new classes and nesting. New sections not developed.
 
-**Thoughts**: Due to lack of time, I could only optimize code, there was a blockage in college and I could not influence it.
+**Thoughts**: Due to lack of time due to college which I could not influence, could only optimize code and add a couple of classes.
 
 **Link(s) to work**: [Hugo](https://codlipa.github.io/100-days-of-code/code/028/hugo)
