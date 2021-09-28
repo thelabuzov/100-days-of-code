@@ -223,3 +223,11 @@
 **Thoughts**: Due to lack of time in the college which I could not influence, only optimize code and add a couple of classes.
 
 **Link(s) to work**: [Hugo](https://codlipa.github.io/100-days-of-code/code/028/hugo)
+
+### Day 29: September 28, 2021
+
+**Today's Progress**: Created clip and footer sections. Adapted all sections, optimized code. Added dist folder to all completed projects including this one.
+
+**Thoughts**: On average, it takes me a week to develop a website, now I'm thinking about developing an online store. Portfolios need different websites.
+
+**Link(s) to work**: [Hugo](https://codlipa.github.io/100-days-of-code/code/029/hugo)
