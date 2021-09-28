@@ -1,0 +1,30 @@
+@use '../util' as *;
+
+.header {
+    background-color: var(--white);
+    position: relative;
+    z-index: 1;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: rem(80);
+    }
+
+    &__content {
+        min-width: rem(110);
+
+        &:first-child {
+            display: none;
+
+            @include breakpoint(large) {
+                display: block;
+            }
+        }
+
+        &:last-child {
+            text-align: right;
+        }
+    }
+}

@@ -1,0 +1,79 @@
+@use '../util' as *;
+
+h1,
+h2,
+h3,
+p {
+	margin: 0;
+	line-height: 2;
+	font-weight: 100;
+}
+
+p {
+	font-weight: 300;
+}
+
+a {
+	color: var(--gray);
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+
+.logo {
+	font-size: 0;
+}
+
+.title {
+	font-size: rem(48);
+	color: var(--black);
+}
+
+.subtitle {
+	font-size: rem(15);
+	font-weight: 400;
+
+	span {
+		margin: 0 rem(8);
+	}
+}
+
+.text {
+
+	a {
+		color: var(--blue);
+	}
+
+	.subtitle {
+		font-weight: 700;
+	}
+}
+
+.link,
+.link:hover {
+	float: left;
+    text-decoration: none;
+}
+
+.header .link {
+	color: var(--black);
+
+	&:last-child {
+		float: right;
+	}
+
+	&:not(:last-child) {
+		margin-right: rem(30);
+	}
+}
+
+.album .link {
+	font-size: 0;
+
+	&:not(:last-child) {
+		margin-right: rem(10);
+	}
+}

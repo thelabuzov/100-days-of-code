@@ -1,0 +1,17 @@
+html {
+	font-size: 100%;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	color: var(--gray);
+	font-family: var(--font-roboto);
+}

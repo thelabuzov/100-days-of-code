@@ -1,0 +1,44 @@
+@use '../util' as *;
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    filter: grayscale(100%);
+    margin: rem(30) auto;
+
+    @include breakpoint-down(large) {
+        flex-direction: column;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        &:first-child {
+
+            @include breakpoint-down(large) {
+                flex-direction: column;
+            }
+
+            .subtitle {
+                
+                @include breakpoint-down(large) {
+                    margin: rem(30) 0;
+                }
+            }
+        }
+
+        .logo {
+
+            @include breakpoint(large) {
+                margin-right: rem(60);
+            }
+        }
+
+        .link:not(:last-child) {
+            margin-right: rem(30);
+        }
+    }
+}

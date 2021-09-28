@@ -1,0 +1,15 @@
+@use '../util' as *;
+
+.event {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    min-height: rem(260);
+    margin: rem(30) auto;
+
+    @include breakpoint-down(large) {
+        flex-direction: column;
+        margin: rem(110) 0;
+    }
+}
