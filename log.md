@@ -215,3 +215,11 @@
 **Thoughts**: High-quality work was done on the cleanliness of the code and website, I remembered how to remove spaces from links.
 
 **Link(s) to work**: [Hugo](https://codlipa.github.io/100-days-of-code/code/027/hugo)
+
+### Day 28: September 27, 2021
+
+**Today's Progress**: Optimized scss styles and html markup, created new classes and nesting. New sections not developed.
+
+**Thoughts**: Due to lack of time in the college which I could not influence, only optimize code and add a couple of classes.
+
+**Link(s) to work**: [Hugo](https://codlipa.github.io/100-days-of-code/code/028/hugo)
