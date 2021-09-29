@@ -231,3 +231,11 @@
 **Thoughts**: On average, it takes me a week to develop a website, now I'm thinking about developing an online store. Portfolios need different websites.
 
 **Link(s) to work**: [Hugo](https://codlipa.github.io/100-days-of-code/code/029/hugo)
+
+### Day 30: September 29, 2021
+
+**Today's Progress**: Added an old portfolio and replaced some code snippets. Created a repo with all websites and optimize it for production.
+
+**Thoughts**: Hardest job of all time lies ahead - this is original portfolio site, but hope I can do it. It will be updated when to improve skills.
+
+**Link(s) to work**: [Portfolio](http://codlipa.github.io/websites/portfolio)
