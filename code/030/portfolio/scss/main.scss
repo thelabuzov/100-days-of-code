@@ -1,0 +1,251 @@
+@import 'variables';
+@import 'globals';
+@import 'fonts';
+@import 'animate';
+
+// === HORIZONTAL-SCROLL ===
+.slide {
+    display: flex;
+    flex-direction: column;
+	height: 100vh;
+    background-image: url("../images/dist/background.gif");
+
+	&.one {
+		align-items: center;
+		justify-content: center;
+	}
+
+	&.two {
+		align-items: flex-end;
+		background-image: none;
+		background-color: $color-gray;
+		box-shadow: -140px -40px 40px rgb(20, 20, 20);
+        height: 200vh;
+	}
+
+	&::before {
+        content: '';
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, .6);
+    }
+
+	// &::after {
+	// 	content: '';
+	// 	position: absolute;
+    //     width: 100vw;
+    //     height: 100vh;
+	// 	z-index: 1;
+	// 	background: url("../images/dist/lines.webp"), url("../images/dist/lines.png") 50% / cover;
+	// 	opacity: .6;
+	// }
+}
+
+.wrapper {
+    display: flex;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+
+	&__outer {
+		width: 100vh;
+		height: 100vw;
+		transform: rotate(-90deg) translateX(-100vh);
+		transform-origin: top left;
+		overflow-x: scroll;
+	
+		&::-webkit-scrollbar {
+			display: none;
+		}
+	} 
+}
+// === / HORIZONTAL-SCROLL ===
+
+// === GLITCH ===
+.title {
+	&__big {
+		font-size: 5em;
+		line-height: .6;
+		margin-top: 15px;
+		position: relative;
+		transform: translate(0%, 0%);
+
+		&:before, &:after {
+			content: 'codlipa';
+			position: absolute;
+			top: 0;
+			left: 0;
+			opacity: .8;
+		} 
+		
+		&:after {
+			color: $color-cherry;
+			z-index: -2;
+		} 
+		
+		&:before {
+			color: $color-aqua;
+			z-index: -1;
+		}
+
+		&:hover {
+
+			&:before {
+				animation: glitch $transition-min cubic-bezier(.25, .46, .45, .94) infinite;
+			}
+
+			&:after {
+				animation: glitch $transition-min cubic-bezier(.25, .46, .45, .94) infinite reverse;
+			}
+		}
+	}
+
+	&__medium {
+		font-size: 60px;
+		font-weight: 700;
+		margin: 15px 0 5px;
+    	background-image: -webkit-linear-gradient($color-cherry, $color-aqua);
+    	-webkit-text-fill-color: transparent;
+    	-webkit-background-clip: text;
+	}
+}
+
+@keyframes glitch {
+
+	0% {
+		transform: translate(0)
+	}
+
+	20% {
+		transform: translate(-5px, 5px)
+	}
+
+	40% {
+		transform: translate(-5px, -5px)
+	}
+
+	60% {
+		transform: translate(5px, 5px)
+	}
+
+	80% {
+		transform: translate(5px, -5px)
+	}
+
+	100% {
+		transform: translate(0)
+	}
+}
+// === / GLITCH ===
+
+// === PLAYER ===
+.player {
+    display: flex;
+    align-items: flex-end;
+    height: 100vh;
+    
+    &__logo {
+        position: absolute;
+        bottom: 74.5%;
+        left: 16.5%;
+        z-index: 1;
+    }
+
+	&__console {
+		width: 738px;
+		height: 372px;
+	}
+
+    &__game {
+        position: absolute;
+        top: 11.2%;
+        left: 16.1%;
+		width: 500px;
+		height: 290px;
+    }
+}
+// === / PLAYER ===
+
+// === CIRCLE-TEXT ===
+svg:nth-child(1) {
+	top: -30%;
+	left: -45%;
+	width: 500px;
+	position: absolute;
+	animation: rotation $transition-max infinite linear;
+}
+
+svg:nth-child(2) {
+	top: 27%;
+	left: -50%;
+	width: 400px;
+	position: absolute;
+	animation: rotation $transition-max infinite linear;
+}
+
+svg:nth-child(3) {
+	top: 70%;
+	left: -70%;
+	width: 600px;
+	position: absolute;
+	animation: rotation $transition-max infinite linear;
+}
+
+text {
+	font-size: 2em;
+	font-family: $font-arial;
+	fill: $color-white;
+}
+
+@keyframes rotation {
+	from {
+		transfrom: rotate(0deg);
+	}
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+// === / CIRCLE-TEXT ===
+
+// === PORTFOLIO ===
+.portfolio {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: start;
+	height: 100vh;
+
+	&__link {
+		width: 380px;
+		height: 250px;
+		overflow: hidden;
+	}
+
+	&__image {
+		background-position: 50%;
+		background-size: cover;
+		width: 100%;
+		height: 100%;
+		transition: $transition;
+
+		&:hover {
+			transform: scale(1.2);
+		}
+
+		&.coming-soon {
+			background-image: url("https://via.placeholder.com/380x250?text=Coming+Soon");
+		}
+
+		&.mw {
+			background-image: url("../images/dist/portfolio/mw.webp"), url("../images/dist//portfolio/mw.png");
+		}
+
+		&.elena {
+			background-image: url("../images/dist/portfolio/elena.webp"), url("../images/dist/portfolio/elena.png");
+		}
+
+		&.marble {
+			background-image: url("../images/dist/portfolio/marble.webp"), url("../images/dist/portfolio/marble.png");
+		}
+	}
+}
+// === / PORTFOLIO ===

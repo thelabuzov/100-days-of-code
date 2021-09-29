@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Create websites using HTML, CSS, light JavaScript and Git">
+    <meta name="keywords" content="Websites, HTML, CSS, JavaScript, Git">
+    <meta name="author" content="Dmitry Labuzov">
+    <meta name="copyright" content="Dmitry Labuzov">
+    <meta property="og:title" content="Dmitry Labuzov">
+    <meta property="og:description" content="Create websites using HTML, CSS, light JavaScript and Git">
+    <!-- <meta property="og:image" content="img/dest/promo.jpg"> -->
+    <meta property="og:site_name" content="Dmitry Labuzov">
+    <meta name="twitter:site" content="Dmitry Labuzov">
+    <meta name="twitter:title" content="Dmitry Labuzov">
+    <meta name="twitter:description" content="Create websites using HTML, CSS, light JavaScript and Git">
+    <!-- <meta name="twitter:image" content="img/dist/promo.jpg"> -->
+    <link rel="shortcut icon" href="images/dist/ico/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/app.min.css">
+    <title>Dmitry Labuzov</title>
+  </head>
+
+  <body>
+
+    <div id="click" onclick="display(); audio()"></div>
+
+    <!-- HORIZONTAL-SCROLL -->
+    <div class="wrapper__outer">
+      <div class="wrapper">
+        <!-- SLIDE -->
+        <div class="slide one">
+            <div class="container">
+              <div class="section">
+                <!-- WINBOX__NAV -->
+                <nav>
+                  <ul>
+                    <li id="about">About</li>
+                    <li id="contact">Contact</li>
+                  </ul>
+                </nav>
+                <!-- / WINBOX__NAV -->
+
+                <!-- MAIN -->
+                <main>
+                  <h1 class="title__big">codlipa</h1>
+                  <h2 class="title__medium">I'm a <span id="animate"></h2></p>
+                  <h3 class="title__large">Find me online:</h3>
+                  <ul>
+                    <li>
+                      <a href="https://github.com/codlipa">GitHub</a>
+                    </li>
+                    <li>
+                      <a href="https://codepen.io/codlipa">CodePen</a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/codlipa">Twitter</a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/in/codlipa">LinkedIn</a>
+                    </li>
+                    <li>
+                      <a href="https://www.facebook.com/codlipa">Facebook</a>
+                    </li>
+                  </ul>
+                </main>
+              </div>
+              <!-- / MAIN -->
+
+              <!-- PLAYER -->
+              <div class="player">
+                <div class="container container__player">
+                  <img class="player__logo" src="images/dist/character.gif" alt="player__logo">
+                  <picture>
+                    <source class="player__console" srcset="images/dist/console.webp" type="image/webp">
+                    <img class="player__console" src="images/dist/console.png" alt="player__console">
+                  </picture>
+                  <iframe class="player__game" src="https://www.retrogames.cc/embed/16945-x-men-europe.html" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no" title="game"></iframe>
+                </div>
+              </div>
+            </div>
+            <!-- / PLAYER -->
+        </div>
+        <!-- / SLIDE -->
+
+        <!-- SLIDE -->
+        <div class="slide two">
+          <div class="container container__portfolio">
+            <!-- CIRCLE-TEXT -->
+            <svg xmlns="http://www.w3.org/2000/svg" xml:lang="en" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+              <defs>
+                <path id="textcircle" d="M250,400 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z" transform="rotate(12,250,250)" />
+              </defs>
+              <rect width="100%" height="100%" fill="none" />
+              <text>
+                <textPath xlink:href="#textcircle" textLength="960">FAST WEBSITES &#160;</textPath>
+              </text>
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" xml:lang="en" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+              <defs>
+                <path id="textcircle" d="M250,400 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z" transform="rotate(12,250,250)" />
+              </defs>
+              <rect width="100%" height="100%" fill="none" />
+              <text>
+                <textPath xlink:href="#textcircle" textLength="960">VALID WEBSITES &#160;</textPath>
+              </text>
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" xml:lang="en" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+              <defs>
+                <path id="textcircle" d="M250,400 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z" transform="rotate(12,250,250)" />
+              </defs>
+              <rect width="100%" height="100%" fill="none" />
+              <text>
+                <textPath xlink:href="#textcircle" textLength="960">ADAPTIVE WEBSITES &#160;</textPath>
+              </text>
+            </svg>
+            <!-- / CIRCLE-TEXT -->
+            <div class="section section__scroll">
+
+              <!-- PORTFOLIO -->
+              <div class="portfolio">
+                <a class="portfolio__link animated delay-1" data-animation="fadeIn" aria-label="Mw" href="#">
+                  <div class="portfolio__image mw"></div>
+                </a>
+                <a class="portfolio__link animated delay-2" data-animation="fadeIn" aria-label="Elena" href="#">
+                  <div class="portfolio__image elena"></div>
+                </a>
+                <a class="portfolio__link animated delay-3" data-animation="fadeIn" aria-label="Marble" href="#">
+                  <div class="portfolio__image marble"></div>
+                </a>
+                <a class="portfolio__link animated delay-4" data-animation="fadeIn" aria-label="Coming Soon" href="#">
+                  <div class="portfolio__image coming-soon"></div>
+                </a>
+                <a class="portfolio__link animated delay-5" data-animation="fadeIn" aria-label="Coming Soon" href="#">
+                  <div class="portfolio__image coming-soon"></div>
+                </a>
+                <a class="portfolio__link animated delay-6" data-animation="fadeIn" aria-label="Coming Soon" href="#">
+                  <div class="portfolio__image coming-soon"></div>
+                </a>
+                <a class="portfolio__link animated delay-7" data-animation="fadeIn" aria-label="Coming Soon" href="#">
+                  <div class="portfolio__image coming-soon"></div>
+                </a>
+                <a class="portfolio__link animated delay-8" data-animation="fadeIn" aria-label="Coming Soon" href="#">
+                  <div class="portfolio__image coming-soon"></div>
+                </a>
+                <a class="portfolio__link animated delay-9" data-animation="fadeIn" aria-label="Coming Soon" href="#">
+                  <div class="portfolio__image coming-soon"></div>
+                </a>
+                <a class="portfolio__link animated delay-10" data-animation="fadeIn" aria-label="Coming Soon" href="#">
+                  <div class="portfolio__image coming-soon"></div>
+                </a>
+                <a class="portfolio__link animated delay-11" data-animation="fadeIn" aria-label="Coming Soon" href="#">
+                  <div class="portfolio__image coming-soon"></div>
+                </a>
+                <a class="portfolio__link animated delay-12" data-animation="fadeIn" aria-label="Coming Soon" href="#">
+                  <div class="portfolio__image coming-soon"></div>
+                </a>
+                <a class="portfolio__link animated delay-13" data-animation="fadeIn" aria-label="Coming Soon" href="#">
+                  <div class="portfolio__image coming-soon"></div>
+                </a>
+                <a class="portfolio__link animated delay-14" data-animation="fadeIn" aria-label="Coming Soon" href="#">
+                  <div class="portfolio__image coming-soon"></div>
+                </a>
+                <a class="portfolio__link animated delay-15" data-animation="fadeIn" aria-label="Coming Soon" href="#">
+                  <div class="portfolio__image coming-soon"></div>
+                </a>
+              </div>
+              <!-- / PORTFOLIO -->
+            </div>
+          </div>
+        </div>
+        <!-- / SLIDE -->
+      </div>
+    </div>
+    <!-- / HORIZONTAL-SCROLL -->
+
+    <!-- WINBOX -->
+    <div class="hidden">
+      <div id="content__about">
+        <h2>About Me</h2>
+        <p>My name is Dmitry Labuzov and I have been programming for 2 years</p>
+        <p>
+          Some of the languages that I am fluent in include HTML, CSS,
+          little JavaScript and Git
+        </p>
+      </div>
+
+      <div id="content__contact">
+        <h2>Contact Me</h2>
+        <p>You can contact me at the email and phone number below</p>
+        <ul>
+          <li>Phone: +7-910-226-49-25</li>
+          <li>Email: codlipa@gmail.com</li>
+        </ul>
+      </div>
+    </div>
+    <!-- / WINBOX -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.lettering.js"></script>
+    <script src="js/three.min.js"></script>
+    <script src="js/GLTFLoader.js"></script>
+    <script src="js/winbox.js"></script>
+    <script src="js/typed.js"></script>
+    <script src="js/app.min.js"></script>
+    <script>
+      function audio() {
+        var audio = document.createElement('audio');
+        audio.setAttribute("autoplay", "true");
+        audio.innerHTML = "<source src=\"theme.mp3\" type=\"audio/mpeg\">";
+        document.body.appendChild(audio);
+      }
+
+      function display() {
+        var x = document.getElementById("click");
+        x.style.display = "none";
+      }
+    </script>
+  </body>
+
+</html>
