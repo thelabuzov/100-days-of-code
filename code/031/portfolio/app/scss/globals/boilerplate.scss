@@ -1,0 +1,50 @@
+html {
+	font-size: 100%;
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+    font-size: rem(30);
+    font-family: var(--font-title);
+    color: var(--white);
+    overflow: hidden;
+}
+
+#click {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    cursor: pointer;
+    background-color: var(--black);
+    &::after {
+        content: '';
+        width: 599px;
+        height: 336px;
+        background: url("../images/loading.gif") no-repeat 50% / contain;
+    }
+}
+
+#model {
+    position: absolute;
+    top: 18%;
+    left: 6%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.hidden {
+    color: var(--white);
+}

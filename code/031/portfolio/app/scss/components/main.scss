@@ -1,0 +1,105 @@
+@use '../util' as *;
+
+// === Glitch ===
+.title {
+	&__big {
+		font-size: rem(80);
+		margin-top: rem(15);
+		position: relative;
+		transform: translate(0%, 0%);
+
+		&:before, &:after {
+			content: 'codlipa';
+			position: absolute;
+			top: 0;
+			left: 0;
+			opacity: .8;
+		} 
+		
+		&:after {
+			color: var(--cherry);
+			z-index: -2;
+		} 
+		
+		&:before {
+			color: var(--aqua);
+			z-index: -1;
+		}
+
+		&:hover {
+
+			&:before {
+				animation: glitch var(--transition-min) cubic-bezier(.25, .46, .45, .94) infinite;
+			}
+
+			&:after {
+				animation: glitch var(--transition-min) cubic-bezier(.25, .46, .45, .94) infinite reverse;
+			}
+		}
+	}
+
+	&__medium {
+		font-size: rem(60);
+		font-weight: 700;
+		margin: rem(15) 0 rem(5);
+    	background-image: linear-gradient(var(--cherry), var(--aqua));
+    	-webkit-text-fill-color: transparent;
+    	-webkit-background-clip: text;
+	}
+}
+
+@keyframes glitch {
+
+	0% {
+		transform: translate(0)
+	}
+
+	20% {
+		transform: translate(rem(-5), rem(5))
+	}
+
+	40% {
+		transform: translate(rem(-5), rem(-5))
+	}
+
+	60% {
+		transform: translate(rem(5), rem(5))
+	}
+
+	80% {
+		transform: translate(rem(5), rem(-5))
+	}
+
+	100% {
+		transform: translate(0)
+	}
+}
+// === / Glitch ===
+
+// === Player ===
+.player {
+    display: flex;
+    align-items: flex-end;
+    height: 100vh;
+    
+    &__logo {
+        position: absolute;
+        bottom: 74.5%;
+        left: 16.5%;
+        z-index: 1;
+    }
+
+	&__console {
+		width: rem(738);
+		height: rem(372);
+	}
+
+    &__game {
+        position: absolute;
+        top: 11.2%;
+        left: 17.8%;
+		width: rem(502);
+		height: rem(290);
+    }
+}
+// === / Player ==

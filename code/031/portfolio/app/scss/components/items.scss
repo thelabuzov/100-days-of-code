@@ -1,0 +1,98 @@
+@use '../util' as *;
+
+// === Circle-text ===
+svg:nth-child(1) {
+	top: -30%;
+	left: -45%;
+	width: rem(500);
+	position: absolute;
+	animation: rotation var(--transition-max) infinite linear;
+}
+
+svg:nth-child(2) {
+	top: 27%;
+	left: -50%;
+	width: rem(400);
+	position: absolute;
+	animation: rotation var(--transition-max) infinite linear;
+}
+
+svg:nth-child(3) {
+	top: 70%;
+	left: -70%;
+	width: rem(600);
+	position: absolute;
+	animation: rotation var(--transition-max) infinite linear;
+}
+
+text {
+	font-size: rem(32);
+	fill: var(--white);
+}
+
+@keyframes rotation {
+	from {
+		transfrom: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+// === / Circle-text ===
+
+// === Portfolio ===
+.portfolio {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: start;
+	height: 100vh;
+
+	&__link {
+		width: rem(380);
+		height: rem(250);
+		overflow: hidden;
+	}
+
+	&__image {
+		background-position: 50%;
+		background-size: cover;
+		width: 100%;
+		height: 100%;
+		transition: var(--transition-max);
+
+		&:hover {
+			transform: scale(1.2);
+		}
+
+		&.item-soon {
+			background-image: url('https://via.placeholder.com/380x250?text=Item+soon');
+		}
+
+		&.item-1 {
+			background-image: url('../images/content/item-1.webp'), url('../images/content/item-1.jpg');
+		}
+
+		&.item-2 {
+			background-image: url('../images/content/item-2.webp'), url('../images/content/item-2.jpg');
+		}
+
+		&.item-3 {
+			background-image: url('../images/content/item-3.webp'), url('../images/content/item-3.jpg');
+		}
+
+        &.item-4 {
+			background-image: url('../images/content/item-4.webp'), url('../images/content/item-4.jpg');
+		}
+
+        &.item-5 {
+			background-image: url('../images/content/item-5.webp'), url('../images/content/item-5.jpg');
+		}
+
+        &.item-6 {
+			background-image: url('../images/content/item-6.webp'), url('../images/content/item-6.jpg');
+		}
+	}
+}
+// === / Portfolio ===

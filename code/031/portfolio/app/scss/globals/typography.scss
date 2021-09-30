@@ -1,0 +1,48 @@
+@use '../util' as *;
+
+h1,
+h2,
+h3,
+ul,
+p {
+	margin: 0;
+    padding: 0;
+	line-height: 1.1;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+main li {
+	color: var(--aqua);
+}
+  
+nav ul {
+	display: flex;
+}
+  
+nav ul li {
+	color: var(--cherry);
+	margin: 0 10px;
+}
+
+a,
+a:visited,
+a:active {
+	text-decoration: none;
+}
+
+main a {
+	color: var(--aqua);
+}
+
+.wb-body {
+	background-color: var(--gray);
+	padding: 20px;
+}

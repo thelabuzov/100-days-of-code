@@ -1,0 +1,71 @@
+@use '../util' as *;
+
+.wrapper {
+    display: flex;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+
+	&__outer {
+		width: 100vh;
+		height: 100vw;
+		transform: rotate(-90deg) translateX(-100vh);
+		transform-origin: top left;
+		overflow-x: scroll;
+	
+		&::-webkit-scrollbar {
+			display: none;
+		}
+	} 
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+	padding: 0 rem(20);
+
+    &__player {
+		position: relative;
+		bottom: rem(-40);
+	}
+
+    &__portfolio {
+        max-width: rem(1140);
+    }
+}
+
+.section__scroll {
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.slide {
+    display: flex;
+    flex-direction: column;
+	height: 100vh;
+    background-image: url('../images/background.gif');
+
+	&.one {
+		align-items: center;
+		justify-content: center;
+	}
+
+	&.two {
+		align-items: flex-end;
+		background-image: none;
+		background-color: var(--gray);
+		box-shadow: -140px -40px 40px rgb(20, 20, 20);
+        height: 200vh;
+	}
+
+	&::before {
+        content: '';
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, .6);
+    }
+}
