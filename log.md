@@ -238,4 +238,12 @@
 
 **Thoughts**: Hardest job of all time lies ahead - this is original portfolio site, but hope I can do it. It will be updated when to improve skills.
 
-**Link(s) to work**: [Portfolio](http://codlipa.github.io/websites/portfolio)
+**Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/030/portfolio)
+
+### Day 31: September 30, 2021
+
+**Today's Progress**: Changed Gulp working-environment, and fixed old code. Added a new file structure for new website ecosystem.
+
+**Thoughts**: Even more problems appeared while fixing old bugs. These changes are for better, but there is a lot of work to be done.
+
+**Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/031/portfolio)
