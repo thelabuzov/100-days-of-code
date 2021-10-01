@@ -247,3 +247,11 @@
 **Thoughts**: Even more problems appeared while fixing old bugs. These changes are for better, but there is a lot of work to be done.
 
 **Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/031/portfolio)
+
+### Day 32: September 31, 2021
+
+**Today's Progress**: Optimized images & audio and code that's minified. Website is adapted for lighthouse, which cannot be said about small displays.
+
+**Thoughts**: I was writing code all day and didn't even notice how quickly time flew by, think developers know what it is. Neck and back hurts, by the way.
+
+**Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/032/portfolio)
