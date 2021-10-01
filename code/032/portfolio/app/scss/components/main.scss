@@ -65,7 +65,7 @@
 	align-items: flex-end;
 	height: 100vh;
 
-	&__logo {
+	&__hero {
 		position: absolute;
 		bottom: 74.5%;
 		left: 16.5%;
@@ -74,15 +74,7 @@
 
 	&__console {
 		width: rem(738);
-		height: rem(372);
-	}
-
-	&__game {
-		position: absolute;
-		top: 11.2%;
-		left: 16%;
-		width: rem(502);
-		height: rem(290);
+		height: rem(392);
 	}
 }
 // Player
