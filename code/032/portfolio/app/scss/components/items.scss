@@ -1,0 +1,79 @@
+@use '../util' as *;
+
+// Circle-text
+svg:nth-child(1) {
+	top: -30%;
+	left: -45%;
+	width: rem(500);
+	position: absolute;
+	animation: rotation var(--transition-max) infinite linear;
+}
+
+svg:nth-child(2) {
+	top: 27%;
+	left: -50%;
+	width: rem(400);
+	position: absolute;
+	animation: rotation var(--transition-max) infinite linear;
+}
+
+svg:nth-child(3) {
+	top: 70%;
+	left: -70%;
+	width: rem(600);
+	position: absolute;
+	animation: rotation var(--transition-max) infinite linear;
+}
+
+text {
+	font-size: rem(60);
+	font-family: var(--font-arial);
+	fill: var(--white);
+}
+
+@keyframes rotation {
+	from { transfrom: rotate(0deg); }
+
+	to { transform: rotate(360deg); }
+}
+
+// Circle-text
+
+// Portfolio
+.portfolio {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: start;
+	height: 100vh;
+
+	&__link {
+		width: rem(380);
+		height: rem(250);
+		overflow: hidden;
+	}
+
+	&__image {
+		background-position: 50%;
+		background-size: cover;
+		width: 100%;
+		height: 100%;
+		transition: var(--transition-min);
+
+		&:hover { transform: scale(1.2); }
+
+		&.soon { background-image: url('https://via.placeholder.com/380x250?text=Coming+Soon'); }
+
+		&.item-1 { background-image: url('../images/content/item-1.webp'); }
+
+		&.item-2 { background-image: url('../images/content/item-2.webp'); }
+
+		&.item-3 { background-image: url('../images/content/item-3.webp'); }
+
+		&.item-4 { background-image: url('../images/content/item-4.webp'); }
+
+		&.item-5 { background-image: url('../images/content/item-5.webp'); }
+
+		&.item-6 { background-image: url('../images/content/item-6.webp'); }
+	}
+}
+// Portfolio
