@@ -248,10 +248,19 @@
 
 **Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/031/portfolio)
 
-### Day 32: September 31, 2021
+### Day 32: October 1, 2021
 
 **Today's Progress**: Optimized images & audio and code that's minified. Website is adapted for lighthouse, which cannot be said about small displays.
 
 **Thoughts**: I was writing code all day and didn't even notice how quickly time flew by, think developers know what it is. Neck and back hurts, by the way.
 
 **Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/032/portfolio)
+
+### Day 33: October 2, 2021
+
+**Today's Progress**: Added a new custom cursor and improved BEM methodology, also reduced the amount of code and it didn't hurt the quality of website.
+
+**Thoughts**: I think it's better for me to reduce time for writing code, and start working on myself as much time as possible for  healthy thinking.
+
+**Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/033/portfolio)
+
