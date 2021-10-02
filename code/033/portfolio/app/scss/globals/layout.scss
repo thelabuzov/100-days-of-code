@@ -1,0 +1,63 @@
+@use '../util' as *;
+
+.wrapper {
+	width: 100vh;
+	height: 100vw;
+	transform: rotate(-90deg) translateX(-100vh);
+	transform-origin: top left;
+	overflow-x: scroll;
+
+	&::-webkit-scrollbar { display: none; }
+
+	&__inner {
+		display: flex;
+		transform: rotate(90deg) translateY(-100vh);
+		transform-origin: top left;
+	} 
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	position: absolute;
+
+	&__hero {
+		position: relative;
+		bottom: rem(-28);
+	}
+
+	&__portfolio { max-width: rem(1140); }
+}
+
+.section__scroll { overflow: auto;
+
+	&::-webkit-scrollbar { display: none; }
+}
+
+.slide {
+	display: flex;
+	flex-direction: column;
+	background-image: url('../images/background.webp');
+	height: 100vh;
+
+	&.one {
+		align-items: center;
+		justify-content: center;
+	}
+
+	&.two {
+		align-items: flex-end;
+		background-image: none;
+		background-color: var(--light-gray);
+		box-shadow: rem(-140) rem(-40) rem(40) var(--dark-gray);
+		height: 200vh;
+	}
+
+	&::before {
+		content: '';
+		width: 100vw;
+		height: 100vh;
+		background-color: rgba(0, 0, 0, .6);
+	}
+}
