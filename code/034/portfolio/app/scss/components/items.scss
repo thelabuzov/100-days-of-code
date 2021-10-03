@@ -1,6 +1,6 @@
 @use '../util' as *;
 
-// Circle
+// Section
 svg {
 	position: absolute;
 	animation: rotation var(--transition-max) infinite linear;
@@ -34,8 +34,6 @@ text {
 
 	to { transform: rotate(360deg) }
 }
-
-// Circle
 
 // Portfolio
 .portfolio {
@@ -77,4 +75,3 @@ text {
 		&.item-6 { background-image: url('../images/content/item-6.webp') }
 	}
 }
-// Portfolio
