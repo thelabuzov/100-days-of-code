@@ -264,3 +264,10 @@
 
 **Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/033/portfolio)
 
+### Day 34: October 3, 2021
+
+**Today's Progress**: Tried to adapt website for small devices, I'm failed and he's broken. Optimized old code, it was necessary to be more attentive.
+
+**Thoughts**: Only salvation is a commit with a working website. It’s known to learn from mistakes, so there’s nothing wrong with that.
+
+**Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/034/portfolio)
