@@ -1,13 +1,12 @@
 @use '../util' as *;
 
 .wrapper {
-	width: 100vh;
-	height: 100vw;
 	transform: rotate(-90deg) translateX(-100vh);
 	transform-origin: top left;
 	overflow-x: scroll;
+	height: 100vw;
 
-	&::-webkit-scrollbar { display: none; }
+	&::-webkit-scrollbar { display: none }
 
 	&__inner {
 		display: flex;
@@ -27,12 +26,12 @@
 		bottom: rem(-28);
 	}
 
-	&__portfolio { max-width: rem(1140); }
+	&__portfolio { max-width: rem(1140) }
 }
 
-.section__scroll { overflow: auto;
+.section__scroll { overflow: scroll;
 
-	&::-webkit-scrollbar { display: none; }
+	&::-webkit-scrollbar { display: none }
 }
 
 .slide {

@@ -1,0 +1,41 @@
+@use '../util' as *;
+
+// Portfolio
+.portfolio {
+	display: flex;
+	flex-wrap: wrap;
+	height: 100vh;
+
+	&__link {
+		width: rem(380);
+		height: rem(250);
+		overflow: hidden;
+		flex-grow: 1;
+	}
+
+	&__image {
+		height: 100%;
+		background-size: cover;
+		background-position: 50%;
+		transition: var(--transition-min);
+
+		&:hover { transform: scale(1.2); }
+
+		&.soon {
+			cursor: url('../images/tools/unavailable.cur'), auto;
+			background-image: url('https://via.placeholder.com/380x250?text=Coming+Soon');
+		}
+
+		&.item-1 { background-image: url('../images/content/item-1.webp'); }
+
+		&.item-2 { background-image: url('../images/content/item-2.webp'); }
+
+		&.item-3 { background-image: url('../images/content/item-3.webp'); }
+
+		&.item-4 { background-image: url('../images/content/item-4.webp'); }
+
+		&.item-5 { background-image: url('../images/content/item-5.webp'); }
+
+		&.item-6 { background-image: url('../images/content/item-6.webp'); }
+	}
+}

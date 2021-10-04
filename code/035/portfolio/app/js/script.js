@@ -1,8 +1,8 @@
 // WinBox
 const about = document.querySelector('#about')
 const contact = document.querySelector('#contact')
-const aboutContent = document.querySelector('#content__about')
-const contactContent = document.querySelector('#content__contact')
+const aboutContent = document.querySelector('#about__content')
+const contactContent = document.querySelector('#contact__content')
 
 about.addEventListener('click', () => {
 	const aboutBox = new WinBox({
