@@ -271,3 +271,11 @@
 **Thoughts**: Only salvation is a commit with a working website. It’s known to learn from mistakes, so there’s nothing wrong with that.
 
 **Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/034/portfolio)
+
+### Day 35: October 4, 2021
+
+**Today's Progress**: Rolled back website to previous version, added custom cursor and changed scripts, added pseudo-elements instead of pictures & fix bugs.
+
+**Thoughts**: Motivate in challenge is that many people write code at the same time, this creates a working environment and you know that you're not alone.
+
+**Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/035/portfolio)
