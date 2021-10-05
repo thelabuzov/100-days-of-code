@@ -1,0 +1,151 @@
+@use '../util' as *;
+
+// Section
+.section {
+
+	&__title {
+		position: relative;
+		font-size: rem(150);
+		margin: rem(5) 0;
+		transform: translate(0%, 0%);
+		line-height: .8;
+
+		&:before, &:after {
+			content: 'codlipa';
+			position: absolute;
+			left: 0;
+			opacity: .8;
+		}
+		
+		&:after {
+			color: var(--cherry);
+			z-index: -2;
+		} 
+		
+		&:before {
+			color: var(--aqua);
+			z-index: -1;
+		}
+
+		&:hover {
+			&:before { animation: glitch var(--transition-min) cubic-bezier(.25, .46, .45, .94) infinite }
+
+			&:after { animation: glitch var(--transition-min) cubic-bezier(.25, .46, .45, .94) infinite reverse }
+		}
+	}
+
+	&__subtitle {
+		font-size: rem(46);
+		font-weight: 700;
+		margin-bottom: rem(55);
+		background-image: linear-gradient(var(--cherry), var(--aqua));
+		-webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;
+	}
+}
+
+@keyframes glitch {
+	0% { transform: translate(0) }
+
+	20% { transform: translate(rem(-5), rem(5)) }
+
+	40% { transform: translate(rem(-5), rem(-5)) }
+
+	60% { transform: translate(rem(5), rem(5)) }
+
+	80% { transform: translate(rem(5), rem(-5)) }
+
+	100% { transform: translate(0) }
+}
+
+// WinBox
+#about__content p:not(:last-child) {
+	margin: rem(25) 0;
+}
+
+.progress {
+
+	&__box {
+		min-width: 80%;
+
+		span {
+			display: inline-block;
+			font-size: rem(26);
+		}
+	}
+
+	&__bar,
+	&__bar span {
+		min-width: 100%;
+		border-radius: rem(10);
+	}
+
+	&__bar {
+		position: relative;
+		margin: rem(20) 0;
+		min-height: rem(20);
+		background-color: var(--light-gray);
+
+		span {
+			position: absolute;
+			min-height: 100%;
+			transform: scaleX(0);
+			transform-origin: left;
+			background-color: var(--aqua);
+			box-shadow: 0 0 rem(10) var(--aqua);
+			animation: progress var(--transition-min) forwards;
+		}
+
+		&.html span { min-width: 90% }
+
+		&.css span { min-width: 85% }
+
+		&.javascript span { min-width: 70% }
+		
+		&.tailwind span { min-width: 75% }
+
+		&.bootstrap span { min-width: 65% }
+
+		&.git span { min-width: 80% }
+	}
+}
+
+@keyframes progress {
+	100% { transform: scaleX(1) }
+}
+
+// Hero
+.hero {
+	display: flex;
+	align-items: flex-end;
+	position: relative;
+	height: 100vh;
+
+	&::before {
+		content: '';
+		position: relative;
+		left: rem(0);
+		bottom: rem(-37.5);
+		min-height: rem(392);
+		min-width: rem(738);
+		background: url('../images/console.webp') 50% / contain;
+	}
+
+	&::after {
+		content: '';
+		position: absolute;
+		left: 16.5%;
+		bottom: rem(250);
+		min-width: rem(500);
+		min-height: rem(425);
+		background-image: url('../images/avatar.webp');
+	}
+
+	iframe {
+		position: absolute;
+    	bottom: rem(41);
+    	right: rem(119);
+    	min-width: rem(500);
+    	min-height: rem(290);
+	}
+}
