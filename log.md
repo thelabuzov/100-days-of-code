@@ -279,3 +279,11 @@
 **Thoughts**: Motivate in challenge is that many people write code at the same time, this creates a working environment and you know that you're not alone.
 
 **Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/035/portfolio)
+
+### Day 36: October 5, 2021
+
+**Today's Progress**: Created a progress bar with my skills and added an iframe with a video game inside the website. Decorated the links by adding neon lights.
+
+**Thoughts**: I really miss the times when there was a lot of time to write code, and now I am simultaneously studying in college and now time is short.
+
+**Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/036/portfolio)
