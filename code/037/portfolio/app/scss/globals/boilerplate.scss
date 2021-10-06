@@ -42,7 +42,7 @@ body {
 		content: '';
 		width: rem(600);
 		height: rem(335);
-		background-image: url('../images/loading.webp');
+		background: url('../images/loading.webp') no-repeat 50% / contain;
 	}
 }
 

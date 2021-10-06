@@ -1,32 +1,39 @@
 @use '../util' as *;
 
 .wrapper {
-	transform: rotate(-90deg) translateX(-100vh);
-	transform-origin: top left;
-	overflow-x: scroll;
 	height: 100vw;
 
-	&::-webkit-scrollbar { display: none }
-
-	&__inner {
-		display: flex;
-		transform: rotate(90deg) translateY(-100vh);
+	@include breakpoint(medium) {
+		transform: rotate(-90deg) translateX(-100vh);
 		transform-origin: top left;
-	} 
+		overflow-x: scroll;
+
+		&::-webkit-scrollbar { display: none }
+
+		&__inner {
+			display: flex;
+			transform: rotate(90deg) translateY(-100vh);
+			transform-origin: top left;
+		} 
+	}
 }
 
 .container {
 	display: flex;
-	align-items: center;
+	flex-direction: column;
 	justify-content: space-evenly;
 	position: absolute;
+	min-width: 100%;
+	overflow: hidden;
 
-	&__hero {
-		position: relative;
-		bottom: rem(-28);
+	@include breakpoint(medium) {
+		flex-direction: row;
+		align-items: center;
 	}
 
-	&__portfolio { max-width: rem(1140) }
+	&__portfolio {
+		@include breakpoint(medium) { max-width: rem(1140) }
+	}
 }
 
 .section__scroll { overflow: scroll;
@@ -59,4 +66,9 @@
 		height: 100vh;
 		background-color: rgba(0, 0, 0, .6);
 	}
+}
+
+.hidden {
+	position: relative;
+	left: -100%;
 }
