@@ -1,0 +1,42 @@
+@use '../util' as *;
+
+// Portfolio
+.portfolio {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+
+	@include breakpoint(large) { max-height: 100vh }
+
+	&__link {
+		min-width: rem(380);
+		min-height: rem(250);
+		overflow: hidden;
+		flex-grow: 1;
+	}
+
+	&__image {
+		min-height: 100%;
+		background: 50% / cover;
+		transition: var(--transition-min);
+
+		&:hover { transform: scale(1.2) }
+
+		&.soon {
+			cursor: url('../images/tools/unavailable.cur'), auto;
+			background-image: url('https://via.placeholder.com/380x250?text=Coming+Soon');
+		}
+
+		&.item-1 { background-image: url('../images/content/item-1.webp') }
+
+		&.item-2 { background-image: url('../images/content/item-2.webp') }
+
+		&.item-3 { background-image: url('../images/content/item-3.webp') }
+
+		&.item-4 { background-image: url('../images/content/item-4.webp') }
+
+		&.item-5 { background-image: url('../images/content/item-5.webp') }
+
+		&.item-6 { background-image: url('../images/content/item-6.webp') }
+	}
+}
