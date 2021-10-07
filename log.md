@@ -287,3 +287,11 @@
 **Thoughts**: I really miss the times when there was a lot of time to write code, and now I am simultaneously studying in college and now time is short.
 
 **Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/036/portfolio)
+
+### Day 37: October 6, 2021
+
+**Today's Progress**: I did what I thought was impossible. It was possible to adapt the site only with a 10 hour marathon of coding, there was a lot of work.
+
+**Thoughts**: For the first time I had to write code late and it's great, especially nice when everything went well. There is very little left.
+
+**Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/037/portfolio)
