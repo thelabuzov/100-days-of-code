@@ -290,9 +290,9 @@
 
 ### Day 37: October 6, 2021
 
-**Today's Progress**: 
+**Today's Progress**: After a week I have adapted 50% of portfolio website. Whole day was spent on fixing errors related to the adaptability of the project.
 
-**Thoughts**: 
+**Thoughts**: I finally coped with the task of the adaptive and I have very little left to complete it. Severe fatigue made me stop coding in time.
 
 **Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/037/portfolio)
 
@@ -303,3 +303,11 @@
 **Thoughts**: I can't believe that this day has come, I have been going for this for so long. Website has been in beta for about six months and it was incomplete.
 
 **Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/038/portfolio)
+
+### Day 39: October 8, 2021
+
+**Today's Progress**: Today I fixed bugs on my portfolio website and adapted it for tablets. Added several new design solutions for the best user experience.
+
+**Thoughts**: I hope that creating an online store will not be as difficult as updating my site and promise that tomorrow will be the last for it.
+
+**Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/039/portfolio)
