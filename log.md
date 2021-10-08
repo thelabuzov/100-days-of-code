@@ -290,8 +290,16 @@
 
 ### Day 37: October 6, 2021
 
-**Today's Progress**: I did what I thought was impossible. It was possible to adapt the site only with a 10 hour marathon of coding, there was a lot of work.
+**Today's Progress**: 
 
-**Thoughts**: For the first time I had to write code late and it's great, especially nice when everything went well. There is very little left.
+**Thoughts**: 
 
 **Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/037/portfolio)
+
+### Day 38: October 7, 2021
+
+**Today's Progress**: After a week of hardcore coding, the responsive portfolio website is complete. In the future, I plan to refine it for the best result.
+
+**Thoughts**: I can't believe that this day has come, I have been going for this for so long. Website has been in beta for about six months and it was incomplete.
+
+**Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/038/portfolio)
