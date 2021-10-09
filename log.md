@@ -311,3 +311,11 @@
 **Thoughts**: I hope that creating an online store will not be as difficult as updating my site and promise that tomorrow will be the last for it.
 
 **Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/039/portfolio)
+
+### Day 40: October 9, 2021
+
+**Today's Progress**: Studied a Pixel-Art and refined a couple of projects in Codepen. Learned many properties for animation in CSS and used for pen's.
+
+**Thoughts**: I like the possibilities that programming opens up to us, literally you can create anything, but important to have time and desire.
+
+**Link(s) to work**: [CodePen](https://codepen.io/codlipa/full/jOLOPoL)
