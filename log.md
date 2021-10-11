@@ -321,3 +321,13 @@
 **Link(s) to work**:
 1. [Portfolio](http://codlipa.github.io/100-days-of-code/code/040/portfolio)
 2. [CodePen](https://codepen.io/codlipa/full/jOLOPoL)
+
+### Day 41: October 10, 2021
+
+**Today's Progress**: Created a contact form for a personal website using HTML, CSS and PHP but POST requests on free hostings don't work.
+
+**Thoughts**: When I'm bored I can draw Pixel-Arts, for example today I created Shrek. I like Vercel and I'm looking forward to a conference on Next.js.
+
+**Link(s) to work**:
+1. [Codlipa](https://codlipa.vercel.app)
+2. [CodePen](https://codepen.io/codlipa/pen/ZEJEJmW)
