@@ -331,3 +331,11 @@
 **Link(s) to work**:
 1. [Codlipa](https://codlipa.vercel.app)
 2. [CodePen](https://codepen.io/codlipa/pen/ZEJEJmW)
+
+### Day 42: October 11, 2021
+
+**Today's Progress**: Today I created Vertical-Timeline section in second slide to display my history of becoming a FrontEnd Developer.
+
+**Thoughts**: I realized that you can't finish a site for good, there will be edits. Think I will change my personal website forever, but this is norm.
+
+**Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/042/portfolio)
