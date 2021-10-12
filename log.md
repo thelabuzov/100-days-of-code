@@ -339,3 +339,11 @@
 **Thoughts**: I realized that you can't finish a site for good, there will be edits. Think I will change my personal website forever, but this is norm.
 
 **Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/042/portfolio)
+
+### Day 43: October 12, 2021
+
+**Today's Progress**: Fixing my old code & optimize it took me about 6 hours. I found a design of a new project for my portfolio.
+
+**Thoughts**: Very soon I will complete my portfolio website & start creating something new. It's time to gain knowledge & experience.
+
+**Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/043/portfolio)
