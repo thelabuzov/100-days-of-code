@@ -72,7 +72,7 @@
 .portfolio {
 	display: flex;
 	flex-wrap: wrap;
-	align-content: flex-start;
+	align-content: start;
 
 	&__image, .soon {
 		background: no-repeat 50% / cover;

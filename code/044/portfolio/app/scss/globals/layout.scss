@@ -47,7 +47,7 @@
 	}
 
 	&.two {
-		align-items: flex-end;
+		align-items: end;
 		background-image: none;
 		background-color: var(--light-gray);
 
@@ -74,7 +74,10 @@
 		flex-direction: row;
 		align-items: center;
 
-		&__portfolio { justify-content: flex-end }
+		&__portfolio {
+			justify-content: end;
+			align-items: start;
+		}
 	}
 }
 
