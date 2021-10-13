@@ -18,8 +18,9 @@ body {
 	font-family: var(--font-body);
 	color: var(--white);
 	line-height: 1.3;
-	overflow: hidden;
 	cursor: url('../images/tools/normal.cur'), auto;
+
+	@include breakpoint(medium) { overflow: hidden }
 }
 
 .wb-body {
