@@ -360,4 +360,4 @@
 
 **Today's Progress**: I practiced development skills and was looking for the design of an online store, in general today was an unproductive day.
 
-**Thoughts**: I didn’t think that the autumn aggravation would affect my productivity so much. I think it’s worth getting motivated, be better tomorrow.
+**Thoughts**: I didn’t think that the autumn aggravation would affect my productivity so much, think it’s worth getting motivated.
