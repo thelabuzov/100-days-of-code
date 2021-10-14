@@ -355,3 +355,9 @@
 **Thoughts**: I'm finally completed development of my personal site and this is great, tomorrow I will finally start developing something new.
 
 **Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/044/portfolio)
+
+### Day 45: October 14, 2021
+
+**Today's Progress**: I practiced development skills and was looking for the design of an online store, in general today was an unproductive day.
+
+**Thoughts**: I didn’t think that the autumn aggravation would affect my productivity so much. I think it’s worth getting motivated, be better tomorrow.
