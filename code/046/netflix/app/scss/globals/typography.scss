@@ -1,0 +1,23 @@
+@use '../util' as *;
+
+h1,
+h2,
+h3 {
+	margin: 0;
+	line-height: 1.1;
+}
+
+a,
+a:visited,
+a:active,
+select {
+	text-decoration: none;
+	color: var(--white);
+}
+
+input,
+button {
+    border-width: 0;
+	padding: rem(20) 0;
+	font-size: rem(25);
+}

@@ -1,0 +1,35 @@
+@use '../util' as *;
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: rem(25) rem(50);
+
+    &__logo {
+        max-width: rem(200);
+        height: rem(50);
+        fill: var(--red);
+    }
+
+    &__select,
+    &__login {
+        border-radius: rem(2.5);
+        font-weight: 700;
+    }
+
+    &__select {
+        border: rem(1.5) solid var(--white);
+        background-color: transparent;
+        padding: rem(7.5) rem(12.5);
+
+        option {
+            background-color: var(--gray);
+        }
+    }
+
+    &__login {
+        background-color: var(--red);
+        padding: rem(8.5) rem(17.5);
+        margin-left: rem(25);
+    }
+}

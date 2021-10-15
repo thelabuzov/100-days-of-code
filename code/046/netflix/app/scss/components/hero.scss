@@ -1,0 +1,37 @@
+@use '../util' as *;
+
+.hero {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    &__title {
+        font-size: rem(65);
+    }
+
+    &__subtitle {
+        font-size: rem(25);
+    }
+
+    &__paragraph {
+        font-size: rem(18);
+    }
+
+    &__form {
+        padding: 0 rem(18.5);
+
+        input {
+            min-width: rem(500);
+            padding-left: rem(7.5);
+        }
+    
+        button {
+            padding-right: rem(50);
+            padding-left: rem(20);
+            background-color: var(--red);
+            color: var(--white);
+        }
+    }
+}
