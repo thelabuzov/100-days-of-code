@@ -329,7 +329,7 @@
 **Thoughts**: When I'm bored I can draw Pixel-Arts, for example today I created Shrek. I like Vercel and I'm looking forward to a conference on Next.js.
 
 **Link(s) to work**:
-1. [Codlipa](https://codlipa.vercel.app)
+1. [Portfolio](http://codlipa.github.io/100-days-of-code/code/040/portfolio)
 2. [CodePen](https://codepen.io/codlipa/pen/ZEJEJmW)
 
 ### Day 42: October 11, 2021
@@ -347,3 +347,17 @@
 **Thoughts**: Very soon I will complete my portfolio website & start creating something new. It's time to gain knowledge & experience.
 
 **Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/043/portfolio)
+
+### Day 44: October 13, 2021
+
+**Today's Progress**: Adapted the vertical timeline and added text with my history as a FrontEnd Developer, also optimized source code & media.
+
+**Thoughts**: I'm finally completed development of my personal site and this is great, tomorrow I will finally start developing something new.
+
+**Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/044/portfolio)
+
+### Day 45: October 14, 2021
+
+**Today's Progress**: I practiced development skills and was looking for the design of an online store, in general today was an unproductive day.
+
+**Thoughts**: I didn’t think that the autumn aggravation would affect my productivity so much, think it’s worth getting motivated.
