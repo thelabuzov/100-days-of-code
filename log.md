@@ -361,3 +361,11 @@
 **Today's Progress**: I practiced development skills and was looking for the design of an online store, in general today was an unproductive day.
 
 **Thoughts**: I didn’t think that the autumn aggravation would affect my productivity so much, think it’s worth getting motivated.
+
+### Day 46: October 15, 2021
+
+**Today's Progress**: Created a header and hero section for a Netflix Clone, also optimized images for personal website and learned how to clone.
+
+**Thoughts**: Today I was coding until late again and I think it’s time to create a sleep pattern because I’m drowsy in the morning.
+
+**Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/046/netflix)
