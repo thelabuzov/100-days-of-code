@@ -368,4 +368,12 @@
 
 **Thoughts**: Today I was coding until late again and I think it’s time to create a sleep pattern because I’m drowsy in the morning.
 
-**Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/046/netflix)
+**Link(s) to work**: [Netflix](http://codlipa.github.io/100-days-of-code/code/046/netflix)
+
+### Day 47: October 16, 2021
+
+**Today's Progress**: Rewrote previous unfinished code from Vanilla CSS to Tailwind CSS framework, created a couple of sections and optimized them.
+
+**Thoughts**: I really enjoyed writing code with a Tailwind CSS, because there are plenty of utilities for me to create websites. It's fast and clean.
+
+**Link(s) to work**: [Netflix](http://codlipa.github.io/100-days-of-code/code/047/netflix)
