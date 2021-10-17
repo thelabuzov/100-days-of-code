@@ -1,7 +1,7 @@
 {
   "scripts": {
     "build": "tailwindcss build -i src/css/style.css -o build/css/style.css",
-    "prod": "NODE_ENV=production postcss build src/css/style.css -o build/css/style.css",
+    "prod": "NODE_ENV=production npx tailwindcss -i src/css/style.css -o build/css/style.css --minify",
     "watch": "onchange \"tailwind.config.js\" \"src/**/*.css\" -- npm run build"
   },
   "dependencies": {
