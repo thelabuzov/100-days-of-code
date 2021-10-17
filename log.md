@@ -6,7 +6,7 @@
 
 **Thoughts**: Because of long breaks, I forgot basics of layout and making up for lost time believe in myself.
 
-**Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/001/index.html)
+**Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/001/easybank)
 
 ### Day 2: August 20, 2021
 
@@ -14,7 +14,7 @@
 
 **Thoughts**: Today internet was cut off sharply, so there is not mush code.
 
-**Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/002/index.html)
+**Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/002/easybank)
 
 ### Day 3: August 21, 2021
 
@@ -22,7 +22,7 @@
 
 **Thoughts**: Didn't expect programming on weekends to be so difficult, especially when distracted.
 
-**Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/003/index.html)
+**Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/003/easybank)
 
 ### Day 4: August 22, 2021
 
@@ -30,7 +30,7 @@
 
 **Thoughts**: On border of deadline, I managed to do what I wanted. Next time I will prioritize correctly.
 
-**Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/004/index.html)
+**Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/004/easybank)
 
 ### Day 5: August 23, 2021
 
@@ -38,7 +38,7 @@
 
 **Thoughts**: These notes remind me of a Rorschach diary, I am full of energy and it’s not so hard for me anymore.
 
-**Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/005/index.html)
+**Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/005/easybank)
 
 ### Day 6: August 24, 2021
 
@@ -46,7 +46,7 @@
 
 **Thoughts**: These notes remind me of a Rorschach diary, it makes learning to program even more fun.
 
-**Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/006/index.html)
+**Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/006/easybank)
 
 ### Day 7: August 25, 2021
 
@@ -54,7 +54,7 @@
 
 **Thoughts**: I have deveoped my daily work schedule and hope after that I will be more productive.
 
-**Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/007/index.html)
+**Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/007/easybank)
 
 ### Day 8: August 26, 2021
 
@@ -62,7 +62,7 @@
 
 **Thoughts**: My previous record was a week and now I am moving forward with renewed vigor.
 
-**Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/008/index.html)
+**Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/008/easybank)
 
 ### Day 9: August 27, 2021
 
@@ -70,7 +70,7 @@
 
 **Thoughts**: Now I realized that I need to code every day so as not to give up and not forget anything.
 
-**Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/009/index.html)
+**Link(s) to work**: [Easybank](https://codlipa.github.io/100-days-of-code/code/009/easybank)
 
 ### Day 10: August 28, 2021
 
