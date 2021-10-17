@@ -377,3 +377,11 @@
 **Thoughts**: I really enjoyed writing code with a Tailwind CSS, because there are plenty of utilities for me to create websites. It's fast and clean.
 
 **Link(s) to work**: [Netflix](http://codlipa.github.io/100-days-of-code/code/047/netflix)
+
+### Day 48: October 17, 2021
+
+**Today's Progress**: Developed the main sections and positioned media files. 4 hours of coding went great except for a couple of silly bugs.
+
+**Thoughts**: More code, more questions. How to create pseudo-element and minify code unknown. I spent the day productively, I'm happy with myself.
+
+**Link(s) to work**: [Netflix](http://codlipa.github.io/100-days-of-code/code/048/netflix)
