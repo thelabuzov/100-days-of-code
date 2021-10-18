@@ -22,7 +22,7 @@ module.exports = {
       },
       inset: {
         'tv': '4.5rem',
-        'pc': '5.3rem'
+        'pc': '6.3rem'
       },
       zIndex: {
         '-10': '-10',

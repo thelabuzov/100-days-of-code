@@ -1329,10 +1329,10 @@ video {
 }
 
 .inset-pc {
-  top: 5.3rem;
-  right: 5.3rem;
-  bottom: 5.3rem;
-  left: 5.3rem;
+  top: 6.3rem;
+  right: 6.3rem;
+  bottom: 6.3rem;
+  left: 6.3rem;
 }
 
 .inset-x-0 {
@@ -1766,8 +1766,8 @@ video {
 }
 
 .inset-x-pc {
-  left: 5.3rem;
-  right: 5.3rem;
+  left: 6.3rem;
+  right: 6.3rem;
 }
 
 .inset-y-0 {
@@ -2201,8 +2201,8 @@ video {
 }
 
 .inset-y-pc {
-  top: 5.3rem;
-  bottom: 5.3rem;
+  top: 6.3rem;
+  bottom: 6.3rem;
 }
 
 .top-0 {
@@ -2550,7 +2550,7 @@ video {
 }
 
 .top-pc {
-  top: 5.3rem;
+  top: 6.3rem;
 }
 
 .right-0 {
@@ -2898,7 +2898,7 @@ video {
 }
 
 .right-pc {
-  right: 5.3rem;
+  right: 6.3rem;
 }
 
 .bottom-0 {
@@ -3246,7 +3246,7 @@ video {
 }
 
 .bottom-pc {
-  bottom: 5.3rem;
+  bottom: 6.3rem;
 }
 
 .left-0 {
@@ -3594,7 +3594,7 @@ video {
 }
 
 .left-pc {
-  left: 5.3rem;
+  left: 6.3rem;
 }
 
 .isolate {
@@ -32945,10 +32945,10 @@ video {
   }
 
   .sm\:inset-pc {
-    top: 5.3rem;
-    right: 5.3rem;
-    bottom: 5.3rem;
-    left: 5.3rem;
+    top: 6.3rem;
+    right: 6.3rem;
+    bottom: 6.3rem;
+    left: 6.3rem;
   }
 
   .sm\:inset-x-0 {
@@ -33382,8 +33382,8 @@ video {
   }
 
   .sm\:inset-x-pc {
-    left: 5.3rem;
-    right: 5.3rem;
+    left: 6.3rem;
+    right: 6.3rem;
   }
 
   .sm\:inset-y-0 {
@@ -33817,8 +33817,8 @@ video {
   }
 
   .sm\:inset-y-pc {
-    top: 5.3rem;
-    bottom: 5.3rem;
+    top: 6.3rem;
+    bottom: 6.3rem;
   }
 
   .sm\:top-0 {
@@ -34166,7 +34166,7 @@ video {
   }
 
   .sm\:top-pc {
-    top: 5.3rem;
+    top: 6.3rem;
   }
 
   .sm\:right-0 {
@@ -34514,7 +34514,7 @@ video {
   }
 
   .sm\:right-pc {
-    right: 5.3rem;
+    right: 6.3rem;
   }
 
   .sm\:bottom-0 {
@@ -34862,7 +34862,7 @@ video {
   }
 
   .sm\:bottom-pc {
-    bottom: 5.3rem;
+    bottom: 6.3rem;
   }
 
   .sm\:left-0 {
@@ -35210,7 +35210,7 @@ video {
   }
 
   .sm\:left-pc {
-    left: 5.3rem;
+    left: 6.3rem;
   }
 
   .sm\:isolate {
@@ -64143,10 +64143,10 @@ video {
   }
 
   .md\:inset-pc {
-    top: 5.3rem;
-    right: 5.3rem;
-    bottom: 5.3rem;
-    left: 5.3rem;
+    top: 6.3rem;
+    right: 6.3rem;
+    bottom: 6.3rem;
+    left: 6.3rem;
   }
 
   .md\:inset-x-0 {
@@ -64580,8 +64580,8 @@ video {
   }
 
   .md\:inset-x-pc {
-    left: 5.3rem;
-    right: 5.3rem;
+    left: 6.3rem;
+    right: 6.3rem;
   }
 
   .md\:inset-y-0 {
@@ -65015,8 +65015,8 @@ video {
   }
 
   .md\:inset-y-pc {
-    top: 5.3rem;
-    bottom: 5.3rem;
+    top: 6.3rem;
+    bottom: 6.3rem;
   }
 
   .md\:top-0 {
@@ -65364,7 +65364,7 @@ video {
   }
 
   .md\:top-pc {
-    top: 5.3rem;
+    top: 6.3rem;
   }
 
   .md\:right-0 {
@@ -65712,7 +65712,7 @@ video {
   }
 
   .md\:right-pc {
-    right: 5.3rem;
+    right: 6.3rem;
   }
 
   .md\:bottom-0 {
@@ -66060,7 +66060,7 @@ video {
   }
 
   .md\:bottom-pc {
-    bottom: 5.3rem;
+    bottom: 6.3rem;
   }
 
   .md\:left-0 {
@@ -66408,7 +66408,7 @@ video {
   }
 
   .md\:left-pc {
-    left: 5.3rem;
+    left: 6.3rem;
   }
 
   .md\:isolate {
@@ -95341,10 +95341,10 @@ video {
   }
 
   .lg\:inset-pc {
-    top: 5.3rem;
-    right: 5.3rem;
-    bottom: 5.3rem;
-    left: 5.3rem;
+    top: 6.3rem;
+    right: 6.3rem;
+    bottom: 6.3rem;
+    left: 6.3rem;
   }
 
   .lg\:inset-x-0 {
@@ -95778,8 +95778,8 @@ video {
   }
 
   .lg\:inset-x-pc {
-    left: 5.3rem;
-    right: 5.3rem;
+    left: 6.3rem;
+    right: 6.3rem;
   }
 
   .lg\:inset-y-0 {
@@ -96213,8 +96213,8 @@ video {
   }
 
   .lg\:inset-y-pc {
-    top: 5.3rem;
-    bottom: 5.3rem;
+    top: 6.3rem;
+    bottom: 6.3rem;
   }
 
   .lg\:top-0 {
@@ -96562,7 +96562,7 @@ video {
   }
 
   .lg\:top-pc {
-    top: 5.3rem;
+    top: 6.3rem;
   }
 
   .lg\:right-0 {
@@ -96910,7 +96910,7 @@ video {
   }
 
   .lg\:right-pc {
-    right: 5.3rem;
+    right: 6.3rem;
   }
 
   .lg\:bottom-0 {
@@ -97258,7 +97258,7 @@ video {
   }
 
   .lg\:bottom-pc {
-    bottom: 5.3rem;
+    bottom: 6.3rem;
   }
 
   .lg\:left-0 {
@@ -97606,7 +97606,7 @@ video {
   }
 
   .lg\:left-pc {
-    left: 5.3rem;
+    left: 6.3rem;
   }
 
   .lg\:isolate {
@@ -126539,10 +126539,10 @@ video {
   }
 
   .xl\:inset-pc {
-    top: 5.3rem;
-    right: 5.3rem;
-    bottom: 5.3rem;
-    left: 5.3rem;
+    top: 6.3rem;
+    right: 6.3rem;
+    bottom: 6.3rem;
+    left: 6.3rem;
   }
 
   .xl\:inset-x-0 {
@@ -126976,8 +126976,8 @@ video {
   }
 
   .xl\:inset-x-pc {
-    left: 5.3rem;
-    right: 5.3rem;
+    left: 6.3rem;
+    right: 6.3rem;
   }
 
   .xl\:inset-y-0 {
@@ -127411,8 +127411,8 @@ video {
   }
 
   .xl\:inset-y-pc {
-    top: 5.3rem;
-    bottom: 5.3rem;
+    top: 6.3rem;
+    bottom: 6.3rem;
   }
 
   .xl\:top-0 {
@@ -127760,7 +127760,7 @@ video {
   }
 
   .xl\:top-pc {
-    top: 5.3rem;
+    top: 6.3rem;
   }
 
   .xl\:right-0 {
@@ -128108,7 +128108,7 @@ video {
   }
 
   .xl\:right-pc {
-    right: 5.3rem;
+    right: 6.3rem;
   }
 
   .xl\:bottom-0 {
@@ -128456,7 +128456,7 @@ video {
   }
 
   .xl\:bottom-pc {
-    bottom: 5.3rem;
+    bottom: 6.3rem;
   }
 
   .xl\:left-0 {
@@ -128804,7 +128804,7 @@ video {
   }
 
   .xl\:left-pc {
-    left: 5.3rem;
+    left: 6.3rem;
   }
 
   .xl\:isolate {
@@ -157737,10 +157737,10 @@ video {
   }
 
   .\32xl\:inset-pc {
-    top: 5.3rem;
-    right: 5.3rem;
-    bottom: 5.3rem;
-    left: 5.3rem;
+    top: 6.3rem;
+    right: 6.3rem;
+    bottom: 6.3rem;
+    left: 6.3rem;
   }
 
   .\32xl\:inset-x-0 {
@@ -158174,8 +158174,8 @@ video {
   }
 
   .\32xl\:inset-x-pc {
-    left: 5.3rem;
-    right: 5.3rem;
+    left: 6.3rem;
+    right: 6.3rem;
   }
 
   .\32xl\:inset-y-0 {
@@ -158609,8 +158609,8 @@ video {
   }
 
   .\32xl\:inset-y-pc {
-    top: 5.3rem;
-    bottom: 5.3rem;
+    top: 6.3rem;
+    bottom: 6.3rem;
   }
 
   .\32xl\:top-0 {
@@ -158958,7 +158958,7 @@ video {
   }
 
   .\32xl\:top-pc {
-    top: 5.3rem;
+    top: 6.3rem;
   }
 
   .\32xl\:right-0 {
@@ -159306,7 +159306,7 @@ video {
   }
 
   .\32xl\:right-pc {
-    right: 5.3rem;
+    right: 6.3rem;
   }
 
   .\32xl\:bottom-0 {
@@ -159654,7 +159654,7 @@ video {
   }
 
   .\32xl\:bottom-pc {
-    bottom: 5.3rem;
+    bottom: 6.3rem;
   }
 
   .\32xl\:left-0 {
@@ -160002,7 +160002,7 @@ video {
   }
 
   .\32xl\:left-pc {
-    left: 5.3rem;
+    left: 6.3rem;
   }
 
   .\32xl\:isolate {
