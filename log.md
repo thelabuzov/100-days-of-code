@@ -388,8 +388,8 @@
 
 ### Day 49: October 18, 2021
 
-**Today's Progress**: Developed the main sections and positioned media files. 4 hours of coding went great except for a couple of silly bugs.
+**Today's Progress**:
 
-**Thoughts**: More code, more questions. How to create pseudo-element and minify code unknown. I spent the day productively, I'm happy with myself.
+**Thoughts**:
 
 **Link(s) to work**: [Netflix](https://codlipa.github.io/100-days-of-code/code/049/netflix/build)
