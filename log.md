@@ -388,8 +388,8 @@
 
 ### Day 49: October 18, 2021
 
-**Today's Progress**:
+**Today's Progress**: Managed to adapt sections for Netflix Clone, I also tried to optimize the HTML code and get rid of duplicate CSS utilites.
 
-**Thoughts**:
+**Thoughts**: I'm glad that I managed to finish adapt Netflix Clone sections & will be able to attend event from Apple, hope it will be interesting.
 
 **Link(s) to work**: [Netflix](https://codlipa.github.io/100-days-of-code/code/049/netflix/build)
