@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "build": "tailwindcss build -i src/css/style.css -o build/css/style.css",
+    "prod": "NODE_ENV=production npx tailwindcss -i src/css/style.css -o build/css/style.css --minify",
+    "watch": "onchange \"tailwind.config.js\" \"src/**/*.css\" -- npm run build"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.3.1",
+    "cssnano": "^5.0.7",
+    "onchange": "^7.1.0",
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.7",
+    "win-node-env": "^0.4.0"
+  }
+}
