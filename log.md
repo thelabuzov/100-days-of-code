@@ -238,7 +238,7 @@
 
 **Thoughts**: Hardest job of all time lies ahead - this is original portfolio site, but hope I can do it. It will be updated when to improve skills.
 
-**Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/030/portfolio)
+**Link(s) to work**: [Portfolio](https://codlipa.github.io/100-days-of-code/code/030/portfolio)
 
 ### Day 31: September 30, 2021
 
@@ -246,7 +246,7 @@
 
 **Thoughts**: Even more problems appeared while fixing old bugs. These changes are for better, but there is a lot of work to be done.
 
-**Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/031/portfolio)
+**Link(s) to work**: [Portfolio](https://codlipa.github.io/100-days-of-code/code/031/portfolio)
 
 ### Day 32: October 1, 2021
 
@@ -254,7 +254,7 @@
 
 **Thoughts**: I was writing code all day and didn't even notice how quickly time flew by, think developers know what it is. Neck and back hurts, by the way.
 
-**Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/032/portfolio)
+**Link(s) to work**: [Portfolio](https://codlipa.github.io/100-days-of-code/code/032/portfolio)
 
 ### Day 33: October 2, 2021
 
@@ -262,7 +262,7 @@
 
 **Thoughts**: I think it's better for me to reduce time for writing code, and start working on myself as much time as possible for  healthy thinking.
 
-**Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/033/portfolio)
+**Link(s) to work**: [Portfolio](https://codlipa.github.io/100-days-of-code/code/033/portfolio)
 
 ### Day 34: October 3, 2021
 
@@ -270,7 +270,7 @@
 
 **Thoughts**: Only salvation is a commit with a working website. It’s known to learn from mistakes, so there’s nothing wrong with that.
 
-**Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/034/portfolio)
+**Link(s) to work**: [Portfolio](https://codlipa.github.io/100-days-of-code/code/034/portfolio)
 
 ### Day 35: October 4, 2021
 
@@ -278,7 +278,7 @@
 
 **Thoughts**: Motivate in challenge is that many people write code at the same time, this creates a working environment and you know that you're not alone.
 
-**Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/035/portfolio)
+**Link(s) to work**: [Portfolio](https://codlipa.github.io/100-days-of-code/code/035/portfolio)
 
 ### Day 36: October 5, 2021
 
@@ -286,7 +286,7 @@
 
 **Thoughts**: I really miss the times when there was a lot of time to write code, and now I am simultaneously studying in college and now time is short.
 
-**Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/036/portfolio)
+**Link(s) to work**: [Portfolio](https://codlipa.github.io/100-days-of-code/code/036/portfolio)
 
 ### Day 37: October 6, 2021
 
@@ -294,7 +294,7 @@
 
 **Thoughts**: I finally coped with the task of the adaptive and I have very little left to complete it. Severe fatigue made me stop coding in time.
 
-**Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/037/portfolio)
+**Link(s) to work**: [Portfolio](https://codlipa.github.io/100-days-of-code/code/037/portfolio)
 
 ### Day 38: October 7, 2021
 
@@ -302,7 +302,7 @@
 
 **Thoughts**: I can't believe that this day has come, I have been going for this for so long. Website has been in beta for about six months and it was incomplete.
 
-**Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/038/portfolio)
+**Link(s) to work**: [Portfolio](https://codlipa.github.io/100-days-of-code/code/038/portfolio)
 
 ### Day 39: October 8, 2021
 
@@ -310,7 +310,7 @@
 
 **Thoughts**: I hope that creating an online store will not be as difficult as updating my site and promise that tomorrow will be the last for it.
 
-**Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/039/portfolio)
+**Link(s) to work**: [Portfolio](https://codlipa.github.io/100-days-of-code/code/039/portfolio)
 
 ### Day 40: October 9, 2021
 
@@ -319,7 +319,7 @@
 **Thoughts**: I like the possibilities that programming opens up to us, literally you can create anything, but important to have time and desire.
 
 **Link(s) to work**:
-1. [Portfolio](http://codlipa.github.io/100-days-of-code/code/040/portfolio)
+1. [Portfolio](https://codlipa.github.io/100-days-of-code/code/040/portfolio)
 2. [CodePen](https://codepen.io/codlipa/full/jOLOPoL)
 
 ### Day 41: October 10, 2021
@@ -329,7 +329,7 @@
 **Thoughts**: When I'm bored I can draw Pixel-Arts, for example today I created Shrek. I like Vercel and I'm looking forward to a conference on Next.js.
 
 **Link(s) to work**:
-1. [Portfolio](http://codlipa.github.io/100-days-of-code/code/040/portfolio)
+1. [Portfolio](https://codlipa.github.io/100-days-of-code/code/040/portfolio)
 2. [CodePen](https://codepen.io/codlipa/pen/ZEJEJmW)
 
 ### Day 42: October 11, 2021
@@ -346,7 +346,7 @@
 
 **Thoughts**: Very soon I will complete my portfolio website & start creating something new. It's time to gain knowledge & experience.
 
-**Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/043/portfolio)
+**Link(s) to work**: [Portfolio](https://codlipa.github.io/100-days-of-code/code/043/portfolio)
 
 ### Day 44: October 13, 2021
 
@@ -354,7 +354,7 @@
 
 **Thoughts**: I'm finally completed development of my personal site and this is great, tomorrow I will finally start developing something new.
 
-**Link(s) to work**: [Portfolio](http://codlipa.github.io/100-days-of-code/code/044/portfolio)
+**Link(s) to work**: [Portfolio](https://codlipa.github.io/100-days-of-code/code/044/portfolio)
 
 ### Day 45: October 14, 2021
 
@@ -368,7 +368,7 @@
 
 **Thoughts**: Today I was coding until late again and I think it’s time to create a sleep pattern because I’m drowsy in the morning.
 
-**Link(s) to work**: [Netflix](http://codlipa.github.io/100-days-of-code/code/046/netflix)
+**Link(s) to work**: [Netflix](https://codlipa.github.io/100-days-of-code/code/046/netflix)
 
 ### Day 47: October 16, 2021
 
@@ -376,7 +376,7 @@
 
 **Thoughts**: I really enjoyed writing code with a Tailwind CSS, because there are plenty of utilities for me to create websites. It's fast and clean.
 
-**Link(s) to work**: [Netflix](http://codlipa.github.io/100-days-of-code/code/047/netflix)
+**Link(s) to work**: [Netflix](https://codlipa.github.io/100-days-of-code/code/047/netflix/build)
 
 ### Day 48: October 17, 2021
 
@@ -384,4 +384,12 @@
 
 **Thoughts**: More code, more questions. How to create pseudo-element and minify code unknown. I spent the day productively, I'm happy with myself.
 
-**Link(s) to work**: [Netflix](http://codlipa.github.io/100-days-of-code/code/048/netflix)
+**Link(s) to work**: [Netflix](https://codlipa.github.io/100-days-of-code/code/048/netflix/build)
+
+### Day 49: October 18, 2021
+
+**Today's Progress**: Managed to adapt sections for Netflix Clone, I also tried to optimize the HTML code and get rid of duplicate CSS utilites.
+
+**Thoughts**: I'm glad that I managed to finish adapt Netflix Clone sections & will be able to attend event from Apple, hope it will be interesting.
+
+**Link(s) to work**: [Netflix](https://codlipa.github.io/100-days-of-code/code/049/netflix/build)
