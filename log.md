@@ -393,3 +393,11 @@
 **Thoughts**: I'm glad that I managed to finish adapt Netflix Clone sections & will be able to attend event from Apple, hope it will be interesting.
 
 **Link(s) to work**: [Netflix](https://codlipa.github.io/100-days-of-code/code/049/netflix/build)
+
+### Day 50: October 19, 2021
+
+**Today's Progress**: Changed the title melody and font to a readable one for the best UX in the personal website, adapted the sections & optimize it.
+
+**Thoughts**: I can't believe that we have passed half the way, time flies so quickly. I'm glad I didn't give up and met a lot of great people.
+
+**Link(s) to work**: [Netflix](https://codlipa.github.io/100-days-of-code/code/050/portfolio)
