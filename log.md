@@ -362,6 +362,8 @@
 
 **Thoughts**: I didn’t think that the autumn aggravation would affect my productivity so much, think it’s worth getting motivated.
 
+**Link(s) to work**: [Portfolio](https://codlipa.github.io/100-days-of-code/code/045/netflix)
+
 ### Day 46: October 15, 2021
 
 **Today's Progress**: Created a header and hero section for a Netflix Clone, also optimized images for personal website and learned how to clone.
@@ -408,7 +410,7 @@
 
 **Thoughts**: All day my head isn't working because of college, which affected productivity today. Tomorrow will be easier and I will give my 100%.
 
-**Link(s) to work**: [Netflix](https://codlipa.github.io/100-days-of-code/code/051/netflix/build)
+**Link(s) to work**: [Netflix](https://codlipa.github.io/100-days-of-code/code/051/netflix)
 
 ### Day 52: October 21, 2021
 
