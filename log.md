@@ -401,3 +401,11 @@
 **Thoughts**: I can't believe that we have passed half the way, time flies so quickly. I'm glad I didn't give up and met a lot of great people.
 
 **Link(s) to work**: [Netflix](https://codlipa.github.io/100-days-of-code/code/050/portfolio)
+
+### Day 51: October 20, 2021
+
+**Today's Progress**: I tried to improve UIX, but in the end it turned out worse than it was, I'm ashamed to post this. I had a tough day today.
+
+**Thoughts**: All day my head isn't working because of college, which affected productivity today. Tomorrow will be easier and I will give my 100%.
+
+**Link(s) to work**: [Netflix](https://codlipa.github.io/100-days-of-code/code/051/netflix)
