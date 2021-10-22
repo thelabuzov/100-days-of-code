@@ -1,0 +1,119 @@
+@use '../util' as *;
+
+// Timeline
+.timeline {
+	margin: 0 auto;
+	text-align: center;
+	padding: rem(60) 0 0;
+	background-color: var(--dark-gray);
+
+	@include breakpoint(large) {
+		display: grid;
+		grid-template-columns: 1fr rem(3) 1fr;
+		padding: rem(40) 0;
+		text-align: left;
+	}
+
+	&__component { margin: 0 rem(25);
+
+		@include breakpoint(large) { margin-bottom: rem(25) }
+
+		&--bg {
+			padding: rem(25);
+			background: var(--light-gray);
+			box-shadow: 0 0 rem(5) var(--light-gray);
+			margin-bottom: rem(60);
+			border-radius: rem(10);
+		}
+	}
+
+	&__middle, &__point {
+		background-color: var(--aqua);
+		box-shadow: 0 0 rem(10) var(--aqua);
+	}
+
+	&__middle { position: relative }
+
+	&__point { display: none;
+
+		@include breakpoint(large) {
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 50%;
+			transform: translateX(-50%);
+			width: rem(15);
+			height: rem(15);
+			border-radius: 50%;
+		}
+
+		&--bottom {
+			top: initial;
+			bottom: 0;
+		}
+	}
+
+	&__date { display: none;
+
+		@include breakpoint(large) { display: block; }
+
+		&--right, &--bottom { margin-bottom: 0 }
+
+		&--right {
+
+			@include breakpoint(large) { text-align: right }
+		}
+	}
+}
+
+// Portfolio
+.portfolio {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: start;
+
+	&__item {
+		min-width: 100%;
+		min-height: rem(250);
+		border: rem(5) solid var(--dark-gray);
+		overflow: hidden;
+		flex-grow: 1;
+
+		@include breakpoint(medium) { min-width: rem(380) }
+
+		&.soon { display: none;
+
+			@include breakpoint(large) { display: block }
+		}
+	}
+
+	&__image, .soon { background: no-repeat 50% / cover }
+
+	&__image {
+		display: block;
+		min-height: 100%;
+		transition: var(--transition-min);
+
+		&:hover {
+			transform: scale(1.2);
+			cursor: url('../images/tools/pin.cur'), auto;
+		}
+
+		&.item-0 {
+			cursor: url('../images/tools/unavailiable.cur'), auto;
+			background-image: url('https://via.placeholder.com/380x250?text=Coming+Soon');
+		}
+
+		&.item-1 { background-image: url('../images/content/item-1.webp') }
+
+		&.item-2 { background-image: url('../images/content/item-2.webp') }
+
+		&.item-3 { background-image: url('../images/content/item-3.webp') }
+
+		&.item-4 { background-image: url('../images/content/item-4.webp') }
+
+		&.item-5 { background-image: url('../images/content/item-5.webp') }
+
+		&.item-6 { background-image: url('../images/content/item-6.webp') }
+	}
+}

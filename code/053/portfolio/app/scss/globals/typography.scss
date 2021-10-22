@@ -1,0 +1,34 @@
+@use '../util' as *;
+
+h1, h2, h3, p { margin: 0 }
+
+a, a:visited, a:active {
+	text-decoration: none;
+	text-shadow: 0 0 rem(10) var(--cherry);
+	color: var(--cherry);
+}
+
+a:hover, #click { 
+	cursor: url('../images/tools/link.cur'), auto;
+	text-decoration: line-through;
+	text-decoration-color: var(--aqua);
+}
+
+.links {
+
+	&--vertical {
+		display: inline-flex;
+		flex-direction: column;
+
+		a {
+			cursor: url('../images/tools/person.cur'), auto;
+			text-decoration-color: var(--cherry);
+			text-shadow: 0 0 rem(10) var(--aqua);
+			color: var(--aqua);
+		}
+	}
+
+	a:not(:last-child) { padding-right: rem(20) }
+}
+
+.paragraph a { cursor: url('../images/tools/person.cur'), auto }
