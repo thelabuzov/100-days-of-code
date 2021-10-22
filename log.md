@@ -362,6 +362,8 @@
 
 **Thoughts**: I didn’t think that the autumn aggravation would affect my productivity so much, think it’s worth getting motivated.
 
+**Link(s) to work**: [Portfolio](https://codlipa.github.io/100-days-of-code/code/045/netflix)
+
 ### Day 46: October 15, 2021
 
 **Today's Progress**: Created a header and hero section for a Netflix Clone, also optimized images for personal website and learned how to clone.
@@ -400,12 +402,22 @@
 
 **Thoughts**: I can't believe that we have passed half the way, time flies so quickly. I'm glad I didn't give up and met a lot of great people.
 
-**Link(s) to work**: [Netflix](https://codlipa.github.io/100-days-of-code/code/050/portfolio)
+**Link(s) to work**: [Portfolio](https://codlipa.github.io/100-days-of-code/code/050/portfolio)
 
 ### Day 51: October 20, 2021
 
-**Today's Progress**: I tried to improve UIX, but in the end it turned out worse than it was, I'm ashamed to post this. I had a tough day today.
+**Today's Progress**: I tried to improve UX, but in the end it turned out worse than it was, I'm ashamed to post this. I had a tough day today.
 
 **Thoughts**: All day my head isn't working because of college, which affected productivity today. Tomorrow will be easier and I will give my 100%.
 
 **Link(s) to work**: [Netflix](https://codlipa.github.io/100-days-of-code/code/051/netflix)
+
+### Day 52: October 21, 2021
+
+**Today's Progress**: Adapt sections and positioned elements for all, also improved UX and added a custom cursor for the portfolio website.
+
+**Thoughts**: A productive day brought me even more tasks to complete, but I'm glad I finished everything on time and tomorrow will be also.
+
+**Link(s) to work**:
+1. [Netflix](https://codlipa.github.io/100-days-of-code/code/052/netflix/build)
+2. [Portfolio](https://codlipa.github.io/100-days-of-code/code/052/portfolio)
