@@ -421,3 +421,11 @@
 **Link(s) to work**:
 1. [Netflix](https://codlipa.github.io/100-days-of-code/code/052/netflix/build)
 2. [Portfolio](https://codlipa.github.io/100-days-of-code/code/052/portfolio)
+
+### Day 53: October 22, 2021
+
+**Today's Progress**: Changed custom cursors for various links and sections in the portfolio, adapted the timeline section and optimized the code.
+
+**Thoughts**: This time it is definitely last change to my portfolio for near future, today all day I took college so the code is not enough.
+
+**Link(s) to work**: [Portfolio](https://codlipa.github.io/100-days-of-code/code/053/portfolio)
