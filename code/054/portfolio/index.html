@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>codlipa | Portfolio Website</title>
+
+		<!-- SEO -->
+		<meta name="description" content="Creating websites using HTML, CSS and light JavaScript">
+		<meta name="keywords" content="FrontEnd, Websites, HTML, CSS, JavaScript">
+		<meta name="author" content="codlipa">
+		<meta name="copyright" content="Dmitry Labuzov">
+		<meta property="og:title" content="codlipa | Portfolio Website">
+		<meta property="og:description" content="Creating websites using HTML, CSS and light JavaScript">
+		<meta property="og:image" content="./images/promo.webp">
+		<meta property="og:site_name" content="codlipa | Portfolio Website">
+		<meta name="twitter:site" content="codlipa">
+		<meta name="twitter:title" content="codlipa | Portfolio Website">
+		<meta name="twitter:description" content="Creating websites using HTML, CSS and light JavaScript">
+		<meta name="twitter:image" content="./images/promo.webp">
+
+		<!-- Imports -->
+		<link rel="shortcut icon" href="./images/tools/favicon.ico">
+		<link rel="stylesheet" href="./dist/style.css">
+		<script defer src="./dist/script.js"></script>
+		<script src="./app/js/jquery.min.js"></script>
+		<script src="./app/js/winbox.min.js"></script>
+		<script src="./app/js/typed.min.js"></script>
+		<script>
+			function audio() {
+				var audio = document.createElement("audio")
+				audio.setAttribute("autoplay", "true")
+				audio.innerHTML = "<source src='./app/audio/chiptune.webm' type='audio/mpeg'>"
+				document.body.appendChild(audio)
+			}
+	  
+			function display() {
+				var display = document.getElementById("click")
+				display.style.display = "none"
+			}
+		</script>
+	</head>
+	<body>
+		<div id="click" onclick="display(); audio()"></div>
+
+		<!-- Horizontal -->
+		<div class="wrapper">
+			<div class="wrapper__inner">
+
+				<!-- Slide -->
+				<div class="slide one">
+					<div class="container">
+
+						<!-- Section -->
+						<section class="section">
+							<div class="links">
+								<a id="about" href="#">About</a>
+								<a id="progress" href="#">Progress</a>
+							</div>
+
+							<main>
+								<h1 class="title">codlipa</h1>
+								<h2 class="subtitle subtitle--gradient">I'm a <span id="animate"></span></h2>
+
+								<div class="social">
+									<h3 class="subtitle">Find me online:</h3>
+									<div class="links--vertical">
+										<a href="https://github.com/codlipa">GitHub</a>
+										<a href="https://codepen.io/codlipa">CodePen</a>
+										<a href="https://twitter.com/codlipa">Twitter</a>
+										<a href="https://linkedin.com/in/codlipa">LinkedIn</a>
+										<a href="https://facebook.com/codlipa">Facebook</a>
+									</div>
+								</div>
+							</main>
+						</section>
+						<!-- / Section -->
+
+						<!-- Hero -->
+						<div class="hero"></div>
+						<!-- / Hero -->
+
+					</div>
+				</div>
+				<!-- / Slide -->
+
+				<!-- Slide -->
+				<div class="slide two">
+					<div class="container container__portfolio">
+
+						<!-- Timeline -->
+						<div class="timeline scroll">
+							<div class="timeline__component">
+								<div class="timeline__date timeline__date--right">October 2016</div>
+							</div>
+
+							<div class="timeline__middle">
+								<div class="timeline__point"></div>
+							</div>
+
+							<div class="timeline__component timeline__component--bg">
+								<h2 class="subtitle">SPE STI NUST MISIS</h2>
+								<p class="paragraph">
+									🔥 On the course I got acquainted with the FrontEnd began to learn the basics & found favorite job
+								</p>
+							</div>
+
+							<div class="timeline__component timeline__component--bg">
+								<h2 class="subtitle">SOCIAL MEDIA</h2>
+								<p class="paragraph">
+									Created <a class="link" href="/">Codlipa</a> pseudonym after long practice. I start to share experience & share tips with all programmers, DEV's
+								</p>
+							</div>
+
+							<div class="timeline__middle">
+								<div class="timeline__point"></div>
+							</div>
+
+							<div class="timeline__component">
+								<div class="timeline__date">August 2020</div>
+							</div>
+
+							<div class="timeline__component">
+								<div class="timeline__date timeline__date--right">September 2020</div>
+							</div>
+
+							<div class="timeline__middle">
+								<div class="timeline__point"></div>
+							</div>
+
+							<div class="timeline__component timeline__component--bg">
+								<h2 class="subtitle">OPC STI NUST MISIS</h2>
+								<p class="paragraph">
+									👨‍💻 Went to college as DEV in order to unlearn specialty & create connections with developers
+								</p>
+							</div>
+
+							<div class="timeline__component timeline__component--bg">
+								<h2 class="subtitle">FREELANCE</h2>
+								<p class="paragraph">
+									Became a <a class="link" href="https://freelancer.com/u/codlipa">Freelancer</a> & started practicing here. After switched to <a class="link" href="/">Fiverr</a> & <a class="link" href="/">Upwork</a>, you can contact me
+								</p>
+							</div>
+
+							<div class="timeline__middle">
+								<div class="timeline__point"></div>
+								<div class="timeline__point timeline__point--bottom"></div>
+							</div>
+
+							<div class="timeline__component">
+								<div class="timeline__date timeline__date--bottom">November 2021</div>
+							</div>
+						</div>
+						<!-- / Timeline -->
+
+						<!-- Section -->
+						<section class="section scroll">
+							<div class="portfolio">
+								<div class="portfolio__item animated delay-1" data-animation="fadeIn" aria-label="Item 1">
+									<a class="portfolio__link item-1" href="https://codlipa.github.io/websites/mw" target="blank">
+										<img class="portfolio__image" src="./images/content/item-1.webp" alt="mw-website">
+										<h2 class="portfolio__text">Mw Website</h2>
+									</a>
+								</div>
+
+								<div class="portfolio__item animated delay-2" data-animation="fadeIn" aria-label="Item 2">
+									<a class="portfolio__link item-2" href="https://codlipa.github.io/websites/elena" target="blank">
+										<img class="portfolio__image" src="./images/content/item-2.webp" alt="elena">
+										<h2 class="portfolio__text">Elena Website</h2></a>
+								</div>
+
+								<div class="portfolio__item animated delay-3" data-animation="fadeIn" aria-label="Item 3">
+									<a class="portfolio__link item-3" href="https://codlipa.github.io/websites/marble" target="blank">
+										<img class="portfolio__image" src="./images/content/item-3.webp" alt="marble-website">
+										<h2 class="portfolio__text">Marble Website</h2></a>
+								</div>
+
+								<div class="portfolio__item animated delay-4" data-animation="fadeIn" aria-label="Item 4">
+									<a class="portfolio__link item-4" href="https://codlipa.github.io/websites/education" target="blank">
+										<img class="portfolio__image" src="./images/content/item-4.webp" alt="education-website">
+										<h2 class="portfolio__text">Education Website</h2></a>
+								</div>
+
+								<div class="portfolio__item animated delay-5" data-animation="fadeIn" aria-label="Item 5">
+									<a class="portfolio__link item-5" href="https://codlipa.github.io/websites/oathjar" target="blank">
+										<img class="portfolio__image" src="./images/content/item-5.webp" alt="oathjar-website">
+										<h2 class="portfolio__text">OathJar Website</h2></a>
+								</div>
+
+								<div class="portfolio__item animated delay-6" data-animation="fadeIn" aria-label="Item 6">
+									<a class="portfolio__link item-6" href="https://codlipa.github.io/websites/hugo" target="blank">
+										<img class="portfolio__image" src="./images/content/item-6.webp" alt="hugo-website">
+										<h2 class="portfolio__text">Hugo Website</h2></a>
+								</div>
+
+								<div class="portfolio__item soon animated delay-7" data-animation="fadeIn" aria-label="Item 7">
+									<a class="portfolio__link item-0" href="#"></a>
+								</div>
+
+								<div class="portfolio__item soon animated delay-8" data-animation="fadeIn" aria-label="Item 8">
+									<a class="portfolio__link item-0" href="#"></a>
+								</div>
+
+								<div class="portfolio__item soon animated delay-9" data-animation="fadeIn" aria-label="Item 9">
+									<a class="portfolio__link item-0" href="#"></a>
+								</div>
+
+								<div class="portfolio__item soon animated delay-10" data-animation="fadeIn" aria-label="Item 10">
+									<a class="portfolio__link item-0" href="#"></a>
+								</div>
+
+								<div class="portfolio__item soon animated delay-11" data-animation="fadeIn" aria-label="Item 11">
+									<a class="portfolio__link item-0" href="#"></a>
+								</div>
+
+								<div class="portfolio__item soon animated delay-12" data-animation="fadeIn" aria-label="Item 12">
+									<a class="portfolio__link item-0" href="#"></a>
+								</div>
+
+								<div class="portfolio__item soon animated delay-13" data-animation="fadeIn" aria-label="Item 13">
+									<a class="portfolio__link item-0" href="#"></a>
+								</div>
+
+								<div class="portfolio__item soon animated delay-14" data-animation="fadeIn" aria-label="Item 14">
+									<a class="portfolio__link item-0" href="#"></a>
+								</div>
+
+								<div class="portfolio__item soon animated delay-15" data-animation="fadeIn" aria-label="Item 15">
+									<a class="portfolio__link item-0" href="#"></a>
+								</div>
+							</div>
+						</section>
+						<!-- / Section -->
+
+					</div>
+				</div>
+				<!-- / Slide -->
+
+			</div>
+		</div>
+		<!-- / Horizontal -->
+
+		<!-- WinBox -->
+		<div class="hidden">
+			<div id="about__content">
+				<h2 class="subtitle">About Me</h2>
+				<p class="paragraph">Hello, my name is Dmitry Labuzov and I have been programming websites for many years</p>
+				<p class="paragraph">Some of the languages that I am fluent in include HTML, CSS and light JavaScript</p>
+			</div>
+
+			<div id="progress__content">
+				<div class="progress__inner">
+
+					<!-- Boxes -->
+					<div class="progress__box">
+						<h3 class="subtitle">HTML - 90%</h3>
+						<div class="progress__bar html"><span></span></div>
+					</div>
+
+					<div class="progress__box">
+						<h3 class="subtitle">CSS - 85%</h3>
+						<div class="progress__bar css"><span></span></div>
+					</div>
+
+					<div class="progress__box">
+						<h3 class="subtitle">JavaScript - 70%</h3>
+						<div class="progress__bar javascript"><span></span></div>
+					</div>
+
+					<div class="progress__box">
+						<h3 class="subtitle">Tailwind - 75%</h3>
+						<div class="progress__bar tailwind"><span></span></div>
+					</div>
+
+					<div class="progress__box">
+						<h3 class="subtitle">Bootstrap - 65%</h3>
+						<div class="progress__bar bootstrap"><span></span></div>
+					</div>
+
+					<div class="progress__box">
+						<h3 class="subtitle">Git - 80%</h3>
+						<div class="progress__bar git"><span></span></div>
+					</div>
+					<!-- / Boxes -->
+
+				</div>
+			</div>
+		</div>
+		<!-- / WinBox -->
+	</body>
+</html>
