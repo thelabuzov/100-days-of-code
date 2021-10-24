@@ -429,3 +429,13 @@
 **Thoughts**: This time it is definitely last change to my portfolio for near future, today all day I took college so the code is not enough.
 
 **Link(s) to work**: [Portfolio](https://codlipa.github.io/100-days-of-code/code/053/portfolio)
+
+### Day 54: October 23, 2021
+
+**Today's Progress**: Managed to create pen for button animation & hover effects for portfolio items, also adapt box-shadow for two slide.
+
+**Thoughts**: Honestly this is the most productive day, now it's about 2 AM & I'm glad didn't drag tasks out even later although I could.
+
+**Link(s) to work**:
+1. [Portfolio](https://codlipa.github.io/100-days-of-code/code/054/portfolio)
+2. [CodePen](https://codepen.io/codlipa/pen/YzxNZEY)
