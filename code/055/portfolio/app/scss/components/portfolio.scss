@@ -1,0 +1,148 @@
+@use '../util' as *;
+
+// Timeline
+.timeline {
+	display: flex;
+	margin: 0 auto;
+	align-items: center;
+	text-align: center;
+	padding: rem(60) 0 0;
+	flex-direction: column;
+	background-color: var(--dark-gray);
+
+	@include breakpoint(large) {
+		display: grid;
+		align-items: stretch;
+		grid-template-columns: 1fr rem(3) 1fr;
+		padding: rem(40) 0;
+		text-align: left;
+	}
+
+	&__component { margin: 0 rem(25);
+
+		&--bg {
+			padding: rem(25);
+			background: var(--light-gray);
+			box-shadow: 0 0 rem(5) var(--light-gray);
+			margin-bottom: rem(60);
+			border-radius: rem(10);
+			max-width: rem(680);
+
+			@include breakpoint(large) { margin-bottom: rem(25) }
+		}
+	}
+
+	&__middle, &__point {
+		background-color: var(--aqua);
+		box-shadow: 0 0 rem(10) var(--aqua);
+	}
+
+	&__middle { position: relative }
+
+	&__point { display: none;
+
+		@include breakpoint(large) {
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 50%;
+			transform: translateX(-50%);
+			width: rem(15);
+			height: rem(15);
+			border-radius: 50%;
+		}
+
+		&--bottom {
+			top: initial;
+			bottom: 0;
+		}
+	}
+
+	&__date { display: none;
+
+		@include breakpoint(large) { display: block; }
+
+		&--right, &--bottom { margin-bottom: 0 }
+
+		&--right {
+
+			@include breakpoint(large) { text-align: right }
+		}
+	}
+}
+
+// Portfolio
+.portfolio {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: start;
+
+	&__item {
+		min-width: 100%;
+		min-height: rem(250);
+		border: rem(5) solid var(--dark-gray);
+		overflow: hidden;
+		flex-grow: 1;
+
+		@include breakpoint(medium) { min-width: 50% }
+
+		@include breakpoint(large) { min-width: rem(380) }
+
+		&.soon { display: none;
+
+			@include breakpoint(large) { display: block }
+		}
+	}
+
+	&__link, &__link:visited, &__link:active {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 100%;
+		text-shadow: none;
+		position: relative;
+		color: var(--white);
+
+		&:not(.item-0)::after {
+			content: '';
+			opacity: 0;
+			min-width: 100%;
+			min-height: 100%;
+			position: absolute;
+			transition: var(--transition-min);
+			background-color: rgba(0, 0, 0, .6);
+		}
+
+		&:hover:not(.item-0) {
+			text-decoration: none;
+			cursor: url('../images/tools/pin.cur'), auto;
+
+			&::after, .portfolio__text { opacity: 1 }
+
+			.portfolio__image {
+				filter: blur(rem(2));
+				transform: scale(1.1);
+			}
+		}
+
+		&.item-0 {
+			cursor: url('../images/tools/unavailiable.cur'), auto;
+			background: url('https://via.placeholder.com/380x250?text=Coming+Soon') no-repeat 50% / cover;
+		}
+	}
+
+	&__image, &__text { transition: var(--transition-min) }
+
+	&__image {
+		position: absolute;
+		max-width: 100%;
+		min-height: 100%;
+		min-width: rem(480);
+	}
+
+	&__text {
+		position: relative;
+		opacity: 0;
+		z-index: 1;
+	}
+}
