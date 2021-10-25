@@ -439,3 +439,11 @@
 **Link(s) to work**:
 1. [Portfolio](https://codlipa.github.io/100-days-of-code/code/054/portfolio)
 2. [CodePen](https://codepen.io/codlipa/pen/YzxNZEY)
+
+### Day 54: October 24, 2021
+
+**Today's Progress**: Unexpected bugs in adapting portfolio-website decided to take a whole day, it has been fixed now (except for 1 tiny one).
+
+**Thoughts**: It's a pity that in one day there are 24 hours (I would have done a lot then), but unfortunately I could only fix the bug today.
+
+**Link(s) to work**: [Portfolio](https://codlipa.github.io/100-days-of-code/code/055/portfolio)
