@@ -1,0 +1,18 @@
+{
+  "name": "tailwind-starter",
+  "main": "postcss.config.js",
+  "scripts": {
+    "build": "tailwindcss build -i ./src/css/tailwind.css -o ./build/css/tailwind.css",
+    "watch": "onchange \"tailwind.config.js\" \"./src/**/*.css\" -- npm run build",
+    "prod": "NODE_ENV=production npx tailwindcss -o ./build/css/tailwind.css --minify"
+  },
+  "author": "codlipa",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.3.7",
+    "cssnano": "^5.0.8",
+    "onchange": "^7.1.0",
+    "tailwindcss": "^2.2.17",
+    "win-node-env": "^0.4.0"
+  }
+}
