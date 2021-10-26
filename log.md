@@ -440,10 +440,18 @@
 1. [Portfolio](https://codlipa.github.io/100-days-of-code/code/054/portfolio)
 2. [CodePen](https://codepen.io/codlipa/pen/YzxNZEY)
 
-### Day 54: October 24, 2021
+### Day 55: October 24, 2021
 
 **Today's Progress**: Unexpected bugs in adapting portfolio-website decided to take a whole day, it has been fixed now (except for 1 tiny one).
 
 **Thoughts**: It's a pity that in one day there are 24 hours (I would have done a lot then), but unfortunately I could only fix the bug today.
 
 **Link(s) to work**: [Portfolio](https://codlipa.github.io/100-days-of-code/code/055/portfolio)
+
+### Day 56: October 25, 2021
+
+**Today's Progress**: Create starter-kit for Tailwind CSS framework, optimize & added packages. Also fixed some bugs with portfolio website.
+
+**Thoughts**: It took all day to develop, but it was worth it. Now I will create websites using this starter-kit. Updates coming soon.
+
+**Link(s) to work**: [Portfolio](https://codlipa.github.io/100-days-of-code/code/056/tailwind)
