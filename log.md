@@ -455,3 +455,13 @@
 **Thoughts**: It took all day to develop, but it was worth it. Now I will create websites using this starter-kit. Updates coming soon.
 
 **Link(s) to work**: [Portfolio](https://codlipa.github.io/100-days-of-code/code/056/tailwind)
+
+### Day 57: October 26, 2021
+
+**Today's Progress**: Finally I build Tailwind CSS Starter, deleted some packages for this. My google lighthouse show result 100% on my portfolio.
+
+**Thoughts**: Today I coding without a single cup of coffee ans was very tired because I worked for almost a day. Anyway it's a productive day.
+
+**Link(s) to work**:
+1. [Portfolio](https://codlipa.github.io/100-days-of-code/code/057/portfolio)
+2. [CodePen](https://codlipa.github.io/100-days-of-code/code/057/tailwind)
