@@ -454,7 +454,7 @@
 
 **Thoughts**: It took all day to develop, but it was worth it. Now I will create websites using this starter-kit. Updates coming soon.
 
-**Link(s) to work**: [Portfolio](https://codlipa.github.io/100-days-of-code/code/056/tailwind)
+**Link(s) to work**: [Tailwind](https://codlipa.github.io/100-days-of-code/code/056/tailwind)
 
 ### Day 57: October 26, 2021
 
@@ -465,3 +465,11 @@
 **Link(s) to work**:
 1. [Portfolio](https://codlipa.github.io/100-days-of-code/code/057/portfolio)
 2. [CodePen](https://codlipa.github.io/100-days-of-code/code/057/tailwind)
+
+### Day 58: October 27, 2021
+
+**Today's Progress**: Today I tried to achieve MAX result in Google Lighthouse & realized that this's not necessary, 'cause it sometimes stupid.
+
+**Thoughts**: I guess it's not a good idea to code late, because by the morning I become a zombie. You need to look for balance in everything.
+
+**Link(s) to work**: [Portfolio](https://codlipa.github.io/100-days-of-code/code/058/portfolio)
