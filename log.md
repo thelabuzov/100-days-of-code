@@ -473,3 +473,11 @@
 **Thoughts**: I guess it's not a good idea to code late, because by the morning I become a zombie. You need to look for balance in everything.
 
 **Link(s) to work**: [Portfolio](https://codlipa.github.io/100-days-of-code/code/058/portfolio)
+
+### Day 59: October 28, 2021
+
+**Today's Progress**: Compressed images for portfolio website and tried to optimize starter for Tailwind CSS, but but returned everything.
+
+**Thoughts**: I think it's time to switch to developing something new, it took too much time for the portoflio website.
+
+**Link(s) to work**: [Portfolio](https://codlipa.github.io/100-days-of-code/code/059/portfolio)
