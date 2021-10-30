@@ -481,3 +481,11 @@
 **Thoughts**: I think it's time to switch to developing something new, it took too much time for the portoflio website.
 
 **Link(s) to work**: [Portfolio](https://codlipa.github.io/100-days-of-code/code/059/portfolio)
+
+### Day 60: October 29, 2021
+
+**Today's Progress**: Found an unexpected bug that I have been trying to fix for 2 days, also optimized code for portfolio website again.
+
+**Thoughts**: Again coding until late & unfortunately don't have strength to continue. It's time to return to normal sleep.
+
+**Link(s) to work**: [Portfolio](https://codlipa.github.io/100-days-of-code/code/060/portfolio)
