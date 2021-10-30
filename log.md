@@ -464,7 +464,7 @@
 
 **Link(s) to work**:
 1. [Portfolio](https://codlipa.github.io/100-days-of-code/code/057/portfolio)
-2. [CodePen](https://codlipa.github.io/100-days-of-code/code/057/tailwind)
+2. [Tailwind](https://codlipa.github.io/100-days-of-code/code/057/tailwind)
 
 ### Day 58: October 27, 2021
 
@@ -488,4 +488,4 @@
 
 **Thoughts**: Again coding until late & unfortunately don't have strength to continue. It's time to return to normal sleep.
 
-**Link(s) to work**: [Portfolio](https://codlipa.github.io/100-days-of-code/code/060/portfolio)
+**Link(s) to work**: [CodePen](codepen.io/codlipa/pen/mdMMopa)
