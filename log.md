@@ -488,4 +488,12 @@
 
 **Thoughts**: Again coding until late & unfortunately don't have strength to continue. It's time to return to normal sleep.
 
-**Link(s) to work**: [CodePen](codepen.io/codlipa/pen/mdMMopa)
+**Link(s) to work**: [Portfolio](https://codlipa.github.io/100-days-of-code/code/059/portfolio)
+
+### Day 61: October 30, 2021
+
+**Today's Progress**: In honor of Halloween created CSS Art cute ghost in CodePen, tried to win NFT & I lost, will try another time.
+
+**Thoughts**: Learned how NFT & blockchain works, unclear but think over time it will be better. I like it 'cause want to keep up with time.
+
+**Link(s) to work**: [CodePen](https://codepen.io/codlipa/pen/mdMMopa)
