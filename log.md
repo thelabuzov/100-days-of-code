@@ -497,3 +497,11 @@
 **Thoughts**: Learned how NFT & blockchain works, unclear but think over time it will be better. I like it 'cause want to keep up with time.
 
 **Link(s) to work**: [CodePen](https://codepen.io/codlipa/pen/mdMMopa)
+
+### Day 62: October 31, 2021
+
+**Today's Progress**: Since today Halloween time for coding wasn't enough, but I managed to create a pen with Six Hells.
+
+**Thoughts**: Today was a day of rest, but tomorrow with new strength I will continue to create a UI Netflix Clone on Tailwind CSS.
+
+**Link(s) to work**: [CodePen](https://codepen.io/codlipa/pen/OJjxjmy)
