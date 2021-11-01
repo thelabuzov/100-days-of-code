@@ -464,7 +464,7 @@
 
 **Link(s) to work**:
 1. [Portfolio](https://codlipa.github.io/100-days-of-code/code/057/portfolio)
-2. [CodePen](https://codlipa.github.io/100-days-of-code/code/057/tailwind)
+2. [Tailwind](https://codlipa.github.io/100-days-of-code/code/057/tailwind)
 
 ### Day 58: October 27, 2021
 
@@ -488,4 +488,20 @@
 
 **Thoughts**: Again coding until late & unfortunately don't have strength to continue. It's time to return to normal sleep.
 
-**Link(s) to work**: [Portfolio](https://codlipa.github.io/100-days-of-code/code/060/portfolio)
+**Link(s) to work**: [Portfolio](https://codlipa.github.io/100-days-of-code/code/059/portfolio)
+
+### Day 61: October 30, 2021
+
+**Today's Progress**: In honor of Halloween created CSS Art cute ghost in CodePen, tried to win NFT & I lost, will try another time.
+
+**Thoughts**: Learned how NFT & blockchain works, unclear but think over time it will be better. I like it 'cause want to keep up with time.
+
+**Link(s) to work**: [CodePen](https://codepen.io/codlipa/pen/mdMMopa)
+
+### Day 62: October 31, 2021
+
+**Today's Progress**: Since today Halloween time for coding wasn't enough, but I managed to create a pen with Six Hells.
+
+**Thoughts**: Today was a day of rest, but tomorrow with new strength I will continue to create a UI Netflix Clone on Tailwind CSS.
+
+**Link(s) to work**: [CodePen](https://codepen.io/codlipa/pen/OJjxjmy)
