@@ -505,3 +505,11 @@
 **Thoughts**: Today was a day of rest, but tomorrow with new strength I will continue to create a UI Netflix Clone on Tailwind CSS.
 
 **Link(s) to work**: [CodePen](https://codepen.io/codlipa/pen/OJjxjmy)
+
+### Day 63: November 1, 2021
+
+**Today's Progress**: Today I finally learned how to use Tailwind CSS, update my starter kit for it. I was active on Twitter.
+
+**Thoughts**: A lot of good things happened today and I'm glad to be a part of this community, it motivates me a lot not to give up.
+
+**Link(s) to work**: [Netflix](https://codlipa.github.io/100-days-of-code/code/063/netflix/build)
