@@ -513,3 +513,11 @@
 **Thoughts**: A lot of good things happened today and I'm glad to be a part of this community, it motivates me a lot not to give up.
 
 **Link(s) to work**: [Netflix](https://codlipa.github.io/100-days-of-code/code/063/netflix/build)
+
+### Day 64: November 2, 2021
+
+**Today's Progress**: Good things happened today, thanks to CodePen I learned how to create accordion and day passed without bugs & errors.
+
+**Thoughts**: Many days later, continued to create a UI Netflix Clone & tomorrow I will finish it, left to create the last section. 
+
+**Link(s) to work**: [Netflix](https://codlipa.github.io/100-days-of-code/code/064/netflix/build)
