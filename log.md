@@ -521,3 +521,11 @@
 **Thoughts**: Many days later, continued to create a UI Netflix Clone & tomorrow I will finish it, left to create the last section. 
 
 **Link(s) to work**: [Netflix](https://codlipa.github.io/100-days-of-code/code/064/netflix/build)
+
+### Day 65: November 3, 2021
+
+**Today's Progress**: Finally finished creation UI Netflix Clone with Tailwind CSS, readability of the code is disgusting, but quickly & easily.
+
+**Thoughts**: Before my problem was lack of skills, now I'm just lazy. Hope this will be easy to fix & would do it in 2-3 days if not for laziness.
+
+**Link(s) to work**: [Netflix](https://codlipa.github.io/100-days-of-code/code/065/netflix/build)
