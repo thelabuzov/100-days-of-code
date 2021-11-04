@@ -529,3 +529,13 @@
 **Thoughts**: Before my problem was lack of skills, now I'm just lazy. Hope this will be easy to fix & would do it in 2-3 days if not for laziness.
 
 **Link(s) to work**: [Netflix](https://codlipa.github.io/100-days-of-code/code/065/netflix/build)
+
+### Day 66: November 4, 2021
+
+**Today's Progress**: Added a UI Netflix Clone to Portfolio Website and optimized starter kit for Tailwind CSS, fixed several small bugs.
+
+**Thoughts**: Due to the foggy weather, I wanted to sleep more than work, but I overcame the drowsiness and ended the day.
+
+**Link(s) to work**:
+1. [Portfolio](https://codlipa.github.io/100-days-of-code/code/066/portfolio)
+2. [Tailwind](https://github.com/codlipa/tailwind-starter)
