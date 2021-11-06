@@ -539,3 +539,9 @@
 **Link(s) to work**:
 1. [Portfolio](https://codlipa.github.io/100-days-of-code/code/066/portfolio)
 2. [Tailwind](https://github.com/codlipa/tailwind-starter)
+
+### Day 67: November 5, 2021
+
+**Today's Progress**: Bug fixed & websites optimization done, it was delayed for a long time. Tweaked the look of my social media profiles.
+
+**Thoughts**: There was a lot of work but it is divided into many repositories, so I can't throw off the code. I will take this in future projects.
