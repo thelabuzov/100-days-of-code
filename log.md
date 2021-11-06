@@ -545,3 +545,11 @@
 **Today's Progress**: Bug fixed & websites optimization done, it was delayed for a long time. Tweaked the look of my social media profiles.
 
 **Thoughts**: There was a lot of work but it is divided into many repositories, so I can't throw off the code. I will take this in future projects.
+
+### Day 68: November 6, 2021
+
+**Today's Progress**: Developed a promo section for UI Discord Clone with  a Tailwind CSS and learned new things to work with this framework.
+
+**Thoughts**: Today is my birthday, so there was little time for the code, but I am even more motivated to create something new.
+
+**Link(s) to work**: [Discord](https://codlipa.github.io/100-days-of-code/code/068/discord/build)
