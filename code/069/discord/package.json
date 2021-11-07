@@ -1,0 +1,16 @@
+{
+  "name": "tailwind-starter",
+  "scripts": {
+    "build": "tailwindcss -i src/css/tailwind.css -o build/css/tailwind.css build",
+    "watch": "tailwindcss -i src/css/tailwind.css -o build/css/tailwind.css -w",
+    "prod": "NODE_ENV=production tailwindcss -i src/css/tailwind.css -o build/css/tailwind.css --minify"
+  },
+  "author": "codlipa",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.3.7",
+    "cssnano": "^5.0.8",
+    "tailwindcss": "^2.2.17",
+    "win-node-env": "^0.4.0"
+  }
+}
