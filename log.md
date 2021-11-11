@@ -553,3 +553,11 @@
 **Thoughts**: Today is my birthday, so there was little time for the code, but I am even more motivated to create something new.
 
 **Link(s) to work**: [Discord](https://codlipa.github.io/100-days-of-code/code/068/discord/build)
+
+### Day 69: November 7, 2021
+
+**Today's Progress**: Developed but without adaptive sections for Discord Clone, there were many bugs & I find how to fix it as soon.
+
+**Thoughts**: Today was a productive day, but to be honest I seem to be missing something. I think it's time to start meditating XD.
+
+**Link(s) to work**: [Discord](https://codlipa.github.io/100-days-of-code/code/069/discord/build)
