@@ -561,3 +561,11 @@
 **Thoughts**: Today was a productive day, but to be honest I seem to be missing something. I think it's time to start meditating XD.
 
 **Link(s) to work**: [Discord](https://codlipa.github.io/100-days-of-code/code/069/discord/build)
+
+### Day 70-73: November 8-11, 2021
+
+**Today's Progress**: UI Discord Clone is finally developed and all sections are adapted, it's time to start developing something harder.
+
+**Thoughts**: I have a lot of work to do, so there are fewer posts. Despite this, I wrote code for at least 1 hour every day & did not give up.
+
+**Link(s) to work**: [Discord](https://codlipa.github.io/100-days-of-code/code/073/discord/build)
