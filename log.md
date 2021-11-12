@@ -569,3 +569,11 @@
 **Thoughts**: I have a lot of work to do, so there are fewer posts. Despite this, I wrote code for at least 1 hour every day & did not give up.
 
 **Link(s) to work**: [Discord](https://codlipa.github.io/100-days-of-code/code/073/discord/build)
+
+### Day 74: November 12, 2021
+
+**Today's Progress**: Tried to deploy today and add UI Discord Clone to my portfolio, also sorted websites in descending order (everything is fine)
+
+**Thoughts**: For me coding got easier than finding a free multi-page layouts now, also a lot of work gets tired quickly, hope I get used to it.
+
+**Link(s) to work**: [Discord](https://codlipa.github.io/100-days-of-code/code/074/portfolio)
