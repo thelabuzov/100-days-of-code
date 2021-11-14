@@ -569,3 +569,19 @@
 **Thoughts**: I have a lot of work to do, so there are fewer posts. Despite this, I wrote code for at least 1 hour every day & did not give up.
 
 **Link(s) to work**: [Discord](https://codlipa.github.io/100-days-of-code/code/073/discord/build)
+
+### Day 74: November 12, 2021
+
+**Today's Progress**: Tried to deploy today and add UI Discord Clone to my portfolio, also sorted websites in descending order (everything is fine)
+
+**Thoughts**: For me coding got easier than finding a free multi-page layouts now, also a lot of work gets tired quickly, hope I get used to it.
+
+**Link(s) to work**: [Discord](https://codlipa.github.io/100-days-of-code/code/074/portfolio)
+
+### Day 75-76: November 13-14, 2021
+
+**Today's Progress**: Finally found a fashion & modern landing page I'll try to create it using Bootstrap 5, also create illusion with dots on CodePen.
+
+**Thoughts**: When I learned how to coding and need to look for designs more fashion this is quite difficult for free, 25$ it's too expensive for me.
+
+**Link(s) to work**: [CodePen](https://codepen.io/codlipa/pen/RwZeoGK)
