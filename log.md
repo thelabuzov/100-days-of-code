@@ -577,3 +577,11 @@
 **Thoughts**: For me coding got easier than finding a free multi-page layouts now, also a lot of work gets tired quickly, hope I get used to it.
 
 **Link(s) to work**: [Discord](https://codlipa.github.io/100-days-of-code/code/074/portfolio)
+
+### Day 75-76: November 13-14, 2021
+
+**Today's Progress**: Finally found a fashion & modern landing page I'll try to create it using Bootstrap 5, also create illusion with dots on CodePen.
+
+**Thoughts**: When I learned how to coding and need to look for designs more fashion this is quite difficult for free, 25$ it's too expensive for me.
+
+**Link(s) to work**: [CodePen](https://codepen.io/codlipa/pen/RwZeoGK)
