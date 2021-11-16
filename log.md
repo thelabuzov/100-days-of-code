@@ -585,3 +585,11 @@
 **Thoughts**: When I learned how to coding and need to look for designs more fashion this is quite difficult for free, 25$ it's too expensive for me.
 
 **Link(s) to work**: [CodePen](https://codepen.io/codlipa/pen/RwZeoGK)
+
+### Day 77: November 15, 2021
+
+**Today's Progress**: Learned some invest, examples: P2P Trading, Crypto & how to use BSC, also ound a multi-page online store & created structure.
+
+**Thoughts**: I like to invest in crypto because think that this is the future and I have a huge online store in front of me, a lot of work ahead.
+
+**Link(s) to work**: [Shopper](https://codlipa.github.io/100-days-of-code/code/077/shopper)
