@@ -1,0 +1,68 @@
+@use '../util' as *;
+
+.header {
+
+    &__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-height: rem(100);
+    
+        .header__search {
+            font-size: 0;
+    
+            * {
+                padding: rem(10) rem(15);
+            }
+    
+            &-input {
+                min-width: rem(325);
+                border: rem(1) solid var(--gray-dark);
+                border-radius: rem(5) 0 0 rem(5);
+            }
+    
+            &-button {
+                cursor: pointer;
+                color: var(--white);
+                background-color: var(--brand);
+                border: rem(1) solid var(--brand);
+                border-radius: 0 rem(5) rem(5) 0;
+            }
+        }
+    
+        .header__buttons {
+            display: flex;
+            align-items: center;
+    
+            *:not(:last-child) {
+                margin-right: rem(25);
+            }
+    
+            button {
+                cursor: pointer;
+                color: var(--text);
+                border-radius: rem(5);
+                padding: rem(10) rem(30);
+                border: rem(1) solid var(--text);
+            }
+        }
+    }
+
+    &__bottom {
+        background-color: var(--gray-light);
+
+        &-nav {
+            display: flex;
+            align-items: center;
+            min-height: rem(45);
+
+            a {
+                color: var(--text);
+
+                &:not(:last-child) {
+                    margin-right: rem(30);
+                }
+            }
+        }
+    }
+}
