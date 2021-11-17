@@ -593,3 +593,11 @@
 **Thoughts**: I like to invest in crypto because think that this is the future and I have a huge online store in front of me, a lot of work ahead.
 
 **Link(s) to work**: [Shopper](https://codlipa.github.io/100-days-of-code/code/077/shopper)
+
+### Day 78: November 16, 2021
+
+**Today's Progress**: Create desktop header, assigned basic variables & designed structure of website, loaded original pictures of the main page.
+
+**Thoughts**: I like to immerse myself in the code, 30 minutes is enough so that it was impossible to tear me away from the coding.
+
+**Link(s) to work**: [Shopper](https://codlipa.github.io/100-days-of-code/code/078/shopper)
