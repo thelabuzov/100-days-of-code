@@ -1,0 +1,53 @@
+@use '../util' as *;
+
+html {
+	font-size: 100%;
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body,
+a {
+	margin: 0;
+	padding: 0;
+	color: var(--text);
+	font-family: 'Lato', sans-serif;
+	transition: all .2s ease-in-out;
+}
+
+a:hover {
+	color: var(--brand);
+}
+
+input {
+	background-color: transparent;
+	padding: rem(10) rem(15);
+	border: none;
+}
+
+.button {
+	cursor: pointer;
+	color: var(--white);
+    background-color: var(--brand);
+    border: rem(1) solid var(--brand);
+	border-radius: rem(5);
+	font-weight: 600;
+
+	&--sm {
+		padding: rem(10) rem(15);
+		border-radius: 0 rem(5) rem(5) 0;
+	}
+
+	&--md {
+        padding: rem(10) rem(30);
+	}
+
+	&--lg {
+		padding: rem(15) rem(50);
+	}
+}

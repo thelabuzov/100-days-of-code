@@ -1,0 +1,46 @@
+@use '../util' as *;
+
+.header {
+
+    &__top,
+    &__bottom nav {
+        display: flex;
+        align-items: center;
+        min-height: rem(45);
+    }
+
+    &__top {
+        justify-content: space-between;
+        min-height: rem(100);
+    }
+
+    &__bottom {
+        background-color: var(--gray-light);
+
+        nav *:not(:last-child) {
+            margin-right: rem(30);
+        }
+    }
+
+    &__input {
+        float: left;
+        min-width: rem(325);
+        border: rem(1) solid var(--gray-dark);
+        border-radius: rem(5) 0 0 rem(5);
+    }
+
+    &__buttons {
+        display: flex;
+        align-items: center;
+
+        *:not(:last-child) {
+            margin-right: rem(25);
+        }
+    }
+
+    &__button {
+        color: var(--text);
+        border-color: var(--text);
+        background-color: transparent;
+    }
+}
