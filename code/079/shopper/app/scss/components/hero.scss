@@ -1,7 +1,7 @@
 @use '../util' as *;
 
 .hero {
-    background: url('../app/images/background.jpg') no-repeat 50% / cover;
+    background: url('../images/background.jpg') no-repeat 50% / cover;
     text-align: center;
     position: relative;
     color: var(--white);
