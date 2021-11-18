@@ -601,3 +601,11 @@
 **Thoughts**: I like to immerse myself in the code, 30 minutes is enough so that it was impossible to tear me away from the coding.
 
 **Link(s) to work**: [Shopper](https://codlipa.github.io/100-days-of-code/code/078/shopper)
+
+### Day 79: November 17, 2021
+
+**Today's Progress**: Optimized code for production. Created hero section and uploaded fonts from Google CDN. Changed folders to correct directory.
+
+**Thoughts**: It is a pity that there is not enough time for coding, but I tried to write as much as possible and the result looks great.
+
+**Link(s) to work**: [Shopper](https://codlipa.github.io/100-days-of-code/code/079/shopper)
