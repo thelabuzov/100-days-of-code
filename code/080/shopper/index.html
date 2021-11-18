@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,12 +20,15 @@
 		<meta name="twitter:title" content="Shopper | Smart Marketplace">
 		<meta name="twitter:description" content="We have dream to connect wholesalers to independent Customers">
 		<meta name="twitter:image" content="./images/promo.webp">
+		<!-- / SEO -->
 
 		<!-- Imports -->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
 		<link rel="shortcut icon" href="./images/favicon.ico">
 		<link rel="stylesheet" href="./dist/style.css">
 		<script defer src="./dist/script.js"></script>
+		<!-- / Imports -->
+
 	</head>
 	<body>
 		<div class="wrapper">
@@ -32,9 +36,57 @@
 			<!-- Header -->
 			<header class="header">
 
-				<!-- Signup -->
-				<div class="popup">
+				<!-- Login -->
+				<div id="login" class="popup">
 					<div class="popup__inner">
+
+						<a class="close" href="#">
+							<img src="./images/close.svg" alt="close">
+						</a>
+
+						<a class="logo" href="/">
+							<img src="./images/logo.svg" alt="logo">
+						</a>
+
+						<!-- Login Form -->
+						<form action="#" method="post">
+							<input class="input" type="text" name="username" placeholder="Username" required>
+							<input class="input" type="text" name="full-name" placeholder="Full Name">
+							<input class="input" type="email" name="email" placeholder="Email Address" required>
+							<input class="input" type="password" name="password" placeholder="Password" required>
+							<button class="button button--lg">Create Account</button>
+						</form>
+						<!-- / Login Form -->
+
+						<div class="division"></div>
+
+						<!-- Login Social -->
+						<div class="popup__social">
+							<p>Sign-up with</p>
+							<a href="#"><img src="./images/facebook.svg" alt="facebook"></a>
+							<a href="#"><img src="./images/google.svg" alt="google"></a>
+							<a href="#"><img src="./images/pinterest.svg" alt="pinterest"></a>
+						</div>
+						<!-- / Login Social -->
+
+						<div class="division"></div>
+
+						<div class="popup__login">
+							Already have an Account?
+							<button class="button button--transparent">Log in</button>
+						</div>
+
+					</div>
+				</div>
+				<!-- / Login -->
+
+				<!-- Signup -->
+				<div id="signup" class="popup">
+					<div class="popup__inner">
+
+						<a class="close" href="#">
+							<img src="./images/close.svg" alt="close">
+						</a>
 
 						<a class="logo" href="/">
 							<img src="./images/logo.svg" alt="logo">
@@ -84,8 +136,8 @@
 					</div>
 
 					<div class="header__buttons">
-						<button class="button button--transparent">Log in</button>
-						<button class="button button--transparent">Sign up</button>
+						<a class="button button--transparent" href="#login">Log in</a>
+						<a class="button button--transparent" href="#signup">Sign up</a>
 
 						<a href="#"><img src="./images/short-list.svg" alt="short-list"></a>
 						<a href="#"><img src="./images/shopping-cart.svg" alt="shopping-cart"></a>
