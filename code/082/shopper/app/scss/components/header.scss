@@ -102,6 +102,14 @@
         min-width: 100%;
     }
 
+    &__buttons {
+        font-size: 0;
+
+        *:not(:last-child) {
+            margin-right: rem(18);
+        }
+    }
+
     &__remember {
 
         & input {
@@ -184,9 +192,5 @@
             margin-left: rem(20);
             border-color: var(--brand);
         }
-    }
-
-    button:not(:last-child) {
-        margin-right: rem(18);
     }
 }

@@ -1,5 +1,15 @@
-console.log('HELLO');
+const swiper = new Swiper('.swiper', {
+	direction: 'horizontal',
+	spaceBetween: 65,
+	slidesPerView: 4,
+	loop: true,
 
-const test = () => {
-	console.log('this is a test');
-};
+	autoplay: {
+		delay: 4000
+	},
+
+	navigation: {
+	  nextEl: '.swiper-button-next',
+	  prevEl: '.swiper-button-prev'
+	}
+})

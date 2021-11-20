@@ -24,9 +24,10 @@
 
 		<!-- Imports -->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+		<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
 		<link rel="shortcut icon" href="./images/favicon.ico">
 		<link rel="stylesheet" href="./dist/style.css">
-		<script defer src="./dist/script.js"></script>
+		<script src="./dist/script.js" defer></script>
 		<!-- / Imports -->
 
 	</head>
@@ -58,8 +59,10 @@
 								<a href="#">Forgot Password?</a>
 							</div>
 
-							<button class="button button--md">Log in</button>
-							<button class="button button--sm button--transparent">Log in as a Guest</button>
+							<div class="popup__buttons">
+								<button class="button button--md">Log in</button>
+								<button class="button button--sm button--transparent">Log in as a Guest</button>
+							</div>
 						</form>
 						<!-- / Login Form -->
 
@@ -76,8 +79,7 @@
 
 						<div class="division"></div>
 
-						<div class="popup__login">
-							Not have an Account?
+						<div class="popup__login">Not have an Account?
 							<a class="button button--transparent" href="#signup">Register</a>
 						</div>
 
@@ -117,8 +119,7 @@
 
 						<div class="division"></div>
 
-						<div class="popup__login">
-							Already have an Account?
+						<div class="popup__login">Already have an Account?
 							<a class="button button--transparent" href="#login">Log in</a>
 						</div>
 
@@ -175,12 +176,104 @@
 			</section>
 			<!-- / Hero -->
 
-			<!-- Top Seller -->
-			<section class="seller">
-				
-			</section>
-			<!-- / Top Seller -->
-
 		</div>
+
+		<!-- Featire -->
+		<section class="container">
+
+			<div class="swiper">
+				<div class="swiper-wrapper">
+
+					<!-- Swiper Slide -->
+					<a class="swiper-slide" href="#">
+						<img src="./images/content/item-1.jpg" alt="item-1">
+						<span class="swiper__subtitle">Jewelry</span>
+					</a>
+					<!-- / Swiper Slide -->
+
+					<!-- Swiper Slide -->
+					<a class="swiper-slide" href="#">
+						<img src="./images/content/item-2.jpg" alt="item-2">
+						<span class="swiper__subtitle">Furniture</span>
+					</a>
+					<!-- / Swiper Slide -->
+
+					<!-- Swiper Slide -->
+					<a class="swiper-slide" href="#">
+						<img src="./images/content/item-3.jpg" alt="item-3">
+						<span class="swiper__subtitle">Makeup</span>
+					</a>
+					<!-- / Swiper Slide -->
+
+					<!-- Swiper Slide -->
+					<a class="swiper-slide" href="#">
+						<img src="./images/content/item-4.jpg" alt="item-4">
+						<span class="swiper__subtitle">Sports Equipment</span>
+					</a>
+					<!-- / Swiper Slide -->
+
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+
+				</div>
+			</div>
+
+		</section>
+		<!-- / Featire -->
+
+		<!-- Top Seller -->
+		<section class="seller container">
+			<h2 class="title">Top Seller</h2>
+
+			<div class="seller__items">
+
+				<!-- Seller Item -->
+				<div class="seller__item">
+					<img src="./images/content/item-5.jpg" alt="item-5">
+					<div class="seller__text">
+						<span class="seller__subtitle">Cobalt Union</span>
+						<h3 class="seller__title">MERRY'S Cat Eye Sunglasses Women
+							<a href="#"><img src="./images/arrow-right.svg" alt="arrow-right"></a>
+						</h3>
+						<p class="seller__suptitle">$125.00</p>
+					</div>
+				</div>
+				<!-- / Seller Item -->
+
+				<!-- Seller Item -->
+				<div class="seller__item">
+					<img src="./images/content/item-6.jpg" alt="item-6">
+					<div class="seller__text">
+						<span class="seller__subtitle">Cyrusshare</span>
+						<h3 class="seller__title">SAVA DECK300 Mountain Bike 29"
+							<a href="#"><img src="./images/arrow-right.svg" alt="arrow-right"></a>
+						</h3>
+						<p class="seller__suptitle">$1,399.99</p>
+					</div>
+				</div>
+				<!-- / Seller Item -->
+
+				<!-- Seller Item -->
+				<div class="seller__item">
+					<img src="./images/content/item-7.jpg" alt="item-7">
+					<div class="seller__text">
+						<span class="seller__subtitle">Cobind pvt.</span>
+						<h3 class="seller__title">Premium Wood Luna Bench
+							<a href="#"><img src="./images/arrow-right.svg" alt="arrow-right"></a>
+						</h3>
+						<p class="seller__suptitle">$354.75</p>
+					</div>
+				</div>
+				<!-- / Seller Item -->
+
+			</div>
+
+			<a class="explore" href="#">Explore More ></a>
+		</section>
+		<!-- / Top Seller -->
+
+		<!-- Scripts -->
+		<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+		<!-- / Scripts -->
 	</body>
 </html>

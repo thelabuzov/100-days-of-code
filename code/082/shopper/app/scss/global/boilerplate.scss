@@ -12,6 +12,7 @@ html {
 }
 
 a,
+p,
 body {
     margin: 0;
     padding: 0;
@@ -75,4 +76,10 @@ input {
         font-size: rem(16);
         padding: rem(15) rem(50);
     }
+}
+
+.title {
+    font-weight: 400;
+    font-size: rem(30);
+    color: var(--brand);
 }
