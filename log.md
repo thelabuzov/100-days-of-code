@@ -609,3 +609,27 @@
 **Thoughts**: It is a pity that there is not enough time for coding, but I tried to write as much as possible and the result looks great.
 
 **Link(s) to work**: [Shopper](https://codlipa.github.io/100-days-of-code/code/079/shopper)
+
+### Day 80: November 18, 2021
+
+**Today's Progress**: Tonight I built a pop-up without JS this is possible using the pseudo-class :target, also structure the code for the future.
+
+**Thoughts**: I really enjoy coding but when it becomes an obsessive idea that keeps you awake, it's not good. Need to develop self-control.
+
+**Link(s) to work**: [Shopper](https://codlipa.github.io/100-days-of-code/code/080/shopper)
+
+### Day 81: November 19, 2021
+
+**Today's Progress**: Working popups without JS have been developed, also learned to create a custom checkbox. Coded until late at night again.
+
+**Thoughts**: Due to bugs, I could not sleep well, but I finally fixed them. Now you can code at a normal pace. It's time to learn Grid, need it soon.
+
+**Link(s) to work**: [Shopper](https://codlipa.github.io/100-days-of-code/code/081/shopper)
+
+### Day 82-83: November 20-21, 2021
+
+**Today's Progress**: During these days, the code has been optimized and cleaned, Various 3 sections and a working slider have been developed.
+
+**Thoughts**: Finally, I have adjusted my mode of operation, now the development process is running optimally. I have never had a coffee!
+
+**Link(s) to work**: [Shopper](https://codlipa.github.io/100-days-of-code/code/083/shopper)
