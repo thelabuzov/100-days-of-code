@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Shopper | Smart Marketplace</title>
+
+		<!-- SEO -->
+		<meta name="description" content="We have dream to connect wholesalers to independent Customers">
+		<meta name="keywords" content="Store, Shop, Marketplace, Products, Customers">
+		<meta name="author" content="codlipa">
+		<meta name="copyright" content="Dmitry Labuzov">
+		<meta property="og:title" content="Shopper | Smart Marketplace">
+		<meta property="og:description" content="We have dream to connect wholesalers to independent Customers">
+		<meta property="og:image" content="./images/promo.webp">
+		<meta property="og:site_name" content="Shopper | Smart Marketplace">
+		<meta name="twitter:site" content="codlipa">
+		<meta name="twitter:title" content="Shopper | Smart Marketplace">
+		<meta name="twitter:description" content="We have dream to connect wholesalers to independent Customers">
+		<meta name="twitter:image" content="./images/promo.webp">
+		<!-- / SEO -->
+
+		<!-- Imports -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+		<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+		<link rel="shortcut icon" href="./images/favicon.ico">
+		<link rel="stylesheet" href="./dist/style.css">
+		<script src="./dist/script.js" defer></script>
+		<!-- / Imports -->
+	</head>
+	<body>
+		<div class="wrapper">
+
+			<!-- Header -->
+			<header class="header">
+
+				<!-- Login -->
+				<div id="login" class="popup">
+					<div class="popup__inner">
+
+						<a class="close" href="#">
+							<img src="./images/close.svg" alt="close">
+						</a>
+						<img src="./images/logo.svg" alt="logo">
+
+						<!-- Login Form -->
+						<form action="#" method="post">
+							<input class="input" type="text" name="login" placeholder="Username / Email Address" required>
+							<input class="input" type="password" name="password" placeholder="Password" required>
+
+							<div class="popup__help">
+								<div class="popup__remember">
+									<input type="checkbox" name="remember" id="remember">
+									<label for="remember">Keep me Logged in</label>
+								</div>
+								<a href="#">Forgot Password?</a>
+							</div>
+
+							<div class="popup__buttons">
+								<button class="button button--md">Log in</button>
+								<button class="button button--sm button--transparent">Log in as a Guest</button>
+							</div>
+						</form>
+						<!-- / Login Form -->
+
+						<div class="division"></div>
+
+						<!-- Login Social -->
+						<div class="popup__social">
+							<p>Sign-up with</p>
+							<a href="#"><img src="./images/facebook.svg" alt="facebook"></a>
+							<a href="#"><img src="./images/google.svg" alt="google"></a>
+							<a href="#"><img src="./images/pinterest.svg" alt="pinterest"></a>
+						</div>
+						<!-- / Login Social -->
+
+						<div class="division"></div>
+
+						<div class="popup__login">Not have an Account?
+							<a class="button button--transparent" href="#signup">Register</a>
+						</div>
+
+					</div>
+				</div>
+				<!-- / Login -->
+
+				<!-- Signup -->
+				<div id="signup" class="popup">
+					<div class="popup__inner">
+
+						<a class="close" href="#">
+							<img src="./images/close.svg" alt="close">
+						</a>
+						<img src="./images/logo.svg" alt="logo">
+
+						<!-- Signup Form -->
+						<form action="#" method="post">
+							<input class="input" type="text" name="username" placeholder="Username" required>
+							<input class="input" type="text" name="full-name" placeholder="Full Name">
+							<input class="input" type="email" name="email" placeholder="Email Address" required>
+							<input class="input" type="password" name="password" placeholder="Password" required>
+							<button class="button button--lg">Create Account</button>
+						</form>
+						<!-- / Signup Form -->
+
+						<div class="division"></div>
+
+						<!-- Signup Social -->
+						<div class="popup__social">
+							<p>Sign-up with</p>
+							<a href="#"><img src="./images/facebook.svg" alt="facebook"></a>
+							<a href="#"><img src="./images/google.svg" alt="google"></a>
+							<a href="#"><img src="./images/pinterest.svg" alt="pinterest"></a>
+						</div>
+						<!-- / Signup Social -->
+
+						<div class="division"></div>
+
+						<div class="popup__login">Already have an Account?
+							<a class="button button--transparent" href="#login">Log in</a>
+						</div>
+
+					</div>
+				</div>
+				<!-- / Signup -->
+
+				<!-- Header Top -->
+				<div class="header__top container">
+					<a class="logo" href="/">
+						<img src="./images/logo.svg" alt="logo">
+					</a>
+
+					<div class="header__search">
+						<input class="input input--sm" type="text" placeholder="Search for Products">
+						<button class="button button--sm">Search</button>
+					</div>
+
+					<div class="header__buttons">
+						<a class="button button--transparent" href="#login">Log in</a>
+						<a class="button button--transparent" href="#signup">Sign up</a>
+
+						<a href="#"><img src="./images/short-list.svg" alt="short-list"></a>
+						<a href="#"><img src="./images/shopping-cart.svg" alt="shopping-cart"></a>
+					</div>
+				</div>
+				<!-- / Header Top -->
+
+				<!-- Header Bottom -->
+				<div class="header__bottom">
+					<nav class="container">
+						<a href="#">Home Decor</a>
+						<a href="#">Furniture</a>
+						<a href="#">Lighting</a>
+						<a href="#">Home Accents</a>
+						<a href="#">Rugs</a>
+						<a href="#">Outdoors</a>
+						<a href="#">Holidays</a>
+						<a href="#">Gifts</a>
+						<a href="#">Events</a>
+					</nav>
+				</div>
+				<!-- / Header Bottom -->
+
+			</header>
+			<!-- / Header -->
+
+			<!-- Hero -->
+			<section class="hero">
+				<div class="hero__inner">
+					<h1 class="hero__title">We have dream to connect wholesalers to independent Customers</h1>
+					<button class="button button--lg">Explore</button>
+				</div>
+			</section>
+			<!-- / Hero -->
+
+		</div>
+
+		<!-- Featire -->
+		<section class="container">
+
+			<div class="swiper">
+				<div class="swiper-wrapper">
+
+					<!-- Swiper Slide -->
+					<a class="swiper-slide" href="#">
+						<img src="./images/content/item-1.jpg" alt="item-1">
+						<span class="swiper__subtitle">Jewelry</span>
+					</a>
+					<!-- / Swiper Slide -->
+
+					<!-- Swiper Slide -->
+					<a class="swiper-slide" href="#">
+						<img src="./images/content/item-2.jpg" alt="item-2">
+						<span class="swiper__subtitle">Furniture</span>
+					</a>
+					<!-- / Swiper Slide -->
+
+					<!-- Swiper Slide -->
+					<a class="swiper-slide" href="#">
+						<img src="./images/content/item-3.jpg" alt="item-3">
+						<span class="swiper__subtitle">Makeup</span>
+					</a>
+					<!-- / Swiper Slide -->
+
+					<!-- Swiper Slide -->
+					<a class="swiper-slide" href="#">
+						<img src="./images/content/item-4.jpg" alt="item-4">
+						<span class="swiper__subtitle">Sports Equipment</span>
+					</a>
+					<!-- / Swiper Slide -->
+					
+				</div>
+
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+			</div>
+
+		</section>
+		<!-- / Featire -->
+
+		<!-- Top Seller -->
+		<section class="seller container">
+			<h2 class="title">Top Seller</h2>
+
+			<div class="seller__items">
+
+				<!-- Seller Item -->
+				<div class="seller__item">
+					<img src="./images/content/item-5.jpg" alt="item-5">
+					<div class="seller__text">
+						<span class="seller__subtitle">Cobalt Union</span>
+						<h3 class="seller__title">MERRY'S Cat Eye Sunglasses Women
+							<a href="#"><img src="./images/arrow-right.svg" alt="arrow-right"></a>
+						</h3>
+						<p class="seller__suptitle">$125.00</p>
+					</div>
+				</div>
+				<!-- / Seller Item -->
+
+				<!-- Seller Item -->
+				<div class="seller__item">
+					<img src="./images/content/item-6.jpg" alt="item-6">
+					<div class="seller__text">
+						<span class="seller__subtitle">Cyrusshare</span>
+						<h3 class="seller__title">SAVA DECK300 Mountain Bike 29"
+							<a href="#"><img src="./images/arrow-right.svg" alt="arrow-right"></a>
+						</h3>
+						<p class="seller__suptitle">$1,399.99</p>
+					</div>
+				</div>
+				<!-- / Seller Item -->
+
+				<!-- Seller Item -->
+				<div class="seller__item">
+					<img src="./images/content/item-7.jpg" alt="item-7">
+					<div class="seller__text">
+						<span class="seller__subtitle">Cobind pvt.</span>
+						<h3 class="seller__title">Premium Wood Luna Bench
+							<a href="#"><img src="./images/arrow-right.svg" alt="arrow-right"></a>
+						</h3>
+						<p class="seller__suptitle">$354.75</p>
+					</div>
+				</div>
+				<!-- / Seller Item -->
+
+			</div>
+
+			<div class="explore">
+				<a href="#">Explore More ></a>
+			</div>
+		</section>
+		<!-- / Top Seller -->
+
+		<!-- Info -->
+		<section class="info container">
+			
+			<!-- Info Item -->
+			<div class="info__item">
+				<div class="info__text">
+					<h2 class="title">Why Become Buyer?</h2>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam feliultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+					<button class="button button--lg">Apply to Buy</button>
+				</div>
+				<img src="./images/buyer.jpg" alt="buyer">
+			</div>
+			<!-- / Info Item -->
+
+			<!-- Info Item -->
+			<div class="info__item">
+				<img src="./images/seller.jpg" alt="seller">
+				<div class="info__text">
+					<h2 class="title">Why Become Selller?</h2>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam feliultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+					<button class="button button--lg">Apply to Sell</button>
+				</div>
+			</div>
+			<!-- / Info Item -->
+
+		</section>
+		<!-- / Info -->
+
+		<!-- Scripts -->
+		<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+		<!-- / Scripts -->
+	</body>
+</html>

@@ -1,0 +1,50 @@
+@use '../util' as *;
+
+.seller {
+    margin-top: rem(292);
+    margin-bottom: rem(116);
+
+    &__items {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__item {
+        max-width: rem(380);
+        border-radius: rem(5);
+        border: rem(1) solid var(--gray-dark);
+        margin-bottom: rem(40);
+
+        > img {
+            border-radius: rem(5) rem(5) 0 0;
+            max-width: 100%;
+        }
+    }
+
+    &__text {
+        padding: rem(20) rem(20) rem(12);
+    }
+
+    &__title {
+        font-size: rem(14);
+        color: var(--black);
+        margin: rem(8) 0;
+
+        a {
+            float: right;
+        }
+
+        img {
+            margin: 0;
+        }
+    }
+
+    &__suptitle {
+        color: var(--brand);
+    }
+
+    .explore {
+        text-align: center;
+    }
+}
