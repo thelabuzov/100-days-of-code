@@ -633,3 +633,11 @@
 **Thoughts**: Finally, I have adjusted my mode of operation, now the development process is running optimally. I have never had a coffee!
 
 **Link(s) to work**: [Shopper](https://codlipa.github.io/100-days-of-code/code/083/shopper)
+
+### Day 84-85: November 22-23, 2021
+
+**Today's Progress**: Learned the basics of Grid & created animate Pixel Art with pure CSS. This is awesome pixel art I have & learn Grid with practice.
+
+**Thoughts**: Now I can develop a section with a grid for a multi-page online shop & have no idea how to adapt it, tomorrow I'll just try to do it. 
+
+**Link(s) to work**: [CodePen](https://codepen.io/codlipa/pen/zYdQxpx)
