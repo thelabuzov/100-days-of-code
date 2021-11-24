@@ -641,3 +641,11 @@
 **Thoughts**: Now I can develop a section with a grid for a multi-page online shop & have no idea how to adapt it, tomorrow I'll just try to do it. 
 
 **Link(s) to work**: [CodePen](https://codepen.io/codlipa/pen/zYdQxpx)
+
+### Day 86: November 24, 2021
+
+**Today's Progress**: CSS Grid frame for a multi-page online shop finally created & began to solve difficult taskt in a notebook, it's more convenient.
+
+**Thoughts**: Most hard section is developed and it means that now develop will be much faster. I hope to have time to done website in these remaining days.
+
+**Link(s) to work**: [Shopper](https://codlipa.github.io/100-days-of-code/code/086/shopper)
