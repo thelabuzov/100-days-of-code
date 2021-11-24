@@ -1,0 +1,68 @@
+@use '../util' as *;
+
+.items {
+    margin-bottom: rem(142);
+}
+
+.grid {
+    display: grid;
+    grid-template:
+        "one two three four" 290px
+        / 265px 265px 265px 265px;
+    justify-content: center;
+    align-content: center;
+    gap: rem(70);
+
+    &-1 {
+        margin-bottom: rem(-115);
+        grid-template:
+            "big big one two" 115px
+            "big big one two" 115px
+            "big big three four" 115px
+            ". . three four" 115px
+            / 265px 265px 265px 265px;
+    }
+
+    &-2 {
+        margin-bottom: rem(70);
+        grid-template:
+            "one two . ." 115px
+            "one two big big" 115px
+            "three four big big" 115px
+            "three four big big" 115px
+            / 265px 265px 265px 265px;
+    }
+
+    // &-1,
+    // &-2 {
+    //     grid-template-rows: repeat(4, rem(115));
+
+    //     & + .grid {
+    //         grid-template-columns: repeat(4, rem(265));
+    //     }
+    // }
+}
+
+.item {
+    border: 5px solid red;
+
+    &-0 {
+        grid-area: big;
+    }
+
+    &-1 {
+        grid-area: one;
+    }
+
+    &-2 {
+        grid-area: two;
+    }
+
+    &-3 {
+        grid-area: three;
+    }
+
+    &-4 {
+        grid-area: four;
+    }
+  }  

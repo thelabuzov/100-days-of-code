@@ -1,0 +1,39 @@
+@use '../util' as *;
+
+.swiper {
+    box-shadow: 0 rem(12) rem(68) var(--text);
+    padding: rem(30) rem(70) rem(45);
+    background-color: #fff;
+    border-radius: rem(5);
+    position: absolute;
+    max-width: 100%;
+    top: rem(-100);
+
+    &-slide {
+        text-align: center;
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+    &-button-prev,
+    &-button-next {
+        max-width: rem(12);
+        max-height: rem(20);
+
+        &::after {
+            content: '';
+        }
+    }
+
+    &-button-prev {
+        left: rem(30);
+        background-image: url('../images/arrow-left.svg');
+    }
+
+    &-button-next {
+        right: rem(30);
+        background-image: url('../images/arrow-right.svg');
+    }
+}

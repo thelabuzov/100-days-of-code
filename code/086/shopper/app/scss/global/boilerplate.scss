@@ -1,0 +1,85 @@
+@use '../util' as *;
+
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a,
+p,
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--text);
+    font-family: 'Lato', sans-serif;
+    transition: all .2s ease-in-out;
+}
+
+input {
+    background-color: transparent;
+    padding: rem(10) rem(15);
+}
+
+.logo {
+    display: inline-block;
+}
+
+.input {
+    float: left;
+    min-width: 100%;
+    border-radius: rem(5);
+    border: rem(1) solid var(--gray-dark);
+
+    &--sm {
+        min-width: rem(325);
+        border-radius: rem(5) 0 0 rem(5);
+    }
+}
+
+.button {
+    cursor: pointer;
+    color: var(--white);
+    background-color: var(--brand);
+    border: rem(1) solid var(--brand);
+    transition: all .2s ease-in-out;
+    padding: rem(10) rem(30);
+    border-radius: rem(5);
+
+    &:hover {
+        border-color: darken(hsl(88, 50%, 53%), 10%);
+        background-color: darken(hsl(88, 50%, 53%), 10%);
+    }
+
+    &--transparent {
+        color: var(--text);
+        border-color: var(--text);
+        background-color: transparent;
+
+        &:hover {
+            border-color: unset;
+            background-color: unset;
+        }
+    }
+
+    &--sm {
+        padding: rem(10) rem(15);
+    }
+
+    &--lg {
+        font-weight: 600;
+        font-size: rem(16);
+        padding: rem(15) rem(50);
+    }
+}
+
+.title {
+    font-weight: 400;
+    font-size: rem(30);
+    color: var(--brand);
+}
