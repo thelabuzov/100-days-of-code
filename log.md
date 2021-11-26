@@ -649,3 +649,11 @@
 **Thoughts**: Most hard section is developed and it means that now develop will be much faster. I hope to have time to done website in these remaining days.
 
 **Link(s) to work**: [Shopper](https://codlipa.github.io/100-days-of-code/code/086/shopper)
+
+### Day 87: November 25, 2021
+
+**Today's Progress**: Completed the development of a desktop homepage for a multi-page online shop, created 3 new sections and one of them with a bug.
+
+**Thoughts**: It feels like I've been coding all day and it was very productive. CSS Grid took a very long time, I didn't finish it finally.
+
+**Link(s) to work**: [Shopper](https://codlipa.github.io/100-days-of-code/code/087/shopper)
