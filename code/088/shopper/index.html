@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Shopper | Smart Marketplace</title>
+
+		<!-- SEO -->
+		<meta name="description" content="We have dream to connect wholesalers to independent Customers">
+		<meta name="keywords" content="Store, Shop, Marketplace, Products, Customers">
+		<meta name="author" content="codlipa">
+		<meta name="copyright" content="Dmitry Labuzov">
+		<meta property="og:title" content="Shopper | Smart Marketplace">
+		<meta property="og:description" content="We have dream to connect wholesalers to independent Customers">
+		<meta property="og:image" content="./images/promo.webp">
+		<meta property="og:site_name" content="Shopper | Smart Marketplace">
+		<meta name="twitter:site" content="codlipa">
+		<meta name="twitter:title" content="Shopper | Smart Marketplace">
+		<meta name="twitter:description" content="We have dream to connect wholesalers to independent Customers">
+		<meta name="twitter:image" content="./images/promo.webp">
+		<!-- / SEO -->
+
+		<!-- Imports -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+		<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+		<link rel="shortcut icon" href="./images/favicon.ico">
+		<link rel="stylesheet" href="./dist/style.css">
+		<script src="./dist/script.js" defer></script>
+		<!-- / Imports -->
+	</head>
+	<body>
+		<div class="wrapper">
+
+			<!-- Header -->
+			<header class="header">
+
+				<!-- Login -->
+				<div id="login" class="popup">
+					<div class="popup__inner">
+
+						<a class="close" href="#">
+							<img src="./images/close.svg" alt="close">
+						</a>
+						<img src="./images/logo.svg" alt="logo">
+
+						<!-- Login Form -->
+						<form action="#" method="post">
+							<input class="input" type="text" name="login" placeholder="Username / Email Address" required>
+							<input class="input" type="password" name="password" placeholder="Password" required>
+
+							<div class="popup__help">
+								<div class="popup__remember">
+									<input type="checkbox" name="remember" id="remember">
+									<label for="remember">Keep me Logged in</label>
+								</div>
+								<a href="#">Forgot Password?</a>
+							</div>
+
+							<div class="popup__buttons">
+								<button class="button button--md">Log in</button>
+								<button class="button button--sm button--transparent">Log in as a Guest</button>
+							</div>
+						</form>
+						<!-- / Login Form -->
+
+						<div class="division"></div>
+
+						<!-- Login Social -->
+						<div class="popup__social">
+							<p>Sign-up with</p>
+							<a href="#"><img src="./images/facebook.svg" alt="facebook"></a>
+							<a href="#"><img src="./images/google.svg" alt="google"></a>
+							<a href="#"><img src="./images/pinterest.svg" alt="pinterest"></a>
+						</div>
+						<!-- / Login Social -->
+
+						<div class="division"></div>
+
+						<div class="popup__login">Not have an Account?
+							<a class="button button--transparent" href="#signup">Register</a>
+						</div>
+
+					</div>
+				</div>
+				<!-- / Login -->
+
+				<!-- Signup -->
+				<div id="signup" class="popup">
+					<div class="popup__inner">
+
+						<a class="close" href="#">
+							<img src="./images/close.svg" alt="close">
+						</a>
+						<img src="./images/logo.svg" alt="logo">
+
+						<!-- Signup Form -->
+						<form action="#" method="post">
+							<input class="input" type="text" name="username" placeholder="Username" required>
+							<input class="input" type="text" name="full-name" placeholder="Full Name">
+							<input class="input" type="email" name="email" placeholder="Email Address" required>
+							<input class="input" type="password" name="password" placeholder="Password" required>
+							<button class="button button--lg">Create Account</button>
+						</form>
+						<!-- / Signup Form -->
+
+						<div class="division"></div>
+
+						<!-- Signup Social -->
+						<div class="popup__social">
+							<p>Sign-up with</p>
+							<a href="#"><img src="./images/facebook.svg" alt="facebook"></a>
+							<a href="#"><img src="./images/google.svg" alt="google"></a>
+							<a href="#"><img src="./images/pinterest.svg" alt="pinterest"></a>
+						</div>
+						<!-- / Signup Social -->
+
+						<div class="division"></div>
+
+						<div class="popup__login">Already have an Account?
+							<a class="button button--transparent" href="#login">Log in</a>
+						</div>
+
+					</div>
+				</div>
+				<!-- / Signup -->
+
+				<!-- Header Top -->
+				<div class="header__top container">
+					<a class="logo" href="/">
+						<img src="./images/logo.svg" alt="logo">
+					</a>
+
+					<div class="header__search">
+						<input class="input input--sm" type="text" placeholder="Search for Products">
+						<button class="button button--sm">Search</button>
+					</div>
+
+					<div class="header__buttons">
+						<a class="button button--transparent" href="#login">Log in</a>
+						<a class="button button--transparent" href="#signup">Sign up</a>
+
+						<a href="#"><img src="./images/short-list.svg" alt="short-list"></a>
+						<a href="#"><img src="./images/shopping-cart.svg" alt="shopping-cart"></a>
+					</div>
+				</div>
+				<!-- / Header Top -->
+
+				<!-- Header Bottom -->
+				<div class="header__bottom">
+					<nav class="container">
+						<a href="#">Home Decor</a>
+						<a href="#">Furniture</a>
+						<a href="#">Lighting</a>
+						<a href="#">Home Accents</a>
+						<a href="#">Rugs</a>
+						<a href="#">Outdoors</a>
+						<a href="#">Holidays</a>
+						<a href="#">Gifts</a>
+						<a href="#">Events</a>
+					</nav>
+				</div>
+				<!-- / Header Bottom -->
+
+			</header>
+			<!-- / Header -->
+
+			<!-- Hero -->
+			<section class="hero">
+				<div class="hero__inner">
+					<h1 class="hero__title">We have dream to connect wholesalers to independent Customers</h1>
+					<button class="button button--lg">Explore</button>
+				</div>
+			</section>
+			<!-- / Hero -->
+
+		</div>
+
+		<!-- Featire -->
+		<section class="container">
+
+			<div class="swiper">
+				<div class="swiper-wrapper">
+
+					<!-- Swiper Slide -->
+					<a class="swiper-slide" href="#">
+						<img src="./images/content/item-1.jpg" alt="item-1">
+						<span class="swiper__subtitle">Jewelry</span>
+					</a>
+					<!-- / Swiper Slide -->
+
+					<!-- Swiper Slide -->
+					<a class="swiper-slide" href="#">
+						<img src="./images/content/item-2.jpg" alt="item-2">
+						<span class="swiper__subtitle">Furniture</span>
+					</a>
+					<!-- / Swiper Slide -->
+
+					<!-- Swiper Slide -->
+					<a class="swiper-slide" href="#">
+						<img src="./images/content/item-3.jpg" alt="item-3">
+						<span class="swiper__subtitle">Makeup</span>
+					</a>
+					<!-- / Swiper Slide -->
+
+					<!-- Swiper Slide -->
+					<a class="swiper-slide" href="#">
+						<img src="./images/content/item-4.jpg" alt="item-4">
+						<span class="swiper__subtitle">Sports Equipment</span>
+					</a>
+					<!-- / Swiper Slide -->
+					
+				</div>
+
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+			</div>
+
+		</section>
+		<!-- / Featire -->
+
+		<!-- Top Seller -->
+		<section class="seller container">
+			<h2 class="title--lg">Top Seller</h2>
+
+			<div class="seller__items">
+
+				<!-- Seller Item -->
+				<div class="item seller__item">
+					<img src="./images/content/item-5.jpg" alt="item-5">
+					<a class="text" href="#">
+						<span class="subtitle">Cobalt Union</span>
+						<h3 class="item__title item__title--lg">MERRY'S Cat Eye Sunglasses Women
+							<img src="./images/arrow-right.svg" alt="arrow-right">
+						</h3>
+						<p class="suptitle suptitle--lg">$125.00</p>
+					</a>
+				</div>
+				<!-- / Seller Item -->
+
+				<!-- Seller Item -->
+				<div class="item seller__item">
+					<img src="./images/content/item-6.jpg" alt="item-6">
+					<a class="text" href="#">
+						<span class="subtitle">Cyrusshare</span>
+						<h3 class="item__title item__title--lg">SAVA DECK300 Mountain Bike 29"
+							<img src="./images/arrow-right.svg" alt="arrow-right">
+						</h3>
+						<p class="suptitle suptitle--lg">$1,399.99</p>
+					</a>
+				</div>
+				<!-- / Seller Item -->
+
+				<!-- Seller Item -->
+				<div class="item seller__item">
+					<img src="./images/content/item-7.jpg" alt="item-7">
+					<a class="text" href="#">
+						<span class="subtitle">Cobind pvt.</span>
+						<h3 class="item__title item__title--lg">Premium Wood Luna Bench
+							<img src="./images/arrow-right.svg" alt="arrow-right">
+						</h3>
+						<p class="suptitle suptitle--lg">$354.75</p>
+					</a>
+				</div>
+				<!-- / Seller Item -->
+
+			</div>
+
+			<div class="explore">
+				<a href="#">Explore More ></a>
+			</div>
+		</section>
+		<!-- / Top Seller -->
+
+		<!-- Info -->
+		<section class="info container">
+
+			<!-- Info Item -->
+			<div class="info__item">
+				<div class="info__text">
+					<h2 class="title--lg">Why Become Buyer?</h2>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam feliultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+					<button class="button button--lg">Apply to Buy</button>
+				</div>
+				<img src="./images/buyer.jpg" alt="buyer">
+			</div>
+			<!-- / Info Item -->
+
+			<!-- Info Item -->
+			<div class="info__item">
+				<img src="./images/seller.jpg" alt="seller">
+				<div class="info__text">
+					<h2 class="title--lg">Why Become Selller?</h2>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam feliultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+					<button class="button button--lg">Apply to Sell</button>
+				</div>
+			</div>
+			<!-- / Info Item -->
+
+		</section>
+		<!-- / Info -->
+
+		<!-- Grid -->
+		<section class="grid container">
+			<div class="grid__inner">
+
+				<!-- Grid One -->
+				<div class="item item-0">
+					<div class="image">
+						<img src="./images/content/item-8.jpg" alt="item-8">
+					</div>
+					<a class="text text__grid" href="#">
+						<span class="subtitle">Supplier’s Name Here</span>
+						<h3 class="item__title">Product Name Here
+							<img src="./images/arrow-right.svg" alt="arrow-right">
+						</h3>
+						<p class="suptitle">$29,354.75</p>
+					</a>
+				</div>
+
+				<div class="item item-1">
+					<div class="image">
+						<img src="./images/content/item-9.jpg" alt="item-9">
+					</div>
+					<a class="text" href="#">
+						<span class="subtitle">Supplier’s Name Here</span>
+						<h3 class="item__title">Product Name Here
+							<img src="./images/arrow-right.svg" alt="arrow-right">
+						</h3>
+						<p class="suptitle">$29,354.75</p>
+					</a>
+				</div>
+
+				<div class="item item-2">
+					<div class="image">
+						<img src="./images/content/item-10.jpg" alt="item-10">
+					</div>
+					<a class="text" href="#">
+						<span class="subtitle">Supplier’s Name Here</span>
+						<h3 class="item__title">Product Name Here
+							<img src="./images/arrow-right.svg" alt="arrow-right">
+						</h3>
+						<p class="suptitle">$29,354.75</p>
+					</a>
+				</div>
+
+				<div class="item item-3">
+					<div class="image">
+						<img src="./images/content/item-11.jpg" alt="item-11">
+					</div>
+					<a class="text" href="#">
+						<span class="subtitle">Supplier’s Name Here</span>
+						<h3 class="item__title">Product Name Here
+							<img src="./images/arrow-right.svg" alt="arrow-right">
+						</h3>
+						<p class="suptitle">$29,354.75</p>
+					</a>
+				</div>
+
+				<div class="item item-4">
+					<div class="image">
+						<img src="./images/content/item-12.jpg" alt="item-12">
+					</div>
+					<a class="text" href="#">
+						<span class="subtitle">Supplier’s Name Here</span>
+						<h3 class="item__title">Product Name Here
+							<img src="./images/arrow-right.svg" alt="arrow-right">
+						</h3>
+						<p class="suptitle">$29,354.75</p>
+					</a>
+				</div>
+				<!-- / Grid One -->
+
+				<!-- Grid Two -->
+				<div class="item item-5">
+					<div class="image">
+						<img src="./images/content/item-13.jpg" alt="item-13">
+					</div>
+					<a class="text" href="#">
+						<span class="subtitle">Supplier’s Name Here</span>
+						<h3 class="item__title">Product Name Here
+							<img src="./images/arrow-right.svg" alt="arrow-right">
+						</h3>
+						<p class="suptitle">$29,354.75</p>
+					</a>
+				</div>
+				<div class="item item-6">
+					<div class="image">
+						<img src="./images/content/item-14.jpg" alt="item-14">
+					</div>
+					<a class="text" href="#">
+						<span class="subtitle">Supplier’s Name Here</span>
+						<h3 class="item__title">Product Name Here
+							<img src="./images/arrow-right.svg" alt="arrow-right">
+						</h3>
+						<p class="suptitle">$29,354.75</p>
+					</a>
+				</div>
+				<div class="item item-7">
+					<div class="image">
+						<img src="./images/content/item-15.jpg" alt="item-15">
+					</div>
+					<a class="text" href="#">
+						<span class="subtitle">Supplier’s Name Here</span>
+						<h3 class="item__title">Product Name Here
+							<img src="./images/arrow-right.svg" alt="arrow-right">
+						</h3>
+						<p class="suptitle">$29,354.75</p>
+					</a>
+				</div>
+				<div class="item item-8">
+					<div class="image">
+						<img src="./images/content/item-16.jpg" alt="item-16">
+					</div>
+					<a class="text" href="#">
+						<span class="subtitle">Supplier’s Name Here</span>
+						<h3 class="item__title">Product Name Here
+							<img src="./images/arrow-right.svg" alt="arrow-right">
+						</h3>
+						<p class="suptitle">$29,354.75</p>
+					</a>
+				</div>
+				<div class="item item-9">
+					<div class="image">
+						<img src="./images/content/item-17.jpg" alt="item-17">
+					</div>
+					<a class="text" href="#">
+						<span class="subtitle">Supplier’s Name Here</span>
+						<h3 class="item__title">Product Name Here
+							<img src="./images/arrow-right.svg" alt="arrow-right">
+						</h3>
+						<p class="suptitle">$29,354.75</p>
+					</a>
+				</div>
+				<!-- / Grid Two -->
+
+				<!-- Grid Three -->
+				<div class="item item-10">
+					<div class="image">
+						<img src="./images/content/item-18.jpg" alt="item-18">
+					</div>
+					<a class="text" href="#">
+						<span class="subtitle">Supplier’s Name Here</span>
+						<h3 class="item__title">Product Name Here
+							<img src="./images/arrow-right.svg" alt="arrow-right">
+						</h3>
+						<p class="suptitle">$29,354.75</p>
+					</a>
+				</div>
+				<div class="item item-11">
+					<div class="image">
+						<img src="./images/content/item-19.jpg" alt="item-18">
+					</div>
+					<a class="text" href="#">
+						<span class="subtitle">Supplier’s Name Here</span>
+						<h3 class="item__title">Product Name Here
+							<img src="./images/arrow-right.svg" alt="arrow-right">
+						</h3>
+						<p class="suptitle">$29,354.75</p>
+					</a>
+				</div>
+				<div class="item item-12">
+					<div class="image">
+						<img src="./images/content/item-20.jpg" alt="item-19">
+					</div>
+					<a class="text" href="#">
+						<span class="subtitle">Supplier’s Name Here</span>
+						<h3 class="item__title">Product Name Here
+							<img src="./images/arrow-right.svg" alt="arrow-right">
+						</h3>
+						<p class="suptitle">$29,354.75</p>
+					</a>
+				</div>
+				<div class="item item-13">
+					<div class="image">
+						<img src="./images/content/item-21.jpg" alt="item-20">
+					</div>
+					<a class="text" href="#">
+						<span class="subtitle">Supplier’s Name Here</span>
+						<h3 class="item__title">Product Name Here
+							<img src="./images/arrow-right.svg" alt="arrow-right">
+						</h3>
+						<p class="suptitle">$29,354.75</p>
+					</a>
+				</div>
+				<!-- Grid Three -->
+			</div>
+		</section>
+		<!-- / Grid -->
+
+		<!-- Footer -->
+		<footer class="footer container">
+
+			<div class="footer__items">
+
+				<!-- Footer Item -->
+				<div class="footer__item">
+					<h2 class="title">How We Help</h2>
+					<ul class="footer__links">
+						<li><a href="#">Retailers</a></li>
+						<li><a href="#">Interiors Designers</a></li>
+						<li><a href="#">Product Designers</a></li>
+						<li><a href="#">Wholesalers / Importers</a></li>
+						<li><a href="#">Artisans</a></li>
+					</ul>
+				</div>
+				<!-- / Footer Item -->
+
+				<!-- Footer Item -->
+				<div class="footer__item">
+					<h2 class="title">Get to Know Us</h2>
+					<ul class="footer__links">
+						<li><a href="#">About</a></li>
+						<li><a href="#">Policies</a></li>
+						<li><a href="#">Careers</a></li>
+						<li><a href="#">Press</a></li>
+					</ul>
+				</div>
+				<!-- / Footer Item -->
+
+				<!-- Footer Item -->
+				<div class="footer__item">
+					<h2 class="title">Join the Community</h2>
+					<ul class="footer__links">
+						<li><a href="#">Upcoming Events</a></li>
+						<li><a href="#">Become a Buyer</a></li>
+						<li><a href="#">Become a Seller</a></li>
+					</ul>
+				</div>
+				<!-- / Footer Item -->
+
+				<!-- Footer Item -->
+				<div class="footer__item">
+					<h2 class="title">Follow Us</h2>
+					<ul class="footer__links">
+						<li><a href="#">Facebook</a></li>
+						<li><a href="#">Pinterest</a></li>
+						<li><a href="#">Twitter</a></li>
+						<li><a href="#">Instagram</a></li>
+					</ul>
+				</div>
+				<!-- / Footer Item -->
+
+			</div>
+
+			<!-- Footer Copyright -->
+			<div class="footer__copyright">
+				<span>© 2016 Uimint.com</span>
+				<a href="#">Terms & Conditions</a>
+				<a href="#">Privacy</a>
+			</div>
+			<!-- / Footer Copyright -->
+
+		</footer>
+		<!-- / Footer -->
+
+		<!-- Scripts -->
+		<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+		<!-- / Scripts -->
+	</body>
+</html>
