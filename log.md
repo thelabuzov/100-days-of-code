@@ -657,3 +657,11 @@
 **Thoughts**: It feels like I've been coding all day and it was very productive. CSS Grid took a very long time, I didn't finish it finally.
 
 **Link(s) to work**: [Shopper](https://codlipa.github.io/100-days-of-code/code/087/shopper)
+
+### Day 88: November 26, 2021
+
+**Today's Progress**: Since I need to create a complex CSS Grid for online shop, decided to learn it by playing a game of 80 levels, now at 30.
+
+**Thoughts**: It's amazing how different learning is in the game and in video tutorials, I'm so interested that I started writing notepad notes.
+
+**Link(s) to work**: [Shopper](https://codlipa.github.io/100-days-of-code/code/088/shopper)
