@@ -668,6 +668,6 @@
 
 ### Day 89: November 27, 2021
 
-**Today's Progress**: New functions have been learned, example minmax((min/max)-content), understood how work of auto-(fill/fit) & placement algorithm.
+**Today's Progress**: New functions have been learned example minmax((min/max)-content). Understood how work of auto-(fill/fit), placement algorithm.
 
-**Thoughts**: A lot of new things have been learned today, now I'm beginning to understand how powerful it is. I couldn't have done it without a notebook.
+**Thoughts**: A lot of CSS Grid have been learned, now I'm beginning to understand how powerful it is. I couldn't have done it without a notebook.
