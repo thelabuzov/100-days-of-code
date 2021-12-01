@@ -665,3 +665,9 @@
 **Thoughts**: It's amazing how different learning is in the game and in video tutorials, I'm so interested that I started writing notepad notes.
 
 **Link(s) to work**: [Shopper](https://codlipa.github.io/100-days-of-code/code/088/shopper)
+
+### Day 89: November 27, 2021
+
+**Today's Progress**: New Grid functions have been learned, example minmax((min/max)-content). Understood how work of auto-(fill/fit) & placement algorithms.
+
+**Thoughts**: A lot of CSS have been learned today, now I'm beginning to understand how complex & powerful it is. I couldn't have done it without a notebook.
