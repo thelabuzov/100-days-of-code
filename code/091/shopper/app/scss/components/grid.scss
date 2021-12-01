@@ -1,0 +1,27 @@
+@use '../util' as *;
+
+.grid {
+    margin-bottom: rem(142);
+
+    &__inner {
+        display: grid;
+        align-items: start;
+        grid-template: repeat(5, min-content) / repeat(4, rem(270));
+        gap: rem(70);
+    }
+}
+
+.item {
+    border-radius: rem(5);
+    border: rem(1) solid var(--gray-dark);
+
+    > img {
+        border-radius: rem(5) rem(5) 0 0;
+        max-width: 100%;
+    }
+
+    &--lg {
+        grid-column: span 2;
+        grid-row-end: span 2;
+    }
+}  

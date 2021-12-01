@@ -1,0 +1,26 @@
+@use '../util' as *;
+
+.info {
+
+    &__item {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        max-width: rem(1155);
+        margin-bottom: rem(148);
+
+        &:last-child {
+            margin-bottom: rem(120);
+            align-items: center;
+            margin-left: auto;
+        }
+    }
+
+    &__text {
+        max-width: rem(600);
+
+        p {
+            margin-bottom: rem(18);
+        }
+    }
+}
