@@ -671,3 +671,25 @@
 **Today's Progress**: New Grid functions have been learned, example minmax((min/max)-content). Understood how work of auto-(fill/fit) & placement algorithms.
 
 **Thoughts**: A lot of CSS have been learned today, now I'm beginning to understand how complex & powerful it is. I couldn't have done it without a notebook.
+
+### Day 90-93: November 28-30 & December 1, 2021
+
+**Today's Progress**: Once again, I couldn't develop a complex Grid. I'm a beginner & for me it's very difficult, need to simplify tasks and do it quickly!
+
+**Thoughts**: It's funny, but all this time I was learning CSS Grid & tried to create a disproportionate grid, in the end I thought to create a regular one.
+
+**Link(s) to work**: [Shopper](https://codlipa.github.io/100-days-of-code/code/093/shopper)
+
+### Day 94-96: December 2-4, 2021
+
+**Today's Progress**: During these days I wanted to make a beautiful GitHub profile with time tracking for writing code and many other realtime metrics.
+
+**Thoughts**: I didn't work much with the code because I got a little sick, but in any case, it was very useful to study the work of the GitHub.
+
+### Day 97: December 5, 2021
+
+**Today's Progress**: It took more time to recover than to code, but I was able to create a code pen for you to use in the future. Hope it help anyone.
+
+**Thoughts**: I got better and now post coding results every day, today I have developed a CSS Parallax Blend Mode trick. I'll use it in the future.
+
+**Link(s) to work**: [CodePen](https://codepen.io/codlipa/pen/WNZQqgz)
