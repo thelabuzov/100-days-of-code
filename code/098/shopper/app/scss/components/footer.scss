@@ -5,7 +5,7 @@
     &__items {
         display: flex;
         justify-content: space-evenly;
-        border-bottom: rem(1) solid var(--text);
+        border-bottom: rem(1) solid var(--gray-dark);
         padding-bottom: rem(32);
 
         > *:last-child li {

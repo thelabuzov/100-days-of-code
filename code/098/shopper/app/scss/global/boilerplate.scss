@@ -16,7 +16,7 @@ p,
 body {
     margin: 0;
     padding: 0;
-    color: var(--text);
+    color: var(--gray-dark);
     font-family: 'Lato', sans-serif;
     transition: all .2s ease-in-out;
 }
@@ -74,21 +74,38 @@ img {
     transition: all .2s ease-in-out;
     padding: rem(10) rem(30);
     border-radius: rem(5);
+    position: relative;
 
     &:hover {
         border-color: darken(hsl(88, 50%, 53%), 10%);
         background-color: darken(hsl(88, 50%, 53%), 10%);
     }
 
-    &--transparent {
-        color: var(--text);
-        border-color: var(--text);
+    &__transparent {
+        color: var(--gray-dark);
+        border-color: var(--gray-dark);
         background-color: transparent;
 
         &:hover {
             border-color: unset;
             background-color: unset;
         }
+    }
+
+    &--alert::after {
+        content: '9+';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: rem(12);
+        min-width: rem(25);
+        min-height: rem(25);
+        color: var(--white);
+        background-color: var(--brand);
+        position: absolute;
+        top: rem(-10);
+        right: rem(-10);
     }
 
     &--sm {

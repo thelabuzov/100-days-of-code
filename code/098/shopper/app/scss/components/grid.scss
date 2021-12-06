@@ -1,7 +1,11 @@
 @use '../util' as *;
 
 .grid {
-    margin-bottom: rem(142);
+    margin-bottom: rem(70);
+
+    &:not(.grid--sm) {
+        margin-bottom: rem(142);
+    }
 
     &__inner {
         display: grid;
@@ -9,15 +13,16 @@
     }
 
     &--lg &__inner {
-        grid-template: rem(380) rem(300) rem(180) rem(50) rem(180) repeat(2, rem(300)) / repeat(4, 1fr);
+        grid-template: rem(300) rem(180) rem(53) rem(180) repeat(2, rem(300)) / repeat(4, 1fr);
     }
 
     &--sm &__inner {
-        grid-template: rem(380) / repeat(3, 1fr);
+        grid-template: rem(387) / repeat(3, 1fr);
     }
 }
 
 .item {
+    overflow: hidden;
     border: rem(1) solid var(--gray-dark);
 
     &--lg,
