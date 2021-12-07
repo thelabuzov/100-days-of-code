@@ -34,7 +34,7 @@
         display: flex;
         align-items: center;
 
-        > *:last-child::after {
+        &-login > *:last-child::after {
             content: '';
             max-width: rem(9);
             max-height: rem(5);
@@ -76,7 +76,7 @@
         transform: translate(-50%, -50%);
         background-color: #fff;
 
-        *:not(:last-child, .division) {
+        *:not(:last-child, .popup__help .division) {
             margin-bottom: rem(20);
         }
 
@@ -111,7 +111,7 @@
     }
 
     &__help {
-        display: inline-flex;
+        display: flex;
         justify-content: space-between;
         min-width: 100%;
     }
@@ -141,7 +141,7 @@
             margin-right: rem(5);
             border-radius: rem(5);
             display: inline-block;
-            border: rem(1) solid var(--gray-dark);
+            border: rem(1) solid var(--gray);
             vertical-align: middle;
             position: relative;
         }

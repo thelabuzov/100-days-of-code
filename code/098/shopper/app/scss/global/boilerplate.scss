@@ -33,7 +33,7 @@ img {
 .item {
     text-align: center;
     border-radius: rem(5);
-    border: rem(1) solid var(--gray-dark);
+    border: rem(1) solid var(--gray);
 
     &__title {
         font-size: rem(14);
@@ -58,7 +58,7 @@ img {
     float: left;
     min-width: 100%;
     border-radius: rem(5);
-    border: rem(1) solid var(--gray-dark);
+    border: rem(1) solid var(--gray);
 
     &--sm {
         min-width: rem(325);
@@ -87,7 +87,7 @@ img {
         background-color: transparent;
 
         &:hover {
-            border-color: unset;
+            color: var(--brand);
             background-color: unset;
         }
     }
