@@ -1,0 +1,119 @@
+@use '../util' as *;
+
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a,
+p,
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--gray-dark);
+    font-family: 'Lato', sans-serif;
+    transition: color .2s ease-in-out;
+}
+
+input {
+    background-color: transparent;
+    padding: rem(10) rem(15);
+}
+
+img {
+    border-radius: rem(5) rem(5) 0 0;
+}
+
+.item {
+    text-align: center;
+    border-radius: rem(5);
+    border: rem(1) solid var(--gray);
+
+    &__title {
+        font-size: rem(14);
+        color: var(--black);
+        margin: rem(8) 0;
+
+        &--lg {
+            font-size: rem(16);
+        }
+    
+        img {
+            float: right;
+        }
+    }
+}
+
+.logo {
+    display: inline-block;
+}
+
+.input {
+    float: left;
+    min-width: 100%;
+    border-radius: rem(5);
+    border: rem(1) solid var(--gray);
+
+    &--sm {
+        min-width: rem(325);
+        border-radius: rem(5) 0 0 rem(5);
+    }
+}
+
+.button {
+    cursor: pointer;
+    color: var(--white);
+    background-color: var(--brand);
+    border: rem(1) solid var(--brand);
+    transition: all .2s ease-in-out;
+    padding: rem(10) rem(30);
+    border-radius: rem(5);
+    position: relative;
+
+    &:hover {
+        border-color: darken(hsl(88, 50%, 53%), 10%);
+        background-color: darken(hsl(88, 50%, 53%), 10%);
+    }
+
+    &__transparent {
+        color: var(--gray-dark);
+        border-color: var(--gray-dark);
+        background-color: transparent;
+
+        &:hover {
+            background-color: unset;
+        }
+    }
+
+    &--alert::after {
+        content: '9+';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: rem(12);
+        min-width: rem(25);
+        min-height: rem(25);
+        color: var(--white);
+        background-color: var(--brand);
+        position: absolute;
+        top: rem(-10);
+        right: rem(-10);
+    }
+
+    &--sm {
+        padding: rem(10) rem(15);
+    }
+
+    &--lg {
+        font-weight: 600;
+        font-size: rem(16);
+        padding: rem(15) rem(50);
+    }
+}

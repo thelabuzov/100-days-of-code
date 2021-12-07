@@ -1,0 +1,36 @@
+@use '../util' as *;
+
+.grid {
+    margin-bottom: rem(70);
+
+    &:not(.grid--sm) {
+        margin-bottom: rem(142);
+    }
+
+    &__inner {
+        display: grid;
+        gap: rem(70);
+    }
+
+    &--lg &__inner {
+        grid-template: rem(300) rem(180) rem(53) rem(180) repeat(2, rem(300)) / repeat(4, 1fr);
+    }
+
+    &--sm &__inner {
+        grid-template: rem(387) / repeat(3, 1fr);
+    }
+}
+
+.item {
+    overflow: hidden;
+    border: rem(1) solid var(--gray);
+
+    &--lg,
+    &--high {
+        grid-row: span 2;
+    }
+
+    &--lg {
+        grid-column: span 2;
+    }
+}  
