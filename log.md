@@ -693,3 +693,27 @@
 **Thoughts**: I got better and now post coding results every day, today I have developed a CSS Parallax Blend Mode trick. I'll use it in the future.
 
 **Link(s) to work**: [CodePen](https://codepen.io/codlipa/pen/WNZQqgz)
+
+### Day 98: December 6, 2021
+
+**Today's Progress**: After a lot of time  created a disproportionate grid using CSS, it turned out to be easier than I thought. This is progress anyway.
+
+**Thoughts**: I wondered when people start to master CSS Grid if they continue to use Flexbox after that. I plan to learn both of them at maximum level.
+
+**Link(s) to work**: [Shopper](https://codlipa.github.io/100-days-of-code/code/098/shopper)
+
+### Day 99: December 7, 2021
+
+**Today's Progress**: After fixing old bugs, even more new ones appeared, it took a lot of time to fix them. Now code is structured & optimized.
+
+**Thoughts**: Worried about what will happen after this challenge, hope these days were not in vain and I will study every day. It's a great experience.
+
+**Link(s) to work**: [Shopper](https://codlipa.github.io/100-days-of-code/code/099/shopper)
+
+### Day 100: December 8, 2021
+
+**Today's Progress**: Created a dropdown menu for website header, made a transition to login page. Summed up this wonderful adventure and celebrated it.
+
+**Thoughts**: I'm very happy that can communicate with wonderful people who like me, are interested in web development & other tech. Thank you for reading.
+
+**Link(s) to work**: [Shopper](https://codlipa.github.io/100-days-of-code/code/100/shopper)
