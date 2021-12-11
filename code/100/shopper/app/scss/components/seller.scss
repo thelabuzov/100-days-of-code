@@ -1,0 +1,21 @@
+@use '../util' as *;
+
+.seller {
+    margin-top: rem(292);
+    margin-bottom: rem(116);
+
+    &__items {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__item {
+        max-width: rem(380);
+        margin-bottom: rem(40);
+    }
+
+    .explore {
+        text-align: center;
+    }
+}

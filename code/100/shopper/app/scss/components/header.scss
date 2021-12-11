@@ -1,0 +1,56 @@
+@use '../util' as *;
+
+.header {
+
+    &__login {
+        margin-bottom: rem(30);
+    }
+
+    &__top,
+    &__bottom nav {
+        display: flex;
+        align-items: center;
+    }
+
+    &__top {
+        justify-content: space-between;
+        min-height: rem(100);
+
+        button {
+            border-radius: 0 rem(5) rem(5) 0;
+        }
+    }
+
+    &__bottom {
+        position: relative;
+        background-color: var(--gray-light);
+        z-index: 1;
+
+        nav * {
+
+            &:not(.dropdown *, :last-child) {
+                margin-right: rem(30);
+            }
+
+            &:not(.dropdown *:not(.dropdown > a)) {
+                padding: rem(13) 0;
+            }
+        }
+    }
+
+    &__buttons {
+        display: flex;
+        align-items: center;
+
+        &-login > *:last-child::after {
+            content: '';
+            margin-left: rem(8);
+            border: rem(5) solid transparent;
+            border-top-color: var(--gray-dark);
+        }
+
+        *:not(:last-child) {
+            margin-right: rem(25);
+        }
+    }
+}
